@@ -69,7 +69,7 @@ __Variational Knowledge Graph Reasoning__. NAACL-HLT 2018. _Wenhu Chen, Wenhan X
 
 
 ## Recommendation System
-
+__Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
 
 ## Question Answering
 __Commonsense for Generative Multi-hop Question Answering Tasks__. EMNLP 2018. _Bauer, Lisa, Yicheng Wang, and Mohit Bansal._ [[Paper](https://arxiv.org/pdf/1809.06309.pdf)] [[Code](https://github.com/yicheng-w/CommonSenseMultiHopQA)]  
@@ -104,7 +104,7 @@ Datasets: SimpleQuestions (Bordes et al., 2015) dataset，75.9k/10.8k/21.7k trai
 
 
 ## Conversation Generation  
-__Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] 
+__Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)]   
 Problems: OOV  -> commonsense KG -> triplet without semantic meaning of subgraph  
 Proposed Mehtod: commonsense knowledge aware conversational model, CCM; subgraph, static graph attention; dynamic graph attention; encoder-decoder seq2seq  
 Datasets: ConceptNet, reddit post-response  
@@ -122,3 +122,6 @@ __HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding__. EMNLP 201
 Method: graph embedding method considering temporal scopes, represent time as a hyperplane  
 Experiments: link prediction, temporal scoping  
 Datasets: YAGO11k, Wikidata12k  (with time annotations)
+
+## Other Applications
+__Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
