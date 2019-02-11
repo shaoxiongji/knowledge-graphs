@@ -64,9 +64,20 @@ Motivation: distance supervised relation extraction; false annotation, inner-sen
 Method: 1) STP: Sub-Tree Parser; BGRU: Bidirectional GRU, entity-wise neural extractor; 3) transfer learning: entity classification -> relation extraction  
 Experiments: held-out evaluation, manual evaluation 
 
+
+__DSGAN: Generative Adversarial Training for Robust Distant Supervision Relation Extraction__. ACL 2018. _Pengda Qin, Weiran Xu, William Yang Wang_. [[Paper](https://arxiv.org/pdf/1805.09929.pdf)]
+
+
+__Deep Residual Learning for Weakly-Supervised Relation Extraction__. EMNLP 2017. _Yi Yao Huang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/ResCNN.pdf)]
+[[Code](https://github.com/darrenyaoyao/ResCNN_RelationExtraction)]
+
+
 ## Knowledge Graph Reasoning
 __Variational Knowledge Graph Reasoning__. NAACL-HLT 2018. _Wenhu Chen, Wenhan Xiong, Xifeng Yan, William Yang Wang_. [[Paper](https://arxiv.org/abs/1803.06581)] 
 
+__DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning__. EMNLP 2017. _Wenhan Xiong, Thien Hoang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/DeepPath.pdf)] [[Code](https://github.com/xwhan/DeepPath)]
+
+__Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extracted Information using a Locally Groundable First-Order Probabilistic Logic__. MLJ 2015. __William Yang Wang, Kathryn Mazaitis, Ni Lao, William W. Cohen_. [[Paper](http://www.cs.ucsb.edu/~william/papers/ProPPR_MLJ_sub.pdf)] [[Code](https://github.com/TeamCohen/ProPPR/)]
 
 ## Recommendation System
 __Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
@@ -125,3 +136,5 @@ Datasets: YAGO11k, Wikidata12k  (with time annotations)
 
 ## Other Applications
 __Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
+
+__Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding__. NAACL-HLT 2015. _Yun-Nung Chen, William Yang Wang, Alex Rudnicky_ [[Paper](http://www.cs.ucsb.edu/~william/papers/NAACL15_InterSlotRelation.pdf)]
