@@ -1,20 +1,19 @@
 # Knowledge Graph
 
-A curated list of knowledge graph Papers and reading notes.
+A collection of knowledge graph papers, codes, and reading notes.
 
 - [Knowledge Graph](#knowledge-graph)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Knowledge Graph Completion](#knowledge-graph-completion)
   - [Triple Classification](#triple-classification)
   - [Relation Extraction](#relation-extraction)
-  - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
   - [Recommendation System](#recommendation-system)
   - [Question Answering](#question-answering)
   - [Conversation Generation](#conversation-generation)
-  - [One/few-Shot and Zero-Shot](#onefew-shot-and-zero-shot)
-  - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
   - [Other Applications](#other-applications)
-  - [Knowledge-aware Models and Reasoning](#knowledge-aware-models-and-reasoning)
+  - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
+  - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
+  - [One/few-Shot and Zero-Shot](#onefew-shot-and-zero-shot)
 
 
 ## Knowledge Graph Embedding
@@ -53,6 +52,8 @@ __M-Walk: Learning to Walk over Graphs using Monte Carlo Tree Search__. NIPS 201
 
 
 ## Relation Extraction
+__Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks__. NAACL 2019. _Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen_. [[Paper](https://arxiv.org/abs/1903.01306)]  
+
 __Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning__. EMNLP 2018. _Liu, Tianyi, Xinsong Zhang, Wanhao Zhou, and Weijia Jia._ [[Paper](https://arxiv.org/pdf/1808.06738.pdf)] [[Note](./notes/RE/inner-sentence.md)]  
 
 __DSGAN: Generative Adversarial Training for Robust Distant Supervision Relation Extraction__. ACL 2018. _Pengda Qin, Weiran Xu, William Yang Wang_. [[Paper](https://arxiv.org/pdf/1805.09929.pdf)]
@@ -60,18 +61,15 @@ __DSGAN: Generative Adversarial Training for Robust Distant Supervision Relation
 __Deep Residual Learning for Weakly-Supervised Relation Extraction__. EMNLP 2017. _Yi Yao Huang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/ResCNN.pdf)]
 [[Code](https://github.com/darrenyaoyao/ResCNN_RelationExtraction)]
 
-## Knowledge Graph Reasoning
-__Variational Knowledge Graph Reasoning__. NAACL-HLT 2018. _Wenhu Chen, Wenhan Xiong, Xifeng Yan, William Yang Wang_. [[Paper](https://arxiv.org/abs/1803.06581)] 
-
-__DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning__. EMNLP 2017. _Wenhan Xiong, Thien Hoang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/DeepPath.pdf)] [[Code](https://github.com/xwhan/DeepPath)]
-
-__Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extracted Information using a Locally Groundable First-Order Probabilistic Logic__. MLJ 2015. __William Yang Wang, Kathryn Mazaitis, Ni Lao, William W. Cohen_. [[Paper](http://www.cs.ucsb.edu/~william/papers/ProPPR_MLJ_sub.pdf)] [[Code](https://github.com/TeamCohen/ProPPR/)]
-
 ## Recommendation System
 __Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
 
 __Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preference__. WWW 2019. _Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, Tat-Seng Chua_.
-[[Paper](https://www.comp.nus.edu.sg/~xiangnan/papers/www19-KGRec.pdf)] [[Code](https://github.com/TaoMiner/joint-kg-recommender)]
+[[Paper](https://www.comp.nus.edu.sg/~xiangnan/papers/www19-KGRec.pdf)] [[Code](https://github.com/TaoMiner/joint-kg-recommender)] [[Code](https://github.com/TaoMiner/joint-kg-recommender)]
+
+__Explianable Reasoning over Knowledge Graphs for Recommendation__. AAAI 2019. _Wang, Xiang and Wang, Dingxian and Xu, Canran and He, Xiangnan and Cao, Yixin and Chua, Tat-Seng_. [[Paper](https://arxiv.org/abs/1811.04540)] [[Code](https://github.com/eBay/KPRN)]  
+
+
 
 
 ## Question Answering
@@ -94,6 +92,27 @@ __TEQUILA: Temporal Question Answering over Knowledge Bases__. CIKM 2018. _Zhen 
 __Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Note](./notes/conversation/commonsense.md)]    
 
 
+## Other Applications
+__Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
+
+__Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding__. NAACL-HLT 2015. _Yun-Nung Chen, William Yang Wang, Alex Rudnicky_. [[Paper](http://www.cs.ucsb.edu/~william/papers/NAACL15_InterSlotRelation.pdf)]
+
+__Hybrid Knowledge Routed Modules for Large-scale Object Detection__. NIPS 2018. _Chenhan Jiang, Hang Xu, Xiaodan Liang, and Liang Lin_. [[Paper](http://papers.nips.cc/paper/7428-hybrid-knowledge-routed-modules-for-large-scale-object-detection)] [[Code](https://github.com/chanyn/HKRM)]
+
+## Dynamic Knowledge Graph
+__HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding__. EMNLP 2018. _Dasgupta, Shib Sankar, Swayambhu Nath Ray, and Partha Talukdar._ [[Paper](http://www.aclweb.org/anthology/D18-1225)] [[Code](https://github.com/malllabiisc/HyTE)] [[Note](./notes/dynamic/HyTe.md)]  
+
+## Knowledge Graph Reasoning
+__Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering__. NIPS 2018. _Medhini Narasimhan, Svetlana Lazebnik, Alex Schwing_. [[Paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering)] 
+
+__Symbolic Graph Reasoning Meets Convolutions__. NIPS 2018. _Xiaodan Liang, Zhiting HU, Hao Zhang, Liang Lin, and Eric P. Xing_. [[Paper](http://papers.nips.cc/paper/7456-symbolic-graph-reasoning-meets-convolutions)]
+
+__Variational Knowledge Graph Reasoning__. NAACL-HLT 2018. _Wenhu Chen, Wenhan Xiong, Xifeng Yan, William Yang Wang_. [[Paper](https://arxiv.org/abs/1803.06581)] 
+
+__DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning__. EMNLP 2017. _Wenhan Xiong, Thien Hoang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/DeepPath.pdf)] [[Code](https://github.com/xwhan/DeepPath)]
+
+__Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extracted Information using a Locally Groundable First-Order Probabilistic Logic__. MLJ 2015. _William Yang Wang, Kathryn Mazaitis, Ni Lao, William W. Cohen_. [[Paper](http://www.cs.ucsb.edu/~william/papers/ProPPR_MLJ_sub.pdf)] [[Code](https://github.com/TeamCohen/ProPPR/)]
+
 ## One/few-Shot and Zero-Shot
 __One-Shot Relational Learning for Knowledge Graphs__. EMNLP 2018. _Xiong, Wenhan, Mo Yu, Shiyu Chang, Xiaoxiao Guo, and William Yang Wang._ [[Paper](https://arxiv.org/pdf/1808.09040)] [[Code](https://github.com/xwhan/One-shot-Relational-Learning)] [[Note](./notes/few-shot/one-shot-relational.md)]  
 
@@ -102,18 +121,3 @@ __Multi-Label Zero-Shot Learning with Structured Knowledge Graphs__. CVPR 2018. 
 __Rethinking Knowledge Graph Propagation for Zero-Shot Learning__. 2018. _Kampffmeyer, Michael and Chen, Yinbo and Liang, Xiaodan and Wang, Hao and Zhang, Yujia and Xing, Eric P_. [[Paper](https://arxiv.org/pdf/1805.11724.pdf)] [[Code](https://github.com/cyvius96/adgpm)]
 
 __Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs__. CVPR 2018. _Xiaolong Wang, Yufei Ye, Abhinav Gupta_. [[Paper](https://arxiv.org/pdf/1803.08035.pdf)] [[Code](https://github.com/JudyYe/zero-shot-gcn)]
-
-## Dynamic Knowledge Graph
-__HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding__. EMNLP 2018. _Dasgupta, Shib Sankar, Swayambhu Nath Ray, and Partha Talukdar._ [[Paper](http://www.aclweb.org/anthology/D18-1225)] [[Code](https://github.com/malllabiisc/HyTE)] [[Note](./notes/dynamic/HyTe.md)]  
-
-## Other Applications
-__Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
-
-__Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding__. NAACL-HLT 2015. _Yun-Nung Chen, William Yang Wang, Alex Rudnicky_. [[Paper](http://www.cs.ucsb.edu/~william/papers/NAACL15_InterSlotRelation.pdf)]
-
-## Knowledge-aware Models and Reasoning
-__Hybrid Knowledge Routed Modules for Large-scale Object Detection__. NIPS 2018. _Chenhan Jiang, Hang Xu, Xiaodan Liang, and Liang Lin_. [[Paper](http://papers.nips.cc/paper/7428-hybrid-knowledge-routed-modules-for-large-scale-object-detection)] [[Code](https://github.com/chanyn/HKRM)]
-
-__Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering__. NIPS 2018. _Medhini Narasimhan, Svetlana Lazebnik, Alex Schwing_. [[Paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering)] 
-
-__Symbolic Graph Reasoning Meets Convolutions__. NIPS 2018. _Xiaodan Liang, Zhiting HU, Hao Zhang, Liang Lin, and Eric P. Xing_. [[Paper](http://papers.nips.cc/paper/7456-symbolic-graph-reasoning-meets-convolutions)]
