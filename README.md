@@ -5,11 +5,11 @@ A collection of knowledge graph papers, codes, and reading notes.
 - [Knowledge Graph](#knowledge-graph)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Knowledge Graph Completion](#knowledge-graph-completion)
-  - [Triple Classification](#triple-classification)
   - [Relation Extraction](#relation-extraction)
   - [Recommendation System](#recommendation-system)
   - [Question Answering](#question-answering)
   - [Conversation Generation](#conversation-generation)
+  - [Software Engineering](#software-engineering)
   - [Other Applications](#other-applications)
   - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
@@ -101,7 +101,7 @@ __Expanding Holographic Embeddings for Knowledge Completion__. NIPS 2018. _Yexia
 
 __M-Walk: Learning to Walk over Graphs using Monte Carlo Tree Search__. NIPS 2018. Yelong Shen, Jianshu Chen, Po-Sen Huang, Yuqing Guo, Jianfeng Gao. [[Paper](http://papers.nips.cc/paper/7912-m-walk-learning-to-walk-over-graphs-using-monte-carlo-tree-search)]
 
-## Triple Classification
+__Compositional Vector Space Models for Knowledge Base Completion__. ACL-IJCNLP 2015. _Neelakantan, Arvind and Roth, Benjamin and McCallum, Andrew_. [[Paper](http://anthology.aclweb.org/P/P15/P15-1016.pdf)]
 
 
 ## Relation Extraction
@@ -144,6 +144,22 @@ __TEQUILA: Temporal Question Answering over Knowledge Bases__. CIKM 2018. _Zhen 
 ## Conversation Generation  
 __Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Note](./notes/conversation/commonsense.md)]    
 
+## Software Engineering
+
+__HDSKG: harvesting domain specific knowledge graph from content of webpages__. SANER 2017. _Zhao, Xuejiao and Xing, Zhenchang and Kabir, Muhammad Ashad and Sawada, Naoya and Li, Jing and Lin, Shang-Wei_. [[Paper](https://dr.ntu.edu.sg/bitstream/handle/10220/42426/Finalmain.pdf?sequence=1&isAllowed=y)]
+
+__Improving API Caveats Accessibility by Mining API Caveats Knowledge Graph__. CSME 2018. _Li, Hongwei and Li, Sirui and Sun, Jiamou and Xing, Zhenchang and Peng, Xin and Liu, Mingwei and Zhao, Xuejiao_. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8530028)]
+
+__DeepWeak: reasoning common software weaknesses via knowledge graph embedding__. SANER 2018. _Han, Zhuobing and Li, Xiaohong and Liu, Hongtao and Xing, Zhenchang and Feng, Zhiyong_. [[Paper](https://ieeexplore.ieee.org/abstract/document/8330232)]
+
+__The structure and dynamics of knowledge network in domain-specific Q&A sites: a case study of stack overflow__. Empirical Software Engineering 2017. _Ye, Deheng and Xing, Zhenchang and Kapre, Nachiket_ [[Paper](https://link.springer.com/article/10.1007/s10664-016-9430-z)]
+
+__Predicting semantically linkable knowledge in developer online forums via convolutional neural network__. ICASE 2016. _Xu, Bowen and Ye, Deheng and Xing, Zhenchang and Xia, Xin and Chen, Guibin and Li, Shanping_. [[Paper](https://ieeexplore.ieee.org/iel7/7579013/7582735/07582745.pdf)]
+
+__Mining Analogical Libraries in Q&A Discussions — Incorporating Relational and Categorical Knowledge into Word Embedding__. SANER 2016. _Chunyang Chen, Sa Gao, and Zhenchang Xing_. [[Paper](https://chunyang-chen.github.io/publication/analogical_libraries.pdf)]
+
+__TechLand: Assisting technology landscape inquiries with insights from stack overflow__. ICSME 2016. _Chen, Chunyang and Xing, Zhenchang and Han, Lei_. [[Paper](http://ccywch.github.io/chenchunyang.github.io/publication/techLand.pdf)]
+
 
 ## Other Applications
 __Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
@@ -165,6 +181,12 @@ __Variational Knowledge Graph Reasoning__. NAACL-HLT 2018. _Wenhu Chen, Wenhan X
 __DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning__. EMNLP 2017. _Wenhan Xiong, Thien Hoang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/DeepPath.pdf)] [[Code](https://github.com/xwhan/DeepPath)]
 
 __Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extracted Information using a Locally Groundable First-Order Probabilistic Logic__. MLJ 2015. _William Yang Wang, Kathryn Mazaitis, Ni Lao, William W. Cohen_. [[Paper](http://www.cs.ucsb.edu/~william/papers/ProPPR_MLJ_sub.pdf)] [[Code](https://github.com/TeamCohen/ProPPR/)]
+
+__Reasoning with neural tensor networks for knowledge base completion__. NIPS 2013. _Socher, Richard and Chen, Danqi and Manning, Christopher D and Ng, Andrew_. [[Paper](https://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf)]
+
+__Probabilistic reasoning via deep learning: Neural association models__. arXiv 2016. _Liu, Quan and Jiang, Hui and Evdokimov, Andrew and Ling, Zhen-Hua and Zhu, Xiaodan and Wei, Si and Hu, Yu_. [[Paper](https://arxiv.org/pdf/1603.07704.pdf)]
+
+__Chains of Reasoning over Entities, Relations, and Text using Recurrent Neural Networks__. EACL 2017. _Das, Rajarshi and Neelakantan, Arvind and Belanger, David and McCallum, Andrew_. [[Paper](https://arxiv.org/pdf/1607.01426.pdf)] [[Code](https://rajarshd.github.io/ChainsofReasoning/)]
 
 ## One/few-Shot and Zero-Shot
 __One-Shot Relational Learning for Knowledge Graphs__. EMNLP 2018. _Xiong, Wenhan, Mo Yu, Shiyu Chang, Xiaoxiao Guo, and William Yang Wang._ [[Paper](https://arxiv.org/pdf/1808.09040)] [[Code](https://github.com/xwhan/One-shot-Relational-Learning)] [[Note](./notes/few-shot/one-shot-relational.md)]  
