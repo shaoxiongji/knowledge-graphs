@@ -41,6 +41,59 @@ __SimpIE Embedding for Link Prediction in Knowledge Graphs__. NIPS 2018. _Seyed 
 
 __Differentiating Concepts and Instances for Knowledge Graph Embedding__. EMNLP 2018. _Xin Lv, Lei Hou, Juanzi Li, Zhiyuan Liu_. [[Paper](http://aclweb.org/anthology/D18-1222)] [[Code](http://github.com/davidlvxin/TransC)]
 
+__Analogical inference for multi-relational embeddings__. ICML 2017. _Liu, Hanxiao and Wu, Yuexin and Yang, Yiming_. [[Paper](https://arxiv.org/pdf/1705.02426.pdf)] [[Code](https://github.com/quark0/ANALOGY)]
+
+__On the equivalence of holographic and complex embeddings for link prediction__. ACL 2017. _Hayashi, Katsuhiko and Shimbo, Masashi_. [[Paper](https://arxiv.org/pdf/1702.05563.pdf)]
+
+__Holographic embeddings of knowledge graphs__. AAAI 2016. _Nickel, Maximilian and Rosasco, Lorenzo and Poggio, Tomaso_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/12484/11828)]
+
+__Complex embeddings for simple link prediction__. ICML 2016. _Trouillon, Théo and Welbl, Johannes and Riedel, Sebastian and Gaussier, Éric and Bouchard, Guillaume_. [[Paper](http://proceedings.mlr.press/v48/trouillon16.pdf)] [[Code](https://github.com/ttrouill/complex)]
+
+__Embedding entities and relations for learning and inference in knowledge bases__. ICLR 2015. _Yang, Bishan and Yih, Wen-tau and He, Xiaodong and Gao, Jianfeng and Deng, Li_. [[Paper](https://arxiv.org/pdf/1412.6575.pdf)]
+
+__Context-dependent knowledge graph embedding__. EMNLP 2015. _Luo, Yuanfei and Wang, Quan and Wang, Bin and Guo, Li_. [[Paper](http://www.aclweb.org/anthology/D15-1191)]
+
+__Compositional learning of embeddings for relation paths in knowledge base and text__. ACL 2016. _Toutanova, Kristina and Lin, Victoria and Yih, Wen-tau and Poon, Hoifung and Quirk, Chris_. [[Paper](http://www.aclweb.org/anthology/P16-1136)]
+
+__GAKE: graph aware knowledge embedding__. COLING 2016. _Feng, Jun and Huang, Minlie and Yang, Yang and Zhu, Xiaoyan_. [[Paper](http://www.aclweb.org/anthology/C16-1062)]
+
+__Relation extraction with matrix factorization and universal schemas__. NAACL 2013. _Riedel, Sebastian and Yao, Limin and McCallum, Andrew and Marlin, Benjamin M_. [[Paper](http://www.aclweb.org/anthology/N13-1008)]
+
+__A latent factor model for highly multi-relational data__. NIPS 2012. _Jenatton, Rodolphe and Roux, Nicolas L and Bordes, Antoine and Obozinski, Guillaume R_. [[Paper](https://papers.nips.cc/paper/4744-a-latent-factor-model-for-highly-multi-relational-data.pdf)]
+
+__Factorizing YAGO: scalable machine learning for linked data__. ICML 2012. _Nickel, Maximilian and Tresp, Volker and Kriegel, Hans-Peter_. [[Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.2015&rep=rep1&type=pdf)]
+
+__A Three-Way Model for Collective Learning on Multi-Relational Data__. WWW 2011. _Nickel, Maximilian and Tresp, Volker and Kriegel, Hans-Peter_. [[Paper](http://www.dbs.ifi.lmu.de/~tresp/papers/p271.pdf)]
+
+__Modelling relational data using bayesian clustered tensor factorization__. NIPS 2009. _Sutskever, Ilya and Tenenbaum, Joshua B and Salakhutdinov, Ruslan R_. [[Paper](https://papers.nips.cc/paper/3863-modelling-relational-data-using-bayesian-clustered-tensor-factorization.pdf)]
+
+__Translating embeddings for modeling multi-relational data__. NIPS 2013. _Bordes, Antoine and Usunier, Nicolas and Garcia-Duran, Alberto and Weston, Jason and Yakhnenko, Oksana_. [[Paper](http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf)]
+
+__Knowledge graph embedding by translating on hyperplanes__. AAAI 2014. _Wang, Zhen and Zhang, Jianwen and Feng, Jianlin and Chen, Zheng_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/viewFile/8531/8546)]
+
+__Learning entity and relation embeddings for knowledge graph completion__. AAAI 2015. _Lin, Yankai and Liu, Zhiyuan and Sun, Maosong and Liu, Yang and Zhu, Xuan_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9571/9523)] [[Code](http://github.com/mrlyk423/relation)]
+
+__STransE: a novel embedding model of entities and relationships in knowledge bases__. NAACL 2016. _Nguyen, Dat Quoc and Sirts, Kairit and Qu, Lizhen and Johnson, Mark_. [[Paper](https://arxiv.org/pdf/1606.08140.pdf)]
+
+__Knowledge graph embedding via dynamic mapping matrix__. ACL 2015. _Ji, Guoliang and He, Shizhu and Xu, Liheng and Liu, Kang and Zhao, Jun_. [[Paper](http://www.aclweb.org/anthology/P15-1067)]
+
+__A translation-based knowledge graph embedding preserving logical property of relations__. NAACL 2016. _Yoon, Hee-Geun and Song, Hyun-Je and Park, Seong-Bae and Park, Se-Young_. [[Paper](http://www.aclweb.org/anthology/N16-1105)] 
+
+__Knowledge graph completion with adaptive sparse transfer matrix__. AAAI 2016. _Ji, Guoliang and Liu, Kang and He, Shizhu and Zhao, Jun_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/11982/11693)] 
+
+__TransA: An adaptive approach for knowledge graph embedding__. AAAI 2015. _Xiao, Han and Huang, Minlie and Hao, Yu and Zhu, Xiaoyan_. [[Paper](https://arxiv.org/pdf/1509.05490.pdf)]
+
+__Knowledge graph embedding by flexible translation__. KR 2016. _Feng, Jun and Huang, Minlie and Wang, Mingdong and Zhou, Mantong and Hao, Yu and Zhu, Xiaoyan_. [[Paper](https://www.aaai.org/ocs/index.php/KR/KR16/paper/viewFile/12887/12520)]
+
+__Learning to represent knowledge graphs with gaussian embedding__. CIKM 2015. _He, Shizhu and Liu, Kang and Ji, Guoliang and Zhao, Jun_. [[Paper](http://ir.ia.ac.cn/bitstream/173211/20634/1/Learning%20to%20Represent%20Knowledge%20Graphs%20with%20Gaussian%20Embedding.pdf)]
+
+__From one point to a manifold: Orbit models for knowledge graph embedding__. IJCAI 2016. _Xiao, Han and Huang, Minlie and Zhu, Xiaoyan_. [[Paper](https://www.ijcai.org/Proceedings/16/Papers/190.pdf)]
+
+__Modeling relation paths for representation learning of knowledge bases__. EMNLP 2015. _Lin, Yankai and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong and Rao, Siwei and Liu, Song_. [[Paper](https://arxiv.org/pdf/1506.00379.pdf)] [[Code](https://github.com/mrlyk423/relation_extraction)]
+
+__Composing relationships with translations__. EMNLP 2015. _García-Durán, Alberto and Bordes, Antoine and Usunier, Nicolas_. [[Paper](http://www.aclweb.org/anthology/D15-1034)] [[Code](https://github.com/glorotxa/SME)]
+
+
 ## Knowledge Graph Completion
 __Embedding Multimodal Relational Data for Knowledge Base Completion__. EMNLP 2018. _Pezeshkpour, Pouya, Liyan Chen, and Sameer Singh._ [[Paper](https://arxiv.org/pdf/1809.01341.pdf)] [[Code](https://github.com/pouyapez/mkbe)] [[Note](./notes/completion/mkbe.md)]  
 
