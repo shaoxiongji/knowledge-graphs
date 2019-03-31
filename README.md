@@ -1,11 +1,14 @@
-# Knowledge Graph
+# Awesome Knowledge Graph
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 A collection of knowledge graph papers, codes, and reading notes.
 
-- [Knowledge Graph](#knowledge-graph)
+- [Awesome Knowledge Graph](#awesome-knowledge-graph)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Knowledge Graph Completion](#knowledge-graph-completion)
   - [Relation Extraction](#relation-extraction)
+  - [Relation Classification](#relation-classification)
   - [Recommendation System](#recommendation-system)
   - [Question Answering](#question-answering)
   - [Conversation Generation](#conversation-generation)
@@ -95,6 +98,8 @@ __Composing relationships with translations__. EMNLP 2015. _García-Durán, Albe
 
 
 ## Knowledge Graph Completion
+__An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Haseeb Shah, Johannes Villmow, Adrian Ulges, Ulrich Schwanecke, Faisal Shafait_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-ShahH.6029.pdf)] [[Code](http://github.com/haseebs/OWE)]
+
 __Embedding Multimodal Relational Data for Knowledge Base Completion__. EMNLP 2018. _Pezeshkpour, Pouya, Liyan Chen, and Sameer Singh._ [[Paper](https://arxiv.org/pdf/1809.01341.pdf)] [[Code](https://github.com/pouyapez/mkbe)] [[Note](./notes/completion/mkbe.md)]  
 
 __Expanding Holographic Embeddings for Knowledge Completion__. NIPS 2018. _Yexiang Xue, Yang Yuan, Zhitian Xu, and Ashish Sabharwal_. [[Paper](http://papers.nips.cc/paper/7701-expanding-holographic-embeddings-for-knowledge-completion)]
@@ -114,6 +119,68 @@ __DSGAN: Generative Adversarial Training for Robust Distant Supervision Relation
 __Deep Residual Learning for Weakly-Supervised Relation Extraction__. EMNLP 2017. _Yi Yao Huang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/ResCNN.pdf)]
 [[Code](https://github.com/darrenyaoyao/ResCNN_RelationExtraction)]
 
+__Incorporating Relation Paths in Neural Relation Extraction__. EMNLP 2017. _Zeng, Wenyuan and Lin, Yankai and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://www.aclweb.org/anthology/D17-1186)] [[Code](http://github.com/thunlp/PathNRE)]
+
+__Knowledge-based weak supervision for information extraction of overlapping relations__. ACL 2011. _Hoffmann, Raphael and Zhang, Congle and Ling, Xiao and Zettlemoyer, Luke and Weld, Daniel S_. [[Paper](http://www.aclweb.org/anthology/P11-1055)]
+
+__Learning syntactic patterns for automatic hypernym discovery__. NIPS 2005. _Snow, Rion and Jurafsky, Daniel and Ng, Andrew Y_. [[Paper](http://papers.nips.cc/paper/2659-learning-syntactic-patterns-for-automatic-hypernym-discovery.pdf)]
+
+__Distant supervision for relation extraction without labeled data__. ACL 2009. _Mintz, Mike and Bills, Steven and Snow, Rion and Jurafsky, Dan_. [[Paper](https://www.aclweb.org/anthology/P09-1113)]
+
+__Modeling relations and their mentions without labeled text__. ECML 2010. _Riedel, Sebastian and Yao, Limin and McCallum, Andrew_. [[Paper](https://link.springer.com/content/pdf/10.1007/978-3-642-15939-8_10.pdf)]
+
+__Multi-instance multi-label learning for relation extraction__. EMNLP 2012. _Surdeanu, Mihai and Tibshirani, Julie and Nallapati, Ramesh and Manning, Christopher D_. [[Paper](http://www.aclweb.org/anthology/D12-1042)]
+
+__Connecting Language and Knowledge Bases with Embedding Models for Relation Extraction__. EMNLP 2013. _Weston, Jason and Bordes, Antoine and Yakhnenko, Oksana and Usunier, Nicolas_. [[Paper](https://arxiv.org/pdf/1307.7973.pdf)]
+
+__Distant supervision for relation extraction with matrix completion__. ACL 2014. _Fan, Miao and Zhao, Deli and Zhou, Qiang and Liu, Zhiyuan and Zheng, Thomas Fang and Chang, Edward Y_. [[Paper](http://www.aclweb.org/anthology/P14-1079)]
+
+__Semantic compositionality through recursive matrix-vector spaces__. EMNLP 2012. _Socher, Richard and Huval, Brody and Manning, Christopher D and Ng, Andrew Y_. [[Paper](https://aclanthology.info/pdf/D/D12/D12-1110.pdf)]
+
+__End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures__. ACL 2016. _Miwa, Makoto and Bansal, Mohit_. [[Paper](http://www.aclweb.org/anthology/P16-1105)]
+
+__Relation Classification via Convolutional Deep Neural Network__. COLING 2014. _Zeng, Daojian and Liu, Kang and Lai, Siwei and Zhou, Guangyou and Zhao, Jun_. [[Paper](http://anthology.aclweb.org/C/C14/C14-1220.pdf)]
+
+__Classifying relations via long short term memory networks along shortest dependency paths__. EMNLP 2015. _Xu, Yan and Mou, Lili and Li, Ge and Chen, Yunchuan and Peng, Hao and Jin, Zhi_. [[Paper](http://www.aclweb.org/anthology/D15-1206)]
+
+__Classifying Relations by Ranking with Convolutional Neural Networks__. ACL 2015. _dos Santos, Cicero and Xiang, Bing and Zhou, Bowen_. [[Paper](http://www.anthology.aclweb.org/P/P15/P15-1061.pdf)]
+
+__Distant supervision for relation extraction via piecewise convolutional neural networks__. EMNLP 2015. _Zeng, Daojian and Liu, Kang and Chen, Yubo and Zhao, Jun_. [[Paper](http://www.aclweb.org/anthology/D15-1203)]
+
+__Neural relation extraction with selective attention over instances__. ACL 2016. _Lin, Yankai and Shen, Shiqi and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong_. [[Paper](http://www.aclweb.org/anthology/P16-1200)] [[Code](http://github.com/thunlp/NRE)]
+
+__Adversarial training for relation extraction__. EMNLP 2017. _Wu, Yi and Bamman, David and Russell, Stuart_. [[Paper](https://www.aclweb.org/anthology/D17-1187)] [[Code](https://github.com/jxwuyi/AtNRE)]
+
+__Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks__. COLING 2016. _Jiang, Xiaotian and Wang, Quan and Li, Peng and Wang, Bin_. [[Paper](https://www.aclweb.org/anthology/C16-1139)]
+
+
+
+__Jointly Extracting Relations with Class Ties via Effective Deep Ranking__. ACL 2017. _Ye, Hai and Chao, Wenhan and Luo, Zhunchen and Li, Zhoujun_ [[Paper](https://www.aclweb.org/anthology/P17-1166)]
+
+__A soft-label method for noise-tolerant distantly supervised relation extraction__. EMNLP 2017. _Liu, Tianyu and Wang, Kexiang and Chang, Baobao and Sui, Zhifang_. [[Paper](https://www.aclweb.org/anthology/D17-1189)]
+
+__Distant supervision for relation extraction with sentence-level attention and entity descriptions__. AAAI 2017. _Ji, Guoliang and Liu, Kang and He, Shizhu and Zhao, Jun_. [[Paper](https://www.aaai.org/Conferences/AAAI/2017/PreliminaryPapers/14-JiG-14491.pdf)]
+
+__Attention-based convolutional neural network for semantic relation extraction__. COLING 2016. _Shen, Yatian and Huang, Xuanjing_. [[Paper](https://www.aclweb.org/anthology/C16-1238)]
+
+__Neural knowledge acquisition via mutual attention between knowledge graph and text__. AAAI 2018. _Han, Xu and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16691/16013)] [[Code](https://github.com/thunlp/JointNRE)] Also for KGC.
+
+__Cooperative Denoising for Distantly Supervised Relation Extraction__. COLING 2018. _Lei, Kai and Chen, Daoyuan and Li, Yaliang and Du, Nan and Yang, Min and Fan, Wei and Shen, Ying_. [[Paper](https://www.aclweb.org/anthology/C18-1036)] 
+
+__Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention__. EMNLP 2018. _Han, Xu and Yu, Pengfei and Liu, Zhiyuan and Sun, Maosong and Li, Peng_. [[Paper](https://www.aclweb.org/anthology/D18-1247)] [[Code](https://github.com/thunlp/HNRE)]
+
+__Large scaled relation extraction with reinforcement learning__. AAAI 2018. _Zeng, Xiangrong and He, Shizhu and Liu, Kang and Zhao, Jun_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16257/16125)]
+
+__Robust Distant Supervision Relation Extraction via Deep Reinforcement Learning__. ACL 2018. _Qin, Pengda and Weiran, XU and Wang, William Yang_. [[Paper](https://www.aclweb.org/anthology/P18-1199)]
+
+## Relation Classification 
+__Bidirectional recurrent convolutional neural network for relation classification__. ACL 2016. _Cai, Rui and Zhang, Xiaodong and Wang, Houfeng_. [[Paper](https://www.aclweb.org/anthology/P16-1072)]
+
+__Attention-based bidirectional long short-term memory networks for relation classification__. ACL 2016. _Zhou, Peng and Shi, Wei and Tian, Jun and Qi, Zhenyu and Li, Bingchen and Hao, Hongwei and Xu, Bo_. [[Paper](https://www.aclweb.org/anthology/P16-2034)]
+
+__Reinforcement learning for relation classification from noisy data__. AAAI 2018. _Feng, Jun and Huang, Minlie and Zhao, Li and Yang, Yang and Zhu, Xiaoyan_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17151/16140)]
+
+
 ## Recommendation System
 __Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
 
@@ -122,7 +189,9 @@ __Unifying Knowledge Graph Learning and Recommendation: Towards a Better Underst
 
 __Explianable Reasoning over Knowledge Graphs for Recommendation__. AAAI 2019. _Wang, Xiang and Wang, Dingxian and Xu, Canran and He, Xiangnan and Cao, Yixin and Chua, Tat-Seng_. [[Paper](https://arxiv.org/abs/1811.04540)] [[Code](https://github.com/eBay/KPRN)]  
 
+__Exploring High-Order User Preference on the Knowledge Graph for Recommender Systems__. TOIS 2019. _Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://dl.acm.org/citation.cfm?id=3312738)]
 
+__RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems__. CIKM 2018. _Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://dl.acm.org/citation.cfm?id=3271739)]
 
 
 ## Question Answering
