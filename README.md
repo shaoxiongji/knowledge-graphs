@@ -6,6 +6,11 @@ A collection of knowledge graph papers, codes, and reading notes.
 
 - [Awesome Knowledge Graph](#awesome-knowledge-graph)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
+  - [Cross-Modal KG Embedding](#cross-modal-kg-embedding)
+    - [Textual Desciption](#textual-desciption)
+    - [Entity Type](#entity-type)
+    - [Logic Rules](#logic-rules)
+    - [Visual Information](#visual-information)
   - [Knowledge Graph Completion](#knowledge-graph-completion)
   - [Relation Extraction](#relation-extraction)
   - [Relation Classification](#relation-classification)
@@ -23,8 +28,6 @@ A collection of knowledge graph papers, codes, and reading notes.
 __Variational Quantum Circuit Model for Knowledge Graph Embedding__. Advanced Quantum Technologies 2019. _Yunpu Ma, Volker Tresp, Liming Zhao, and Yuyi Wang_. [[Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/qute.201800078)]
 
 __Interaction Embeddings for Prediction and Explanation in Knowledge Graphs__. WSDM 2019. _Wen Zhang, Bibek Paudel, Wei Zhang, Abraham Bernstein, Huajun Chen_. [[Paper](https://www.zora.uzh.ch/id/eprint/162876/1/interaction-embeddings-prediction_merlin_version.pdf)]
-
-__Bootstrapping Entity Alignment with Knowledge Graph Embedding__.  IJCAI 2018. _Zequn Sun, Wei Hu, Qingheng Zhang and Yuzhong Qu._ [[Paper](https://www.ijcai.org/proceedings/2018/0611.pdf)] [[Code](https://github.com/nju-websoft/BootEA)] [[Note](./notes/embedding/BootEA.md)]  
 
 __Does William Shakespeare Really Write Hamlet? Knowledge Representation Learning with Confidence__. AAAI 2018. _Ruobing Xie, Zhiyuan Liu, Fen Lin, and Leyu Lin_. [[Paper](https://arxiv.org/pdf/1705.03202.pdf)] [[Code](https://github.com/thunlp/CKRL)]
 
@@ -96,6 +99,60 @@ __Modeling relation paths for representation learning of knowledge bases__. EMNL
 
 __Composing relationships with translations__. EMNLP 2015. _García-Durán, Alberto and Bordes, Antoine and Usunier, Nicolas_. [[Paper](http://www.aclweb.org/anthology/D15-1034)] [[Code](https://github.com/glorotxa/SME)]
 
+
+## Cross-Modal KG Embedding
+### Textual Desciption 
+__Knowledge graph and text jointly embedding__. EMNLP 2015. _Wang, Zhen and Zhang, Jianwen and Feng, Jianlin and Chen, Zheng_. [[Paper](https://www.aclweb.org/anthology/D14-1167)]
+
+__Aligning knowledge and text embeddings by entity descriptions__. EMNLP 2015. _Zhong, Huaping and Zhang, Jianwen and Wang, Zhen and Wan, Hai and Chen, Zheng_. [[Paper](https://www.aclweb.org/anthology/D15-1031)]
+
+__Joint semantic relevance learning with text data and graph knowledge__. ACL-IJCNLP Workshop 2015. _Zhang, Dongxu and Yuan, Bin and Wang, Dong and Liu, Rong_. [[Paper](https://www.aclweb.org/anthology/W15-4004)]
+
+__SSP: semantic space projection for knowledge graph embedding with text descriptions__. AAAI 2017. _Xiao, Han and Huang, Minlie and Meng, Lian and Zhu, Xiaoyan_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPDFInterstitial/14306/14084)]
+
+__Representation learning of knowledge graphs with entity descriptions__. AAAI 2016. _Xie, Ruobing and Liu, Zhiyuan and Jia, Jia and Luan, Huanbo and Sun, Maosong_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12216/12004)] [[Code](https://github.com/xrb92/DKRL)]
+
+__Distributed representation learning for knowledge graphs with entity descriptions__. PRL 2017. _Fan, Miao and Zhou, Qiang and Zheng, Thomas Fang and Grishman, Ralph_. [[Paper](https://www.sciencedirect.com/science/article/pii/S0167865516302380)]
+
+__Text-enhanced representation learning for knowledge graph__. IJCAI 2016. _Wang, Zhigang and Li, Juan-Zi_. [[Paper](https://www.ijcai.org/Proceedings/16/Papers/187.pdf)]
+
+__Knowledge Representation Learning with Entities, Attributes and Relations__. IJCAI 2016. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lyk/publications/ijcai2016_krear.pdf)] [[Code](https://github.com/thunlp/KR-EAR)]
+
+
+### Entity Type
+__Type-constrained representation learning in knowledge graphs__. ISWC 2015. _Krompass, Denis and Baier, Stephan and Tresp, Volker_. [[Paper](https://arxiv.org/pdf/1508.02593)]
+
+__Typed tensor decomposition of knowledge bases for relation extraction__. EMNLP 2014. _Chang, Kai-Wei and Yih, Wen-tau and Yang, Bishan and Meek, Christopher_. [[Paper](https://www.aclweb.org/anthology/D14-1165)]
+
+__Semantically smooth knowledge graph embedding__. ACL 2015. _Guo, Shu and Wang, Quan and Wang, Bin and Wang, Lihong and Guo, Li_. [[Paper](https://www.aclweb.org/anthology/P15-1009)]
+
+__Entity hierarchy embedding__. ACL 2015. _Hu, Zhiting and Huang, Poyao and Deng, Yuntian and Gao, Yingkai and Xing, Eric_. [[Paper](https://www.aclweb.org/anthology/P15-1125)]
+
+__Representation Learning of Knowledge Graphs with Hierarchical Types__. IJCAI 2016. _Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~xrb/publications/IJCAI-16_type.pdf)]
+
+
+### Logic Rules
+__AMIE: association rule mining under incomplete evidence in ontological knowledge bases__. WWW 2013. _Galárraga, Luis Antonio and Teflioudi, Christina and Hose, Katja and Suchanek, Fabian_. [[Paper](http://luisgalarraga.de/docs/amie.pdf))]
+
+__Knowledge graph identification__. ISWC 2013. _Pujara, Jay and Miao, Hui and Getoor, Lise and Cohen, William_. [[Paper](https://link.springer.com/content/pdf/10.1007/978-3-642-41335-3_34.pdf)]
+
+__Knowledge base completion using embeddings and rules__. IJCAI 2015. _Wang, Quan and Wang, Bin and Guo, Li_. [[Paper](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/10798/10921)]
+
+__Injecting logical background knowledge into embeddings for relation extraction__. NAACL 2015. _Rocktäschel, Tim and Singh, Sameer and Riedel, Sebastian_. [[Paper](https://www.aclweb.org/anthology/N15-1118)]
+
+__Low-Dimensional Embeddings of Logic__. ACL 2014. _Rocktäschel, Tim and Bošnjak, Matko and Singh, Sameer and Riedel, Sebastian_. [[Paper](https://www.aclweb.org/anthology/W14-2409)]
+
+__Learning first-order logic embeddings via matrix factorization__. IJCAI 2016. _Wang, William Yang and Cohen, William W_. [[Paper](http://www.cs.cmu.edu/~yww/papers/ijcai2016.pdf)]
+
+__Jointly embedding knowledge graphs and logical rules__. EMNLP 2016. _Guo, Shu and Wang, Quan and Wang, Lihong and Wang, Bin and Guo, Li_. [[Paper](https://www.aclweb.org/anthology/D16-1019)]
+
+__Knowledge Graph Embedding with Iterative Guidance from Soft Rules__. AAAI 2018. _Guo, Shu and Wang, Quan and Wang, Lihong and Wang, Bin and Guo, Li_. 
+[[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16369/16011)] [[Code](https://github.com/iieir-km/RUGE)]
+
+__Lifted rule injection for relation embeddings__. EMNLP 2016. _Demeester, Thomas and Rocktäschel, T and Riedel, S_. [[Paper](https://www.aclweb.org/anthology/D16-1146)]
+
+### Visual Information
+__Image-embodied knowledge representation learning__. IJCAI 2017. _Xie, Ruobing and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0438.pdf)]
 
 ## Knowledge Graph Completion
 __An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Haseeb Shah, Johannes Villmow, Adrian Ulges, Ulrich Schwanecke, Faisal Shafait_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-ShahH.6029.pdf)] [[Code](http://github.com/haseebs/OWE)]
