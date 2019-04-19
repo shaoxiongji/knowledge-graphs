@@ -8,17 +8,20 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Cross-Modal KG Embedding](#cross-modal-kg-embedding)
     - [Textual Desciption](#textual-desciption)
-    - [Entity Type](#entity-type)
+    - [Entity Types](#entity-types)
     - [Logic Rules](#logic-rules)
     - [Visual Information](#visual-information)
-  - [Knowledge Graph Completion](#knowledge-graph-completion)
-  - [Relation Extraction](#relation-extraction)
-  - [Relation Classification](#relation-classification)
-  - [Recommendation System](#recommendation-system)
-  - [Question Answering](#question-answering)
-  - [Conversation Generation](#conversation-generation)
-  - [Software Engineering](#software-engineering)
-  - [Other Applications](#other-applications)
+  - [Knowledge Acquisition](#knowledge-acquisition)
+    - [Knowledge Graph Completion](#knowledge-graph-completion)
+    - [Relation Extraction](#relation-extraction)
+    - [Relation Classification](#relation-classification)
+    - [Entity Alignment](#entity-alignment)
+  - [Knownwledge-aware Applications](#knownwledge-aware-applications)
+    - [Recommendation System](#recommendation-system)
+    - [Question Answering](#question-answering)
+    - [Conversation Generation](#conversation-generation)
+    - [Software Engineering](#software-engineering)
+    - [Other Applications](#other-applications)
   - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
   - [One/few-Shot and Zero-Shot](#onefew-shot-and-zero-shot)
@@ -31,11 +34,11 @@ __Interaction Embeddings for Prediction and Explanation in Knowledge Graphs__. W
 
 __Does William Shakespeare Really Write Hamlet? Knowledge Representation Learning with Confidence__. AAAI 2018. _Ruobing Xie, Zhiyuan Liu, Fen Lin, and Leyu Lin_. [[Paper](https://arxiv.org/pdf/1705.03202.pdf)] [[Code](https://github.com/thunlp/CKRL)]
 
+__Convolutional 2d knowledge graph embeddings__. AAAI 2018. _Dettmers, Tim and Minervini, Pasquale and Stenetorp, Pontus and Riedel, Sebastian_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/17366/15884)]
+
 __Towards Understanding the Geometry of Knowledge Graph Embedding__. ACL 2018. _Chandrahas, Aditya Sharma and Partha Talukdar_. [[Paper](http://www.aclweb.org/anthology/P18-1012)] [[Code](https://github.com/malllabiisc/kg-geometry)] [[Note](./notes/embedding/kg-geometry.md)]   
 
 __Co-training Embedding of Knowledge Graphs and Entity Descriptions for Cross-lingual Entity Alignment__. IJCAI 2018, _Chen, Muhao, Yingtao Tian, Kai-Wei Chang, Steven Skiena, and Carlo Zaniolo_. [[Paper](https://arxiv.org/pdf/1806.06478.pdf)] [[Note](./notes/embedding/co-training.md)]   
-
-__Enhanced Network Embeddings via Exploiting Edge Labels__. CIKM 2018. _Chen, Haochen, Xiaofei Sun, Yingtao Tian, Bryan Perozzi, Muhao Chen, and Steven Skiena._ [[Paper](https://arxiv.org/pdf/1809.05124.pdf)] [[Note](./notes/embedding/edge-labels.md)]   
 
 __Scalable Rule Learning via Learning Representation__. IJCAI 2018. _Omran, Pouya Ghiasnezhad, Kewen Wang, and Zhe Wang._ [[Paper](https://www.ijcai.org/proceedings/2018/0297.pdf)] [[Note](./notes/embedding/rule-learning.md)]  
 
@@ -119,7 +122,7 @@ __Text-enhanced representation learning for knowledge graph__. IJCAI 2016. _Wang
 __Knowledge Representation Learning with Entities, Attributes and Relations__. IJCAI 2016. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lyk/publications/ijcai2016_krear.pdf)] [[Code](https://github.com/thunlp/KR-EAR)]
 
 
-### Entity Type
+### Entity Types
 __Type-constrained representation learning in knowledge graphs__. ISWC 2015. _Krompass, Denis and Baier, Stephan and Tresp, Volker_. [[Paper](https://arxiv.org/pdf/1508.02593)]
 
 __Typed tensor decomposition of knowledge bases for relation extraction__. EMNLP 2014. _Chang, Kai-Wei and Yih, Wen-tau and Yang, Bishan and Meek, Christopher_. [[Paper](https://www.aclweb.org/anthology/D14-1165)]
@@ -154,7 +157,9 @@ __Lifted rule injection for relation embeddings__. EMNLP 2016. _Demeester, Thoma
 ### Visual Information
 __Image-embodied knowledge representation learning__. IJCAI 2017. _Xie, Ruobing and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0438.pdf)]
 
-## Knowledge Graph Completion
+
+## Knowledge Acquisition 
+### Knowledge Graph Completion
 __An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Haseeb Shah, Johannes Villmow, Adrian Ulges, Ulrich Schwanecke, Faisal Shafait_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-ShahH.6029.pdf)] [[Code](http://github.com/haseebs/OWE)]
 
 __Embedding Multimodal Relational Data for Knowledge Base Completion__. EMNLP 2018. _Pezeshkpour, Pouya, Liyan Chen, and Sameer Singh._ [[Paper](https://arxiv.org/pdf/1809.01341.pdf)] [[Code](https://github.com/pouyapez/mkbe)] [[Note](./notes/completion/mkbe.md)]  
@@ -165,9 +170,16 @@ __M-Walk: Learning to Walk over Graphs using Monte Carlo Tree Search__. NIPS 201
 
 __Compositional Vector Space Models for Knowledge Base Completion__. ACL-IJCNLP 2015. _Neelakantan, Arvind and Roth, Benjamin and McCallum, Andrew_. [[Paper](http://anthology.aclweb.org/P/P15/P15-1016.pdf)]
 
+__Traversing Knowledge Graphs in Vector Space__. EMNLP 2015. _Guu, Kelvin and Miller, John and Liang, Percy_. [[Paper](https://arxiv.org/pdf/1506.01094)]
 
-## Relation Extraction
+__Knowledge graph embedding with hierarchical relation structure__. EMNLP 2018. _Zhang, Zhao and Zhuang, Fuzhen and Qu, Meng and Lin, Fen and He, Qing_. [[Paper]()]
+
+### Relation Extraction
 __Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks__. NAACL 2019. _Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen_. [[Paper](https://arxiv.org/abs/1903.01306)]  
+
+__Discovering Correlations between Sparse Features in Distant Supervision for Relation Extraction__. WSDM 2019. _Qu, Jianfeng and Ouyang, Dantong and Hua, Wen and Ye, Yuxin and Zhou, Xiaofang_. [[Paper](https://dl.acm.org/citation.cfm?id=3291004)]
+
+__A Hierarchical Framework for Relation Extraction with Reinforcement Learning__. AAAI 2019. _Takanobu, Ryuichi and Zhang, Tianyang and Liu, Jiexi and Huang, Minlie_. [[Paper](https://arxiv.org/pdf/1811.03925.pdf)] [[Code](https://github.com/truthless11/HRL-RE)]
 
 __Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning__. EMNLP 2018. _Liu, Tianyi, Xinsong Zhang, Wanhao Zhou, and Weijia Jia._ [[Paper](https://arxiv.org/pdf/1808.06738.pdf)] [[Note](./notes/RE/inner-sentence.md)]  
 
@@ -230,15 +242,20 @@ __Large scaled relation extraction with reinforcement learning__. AAAI 2018. _Ze
 
 __Robust Distant Supervision Relation Extraction via Deep Reinforcement Learning__. ACL 2018. _Qin, Pengda and Weiran, XU and Wang, William Yang_. [[Paper](https://www.aclweb.org/anthology/P18-1199)]
 
-## Relation Classification 
+### Relation Classification 
 __Bidirectional recurrent convolutional neural network for relation classification__. ACL 2016. _Cai, Rui and Zhang, Xiaodong and Wang, Houfeng_. [[Paper](https://www.aclweb.org/anthology/P16-1072)]
 
 __Attention-based bidirectional long short-term memory networks for relation classification__. ACL 2016. _Zhou, Peng and Shi, Wei and Tian, Jun and Qi, Zhenyu and Li, Bingchen and Hao, Hongwei and Xu, Bo_. [[Paper](https://www.aclweb.org/anthology/P16-2034)]
 
 __Reinforcement learning for relation classification from noisy data__. AAAI 2018. _Feng, Jun and Huang, Minlie and Zhao, Li and Yang, Yang and Zhu, Xiaoyan_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17151/16140)]
 
+### Entity Alignment 
+__Bootstrapping Entity Alignment with Knowledge Graph Embedding__.  IJCAI 2018. _Zequn Sun, Wei Hu, Qingheng Zhang and Yuzhong Qu._ [[Paper](https://www.ijcai.org/proceedings/2018/0611.pdf)] [[Code](https://github.com/nju-websoft/BootEA)] [[Note](./notes/embedding/BootEA.md)]  
 
-## Recommendation System
+__Cross-lingual entity alignment via joint attribute-preserving embedding__. ISWC 2017. _Sun, Zequn and Hu, Wei and Li, Chengkai_. [[Paper](https://arxiv.org/pdf/1708.05045)] 
+
+## Knownwledge-aware Applications
+### Recommendation System
 __Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
 
 __Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preference__. WWW 2019. _Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, Tat-Seng Chua_.
@@ -251,7 +268,7 @@ __Exploring High-Order User Preference on the Knowledge Graph for Recommender Sy
 __RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems__. CIKM 2018. _Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://dl.acm.org/citation.cfm?id=3271739)]
 
 
-## Question Answering
+### Question Answering
 
 __Dialog-to-Action: Conversational Question Answering Over a Large-Scale Knowledge Base__. NIPS 2018. _Daya Guo, Duyu Tang, Nan Duan, Ming Zhou, Jian Yin_. [[Paper](http://papers.nips.cc/paper/7558-dialog-to-action-conversational-question-answering-over-a-large-scale-knowledge-base)]
 
@@ -267,10 +284,10 @@ __Transliteration Better than Translation? Answering Code-mixed Questions over a
 
 __TEQUILA: Temporal Question Answering over Knowledge Bases__. CIKM 2018. _Zhen Jia, Abdalghani Abujabal, Rishiraj Saha Roy, Jannik Strötgen, Gerhard Weikum_. [[Paper](https://dl.acm.org/citation.cfm?id=3269247&dl=ACM&coll=DL)]
 
-## Conversation Generation  
+### Conversation Generation  
 __Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Note](./notes/conversation/commonsense.md)]    
 
-## Software Engineering
+### Software Engineering
 
 __HDSKG: harvesting domain specific knowledge graph from content of webpages__. SANER 2017. _Zhao, Xuejiao and Xing, Zhenchang and Kabir, Muhammad Ashad and Sawada, Naoya and Li, Jing and Lin, Shang-Wei_. [[Paper](https://dr.ntu.edu.sg/bitstream/handle/10220/42426/Finalmain.pdf?sequence=1&isAllowed=y)]
 
@@ -287,7 +304,7 @@ __Mining Analogical Libraries in Q&A Discussions — Incorporating Relational an
 __TechLand: Assisting technology landscape inquiries with insights from stack overflow__. ICSME 2016. _Chen, Chunyang and Xing, Zhenchang and Han, Lei_. [[Paper](http://ccywch.github.io/chenchunyang.github.io/publication/techLand.pdf)]
 
 
-## Other Applications
+### Other Applications
 __Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
 
 __Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding__. NAACL-HLT 2015. _Yun-Nung Chen, William Yang Wang, Alex Rudnicky_. [[Paper](http://www.cs.ucsb.edu/~william/papers/NAACL15_InterSlotRelation.pdf)]
@@ -322,3 +339,5 @@ __Multi-Label Zero-Shot Learning with Structured Knowledge Graphs__. CVPR 2018. 
 __Rethinking Knowledge Graph Propagation for Zero-Shot Learning__. 2018. _Kampffmeyer, Michael and Chen, Yinbo and Liang, Xiaodan and Wang, Hao and Zhang, Yujia and Xing, Eric P_. [[Paper](https://arxiv.org/pdf/1805.11724.pdf)] [[Code](https://github.com/cyvius96/adgpm)]
 
 __Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs__. CVPR 2018. _Xiaolong Wang, Yufei Ye, Abhinav Gupta_. [[Paper](https://arxiv.org/pdf/1803.08035.pdf)] [[Code](https://github.com/JudyYe/zero-shot-gcn)]
+
+__Hybrid Attention-Based Prototypical Networks for Noisy Few-Shot Relation Classification__. AAAI 2019. _Tianyu Gao, Xu Han, Zhiyuan Liu, Maosong Sun_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-GaoTianyu.915.pdf)] [[Code](http://github.com/thunlp/HATT-Proto)]
