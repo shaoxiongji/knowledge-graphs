@@ -8,8 +8,9 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Cross-Modal KG Embedding](#cross-modal-kg-embedding)
     - [Textual Desciption](#textual-desciption)
-    - [Entity Types](#entity-types)
+    - [Type Information](#type-information)
     - [Logic Rules](#logic-rules)
+    - [Relational Path](#relational-path)
     - [Visual Information](#visual-information)
   - [Knowledge Acquisition](#knowledge-acquisition)
     - [Knowledge Graph Completion](#knowledge-graph-completion)
@@ -60,12 +61,6 @@ __Complex embeddings for simple link prediction__. ICML 2016. _Trouillon, Théo 
 
 __Embedding entities and relations for learning and inference in knowledge bases__. ICLR 2015. _Yang, Bishan and Yih, Wen-tau and He, Xiaodong and Gao, Jianfeng and Deng, Li_. [[Paper](https://arxiv.org/pdf/1412.6575.pdf)]
 
-__Context-dependent knowledge graph embedding__. EMNLP 2015. _Luo, Yuanfei and Wang, Quan and Wang, Bin and Guo, Li_. [[Paper](http://www.aclweb.org/anthology/D15-1191)]
-
-__Compositional learning of embeddings for relation paths in knowledge base and text__. ACL 2016. _Toutanova, Kristina and Lin, Victoria and Yih, Wen-tau and Poon, Hoifung and Quirk, Chris_. [[Paper](http://www.aclweb.org/anthology/P16-1136)]
-
-__GAKE: graph aware knowledge embedding__. COLING 2016. _Feng, Jun and Huang, Minlie and Yang, Yang and Zhu, Xiaoyan_. [[Paper](http://www.aclweb.org/anthology/C16-1062)]
-
 __Relation extraction with matrix factorization and universal schemas__. NAACL 2013. _Riedel, Sebastian and Yao, Limin and McCallum, Andrew and Marlin, Benjamin M_. [[Paper](http://www.aclweb.org/anthology/N13-1008)]
 
 __A latent factor model for highly multi-relational data__. NIPS 2012. _Jenatton, Rodolphe and Roux, Nicolas L and Bordes, Antoine and Obozinski, Guillaume R_. [[Paper](https://papers.nips.cc/paper/4744-a-latent-factor-model-for-highly-multi-relational-data.pdf)]
@@ -98,11 +93,9 @@ __Learning to represent knowledge graphs with gaussian embedding__. CIKM 2015. _
 
 __From one point to a manifold: Orbit models for knowledge graph embedding__. IJCAI 2016. _Xiao, Han and Huang, Minlie and Zhu, Xiaoyan_. [[Paper](https://www.ijcai.org/Proceedings/16/Papers/190.pdf)]
 
-__Modeling relation paths for representation learning of knowledge bases__. EMNLP 2015. _Lin, Yankai and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong and Rao, Siwei and Liu, Song_. [[Paper](https://arxiv.org/pdf/1506.00379.pdf)] [[Code](https://github.com/mrlyk423/relation_extraction)]
-
 __Composing relationships with translations__. EMNLP 2015. _García-Durán, Alberto and Bordes, Antoine and Usunier, Nicolas_. [[Paper](http://www.aclweb.org/anthology/D15-1034)] [[Code](https://github.com/glorotxa/SME)]
 
-
+__[⬆](#awesome-knowledge-graph)__
 ## Cross-Modal KG Embedding
 ### Textual Desciption 
 __Knowledge graph and text jointly embedding__. EMNLP 2015. _Wang, Zhen and Zhang, Jianwen and Feng, Jianlin and Chen, Zheng_. [[Paper](https://www.aclweb.org/anthology/D14-1167)]
@@ -122,7 +115,7 @@ __Text-enhanced representation learning for knowledge graph__. IJCAI 2016. _Wang
 __Knowledge Representation Learning with Entities, Attributes and Relations__. IJCAI 2016. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lyk/publications/ijcai2016_krear.pdf)] [[Code](https://github.com/thunlp/KR-EAR)]
 
 
-### Entity Types
+### Type Information
 __Type-constrained representation learning in knowledge graphs__. ISWC 2015. _Krompass, Denis and Baier, Stephan and Tresp, Volker_. [[Paper](https://arxiv.org/pdf/1508.02593)]
 
 __Typed tensor decomposition of knowledge bases for relation extraction__. EMNLP 2014. _Chang, Kai-Wei and Yih, Wen-tau and Yang, Bishan and Meek, Christopher_. [[Paper](https://www.aclweb.org/anthology/D14-1165)]
@@ -133,6 +126,7 @@ __Entity hierarchy embedding__. ACL 2015. _Hu, Zhiting and Huang, Poyao and Deng
 
 __Representation Learning of Knowledge Graphs with Hierarchical Types__. IJCAI 2016. _Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~xrb/publications/IJCAI-16_type.pdf)]
 
+__Knowledge graph embedding with hierarchical relation structure__. EMNLP 2018. _Zhang, Zhao and Zhuang, Fuzhen and Qu, Meng and Lin, Fen and He, Qing_. [[Paper](https://www.aclweb.org/anthology/D18-1358)]
 
 ### Logic Rules
 __AMIE: association rule mining under incomplete evidence in ontological knowledge bases__. WWW 2013. _Galárraga, Luis Antonio and Teflioudi, Christina and Hose, Katja and Suchanek, Fabian_. [[Paper](http://luisgalarraga.de/docs/amie.pdf))]
@@ -154,10 +148,26 @@ __Knowledge Graph Embedding with Iterative Guidance from Soft Rules__. AAAI 2018
 
 __Lifted rule injection for relation embeddings__. EMNLP 2016. _Demeester, Thomas and Rocktäschel, T and Riedel, S_. [[Paper](https://www.aclweb.org/anthology/D16-1146)]
 
+### Relational Path
+__Random walk inference and learning in a large scale knowledge base__. EMNLP 2011. _Lao, Ni and Mitchell, Tom and Cohen, William W_. [[Paper](https://aclanthology.info/pdf/D/D11/D11-1049.pdf)]
+
+__Relational retrieval using a combination of path-constrained random walks__. Machine Learning 2010. _Lao, Ni and Cohen, William W_. [[Paper](https://link.springer.com/content/pdf/10.1007/s10994-010-5205-8.pdf)]
+
+__Modeling relation paths for representation learning of knowledge bases__. EMNLP 2015. _Lin, Yankai and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong and Rao, Siwei and Liu, Song_. [[Paper](https://arxiv.org/pdf/1506.00379.pdf)] [[Code](https://github.com/mrlyk423/relation_extraction)]
+
+__Context-dependent knowledge graph embedding__. EMNLP 2015. _Luo, Yuanfei and Wang, Quan and Wang, Bin and Guo, Li_. [[Paper](https://www.aclweb.org/anthology/D15-1191)]
+
+__Compositional learning of embeddings for relation paths in knowledge base and text__. ACL 2016. _Toutanova, Kristina and Lin, Victoria and Yih, Wen-tau and Poon, Hoifung and Quirk, Chris_. [[Paper](http://www.aclweb.org/anthology/P16-1136)]
+
+__GAKE: graph aware knowledge embedding__. COLING 2016. _Feng, Jun and Huang, Minlie and Yang, Yang and Zhu, Xiaoyan_. [[Paper](http://www.aclweb.org/anthology/C16-1062)]
+
+__Traversing Knowledge Graphs in Vector Space__. EMNLP 2015. _Guu, Kelvin and Miller, John and Liang, Percy_. [[Paper](https://arxiv.org/pdf/1506.01094)]
+
+
 ### Visual Information
 __Image-embodied knowledge representation learning__. IJCAI 2017. _Xie, Ruobing and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0438.pdf)]
 
-
+__[⬆](#awesome-knowledge-graph)__
 ## Knowledge Acquisition 
 ### Knowledge Graph Completion
 __An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Haseeb Shah, Johannes Villmow, Adrian Ulges, Ulrich Schwanecke, Faisal Shafait_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-ShahH.6029.pdf)] [[Code](http://github.com/haseebs/OWE)]
@@ -170,9 +180,19 @@ __M-Walk: Learning to Walk over Graphs using Monte Carlo Tree Search__. NIPS 201
 
 __Compositional Vector Space Models for Knowledge Base Completion__. ACL-IJCNLP 2015. _Neelakantan, Arvind and Roth, Benjamin and McCallum, Andrew_. [[Paper](http://anthology.aclweb.org/P/P15/P15-1016.pdf)]
 
-__Traversing Knowledge Graphs in Vector Space__. EMNLP 2015. _Guu, Kelvin and Miller, John and Liang, Percy_. [[Paper](https://arxiv.org/pdf/1506.01094)]
+__An Interpretable Knowledge Transfer Model for Knowledge Base Completion__. ACL 2017. _Xie, Qizhe and Ma, Xuezhe and Dai, Zihang and Hovy, Eduard_. [[Paper](https://arxiv.org/pdf/1704.05908)]
 
-__Knowledge graph embedding with hierarchical relation structure__. EMNLP 2018. _Zhang, Zhao and Zhuang, Fuzhen and Qu, Meng and Lin, Fen and He, Qing_. [[Paper]()]
+__A novel embedding model for knowledge base completion based on convolutional neural network__. NAACL 2018. _Nguyen, Dai Quoc and Nguyen, Tu Dinh and Nguyen, Dat Quoc and Phung, Dinh_. [[Paper](https://arxiv.org/pdf/1712.02121)]
+
+__ProjE: Embedding projection for knowledge graph completion__. AAAI 2017. _Shi, Baoxu and Weninger, Tim_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14279/13906)] [[Code](https://github.com/nddsg/ProjE)]
+
+__TuckER: Tensor Factorization for Knowledge Graph Completion__. _Balažević, Ivana and Allen, Carl and Hospedales, Timothy M_.
+[[Paper](https://arxiv.org/pdf/1901.09590.pdf)] [[Code](https://github.com/ibalazevic/TuckER)]
+
+__Open-world knowledge graph completion__. AAAI 2018. _Shi, Baoxu and Weninger, Tim_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16055/15901)] [[Code](https://github.com/bxshi/ConMask)]
+
+__On Multi-Relational Link Prediction with Bilinear Models__. AAAI 2018. _Wang, Yanjie and Gemulla, Rainer and Li, Hui_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16900/16722)] [[Code](http://dws.informatik.uni-mannheim.de/en/resources/software/tf/)]
+
 
 ### Relation Extraction
 __Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks__. NAACL 2019. _Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen_. [[Paper](https://arxiv.org/abs/1903.01306)]  
@@ -222,8 +242,6 @@ __Adversarial training for relation extraction__. EMNLP 2017. _Wu, Yi and Bamman
 
 __Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks__. COLING 2016. _Jiang, Xiaotian and Wang, Quan and Li, Peng and Wang, Bin_. [[Paper](https://www.aclweb.org/anthology/C16-1139)]
 
-
-
 __Jointly Extracting Relations with Class Ties via Effective Deep Ranking__. ACL 2017. _Ye, Hai and Chao, Wenhan and Luo, Zhunchen and Li, Zhoujun_ [[Paper](https://www.aclweb.org/anthology/P17-1166)]
 
 __A soft-label method for noise-tolerant distantly supervised relation extraction__. EMNLP 2017. _Liu, Tianyu and Wang, Kexiang and Chang, Baobao and Sui, Zhifang_. [[Paper](https://www.aclweb.org/anthology/D17-1189)]
@@ -242,6 +260,8 @@ __Large scaled relation extraction with reinforcement learning__. AAAI 2018. _Ze
 
 __Robust Distant Supervision Relation Extraction via Deep Reinforcement Learning__. ACL 2018. _Qin, Pengda and Weiran, XU and Wang, William Yang_. [[Paper](https://www.aclweb.org/anthology/P18-1199)]
 
+__Incorporating vector space similarity in random walk inference over knowledge bases__. EMNLP 2014. _Gardner, Matt and Talukdar, Partha and Krishnamurthy, Jayant and Mitchell, Tom_. [[Paper](https://www.aclweb.org/anthology/D14-1044)]
+
 ### Relation Classification 
 __Bidirectional recurrent convolutional neural network for relation classification__. ACL 2016. _Cai, Rui and Zhang, Xiaodong and Wang, Houfeng_. [[Paper](https://www.aclweb.org/anthology/P16-1072)]
 
@@ -254,6 +274,8 @@ __Bootstrapping Entity Alignment with Knowledge Graph Embedding__.  IJCAI 2018. 
 
 __Cross-lingual entity alignment via joint attribute-preserving embedding__. ISWC 2017. _Sun, Zequn and Hu, Wei and Li, Chengkai_. [[Paper](https://arxiv.org/pdf/1708.05045)] 
 
+
+__[⬆](#awesome-knowledge-graph)__
 ## Knownwledge-aware Applications
 ### Recommendation System
 __Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
@@ -311,9 +333,11 @@ __Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for U
 
 __Hybrid Knowledge Routed Modules for Large-scale Object Detection__. NIPS 2018. _Chenhan Jiang, Hang Xu, Xiaodan Liang, and Liang Lin_. [[Paper](http://papers.nips.cc/paper/7428-hybrid-knowledge-routed-modules-for-large-scale-object-detection)] [[Code](https://github.com/chanyn/HKRM)]
 
+__[⬆](#awesome-knowledge-graph)__
 ## Dynamic Knowledge Graph
 __HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding__. EMNLP 2018. _Dasgupta, Shib Sankar, Swayambhu Nath Ray, and Partha Talukdar._ [[Paper](http://www.aclweb.org/anthology/D18-1225)] [[Code](https://github.com/malllabiisc/HyTE)] [[Note](./notes/dynamic/HyTe.md)]  
 
+__[⬆](#awesome-knowledge-graph)__
 ## Knowledge Graph Reasoning
 __Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering__. NIPS 2018. _Medhini Narasimhan, Svetlana Lazebnik, Alex Schwing_. [[Paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering)] 
 
@@ -331,6 +355,11 @@ __Probabilistic reasoning via deep learning: Neural association models__. arXiv 
 
 __Chains of Reasoning over Entities, Relations, and Text using Recurrent Neural Networks__. EACL 2017. _Das, Rajarshi and Neelakantan, Arvind and Belanger, David and McCallum, Andrew_. [[Paper](https://arxiv.org/pdf/1607.01426.pdf)] [[Code](https://rajarshd.github.io/ChainsofReasoning/)]
 
+__Differentiable learning of logical rules for knowledge base reasoning__. NIPS 2017. _Yang, Fan and Yang, Zhilin and Cohen, William W_. [[Paper](https://papers.nips.cc/paper/6826-differentiable-learning-of-logical-rules-for-knowledge-base-reasoning.pdf)]
+
+__Go for a walk and arrive at the answer: Reasoning over paths in knowledge bases using reinforcement learning__. ICLR 2017. _Das, Rajarshi and Dhuliawala, Shehzaad and Zaheer, Manzil and Vilnis, Luke and Durugkar, Ishan and Krishnamurthy, Akshay and Smola, Alex and McCallum, Andrew_. [[Paper](https://arxiv.org/pdf/1711.05851)]
+
+__[⬆](#awesome-knowledge-graph)__
 ## One/few-Shot and Zero-Shot
 __One-Shot Relational Learning for Knowledge Graphs__. EMNLP 2018. _Xiong, Wenhan, Mo Yu, Shiyu Chang, Xiaoxiao Guo, and William Yang Wang._ [[Paper](https://arxiv.org/pdf/1808.09040)] [[Code](https://github.com/xwhan/One-shot-Relational-Learning)] [[Note](./notes/few-shot/one-shot-relational.md)]  
 
@@ -341,3 +370,5 @@ __Rethinking Knowledge Graph Propagation for Zero-Shot Learning__. 2018. _Kampff
 __Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs__. CVPR 2018. _Xiaolong Wang, Yufei Ye, Abhinav Gupta_. [[Paper](https://arxiv.org/pdf/1803.08035.pdf)] [[Code](https://github.com/JudyYe/zero-shot-gcn)]
 
 __Hybrid Attention-Based Prototypical Networks for Noisy Few-Shot Relation Classification__. AAAI 2019. _Tianyu Gao, Xu Han, Zhiyuan Liu, Maosong Sun_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-GaoTianyu.915.pdf)] [[Code](http://github.com/thunlp/HATT-Proto)]
+
+__[⬆](#awesome-knowledge-graph)__
