@@ -17,10 +17,13 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Relation Extraction](#relation-extraction)
     - [Relation Classification](#relation-classification)
     - [Entity Alignment](#entity-alignment)
+    - [Entity Disambiguation](#entity-disambiguation)
+    - [Entity Typing](#entity-typing)
   - [Knownwledge-aware Applications](#knownwledge-aware-applications)
     - [Recommendation System](#recommendation-system)
     - [Question Answering](#question-answering)
     - [Conversation Generation](#conversation-generation)
+    - [Language Modeling](#language-modeling)
     - [Software Engineering](#software-engineering)
     - [Other Applications](#other-applications)
   - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
@@ -29,6 +32,10 @@ A collection of knowledge graph papers, codes, and reading notes.
 
 
 ## Knowledge Graph Embedding
+__RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space__. ICLR 2019. _Zhiqing Sun and Zhi-Hong Deng and Jian-Yun Nie and Jian Tang_. [[Paper](https://arxiv.org/pdf/1902.10197)] [[Code](https://github.com/DeepGraphLearning/KnowledgeGraphEmbedding)]
+
+__Logic Attention Based Neighborhood Aggregation for Inductive Knowledge Graph Embedding__. AAAI 2019. _Wang, Peifeng and Han, Jialong and Li, Chenliang and Pan, Rong_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-WangPeifeng.2685.pdf)]
+
 __Variational Quantum Circuit Model for Knowledge Graph Embedding__. Advanced Quantum Technologies 2019. _Yunpu Ma, Volker Tresp, Liming Zhao, and Yuyi Wang_. [[Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/qute.201800078)]
 
 __Interaction Embeddings for Prediction and Explanation in Knowledge Graphs__. WSDM 2019. _Wen Zhang, Bibek Paudel, Wei Zhang, Abraham Bernstein, Huajun Chen_. [[Paper](https://www.zora.uzh.ch/id/eprint/162876/1/interaction-embeddings-prediction_merlin_version.pdf)]
@@ -193,6 +200,7 @@ __Open-world knowledge graph completion__. AAAI 2018. _Shi, Baoxu and Weninger, 
 
 __On Multi-Relational Link Prediction with Bilinear Models__. AAAI 2018. _Wang, Yanjie and Gemulla, Rainer and Li, Hui_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16900/16722)] [[Code](http://dws.informatik.uni-mannheim.de/en/resources/software/tf/)]
 
+__Inferring missing entity type instances for knowledge base completion: New dataset and methods__. NAACL 2016. _Neelakantan, Arvind and Chang, Ming-Wei_. [[Paper](https://arxiv.org/pdf/1504.06658)]
 
 ### Relation Extraction
 __Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks__. NAACL 2019. _Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen_. [[Paper](https://arxiv.org/abs/1903.01306)]  
@@ -274,6 +282,18 @@ __Bootstrapping Entity Alignment with Knowledge Graph Embedding__.  IJCAI 2018. 
 
 __Cross-lingual entity alignment via joint attribute-preserving embedding__. ISWC 2017. _Sun, Zequn and Hu, Wei and Li, Chengkai_. [[Paper](https://arxiv.org/pdf/1708.05045)] 
 
+__Iterative entity alignment via joint knowledge embeddings__. IJCAI 2017. _Zhu, Hao and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0595.pdf)]
+
+__Multilingual knowledge graph embeddings for cross-lingual knowledge alignment__. IJCAI 2017. _Chen, Muhao and Tian, Yingtao and Yang, Mohan and Zaniolo, Carlo_. [[Paper](https://www.ijcai.org/proceedings/2017/0209.pdf)]
+
+### Entity Disambiguation
+__Leveraging deep neural networks and knowledge graphs for entity disambiguation__. 2015. _Huang, Hongzhao and Heck, Larry and Ji, Heng_. [[Paper](https://arxiv.org/pdf/1504.07678.pdf)]
+
+__Entity disambiguation by knowledge and text jointly embedding__. CoNLL 2016. _Fang, Wei and Zhang, Jianwen and Wang, Dilin and Chen, Zheng and Li, Ming_. [[Paper](https://www.aclweb.org/anthology/K16-1026)]
+
+### Entity Typing
+__Label noise reduction in entity typing by heterogeneous partial-label embedding__. KDD 2016. _Ren, Xiang and He, Wenqi and Qu, Meng and Voss, Clare R and Ji, Heng and Han, Jiawei_. [[Paper](https://arxiv.org/pdf/1602.05307)]
+
 
 __[⬆](#awesome-knowledge-graph)__
 ## Knownwledge-aware Applications
@@ -308,6 +328,9 @@ __TEQUILA: Temporal Question Answering over Knowledge Bases__. CIKM 2018. _Zhen 
 
 ### Conversation Generation  
 __Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Note](./notes/conversation/commonsense.md)]    
+
+### Language Modeling
+__A neural knowledge language model__. 2016. _Ahn, Sungjin and Choi, Heeyoul and Pärnamaa, Tanel and Bengio, Yoshua_. [[Paper](https://arxiv.org/pdf/1608.00318)]
 
 ### Software Engineering
 
