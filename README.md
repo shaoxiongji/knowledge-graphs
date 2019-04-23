@@ -16,14 +16,16 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Knowledge Graph Completion](#knowledge-graph-completion)
     - [Relation Extraction](#relation-extraction)
     - [Relation Classification](#relation-classification)
+    - [Entity Recognition](#entity-recognition)
     - [Entity Alignment](#entity-alignment)
     - [Entity Disambiguation](#entity-disambiguation)
     - [Entity Typing](#entity-typing)
   - [Knownwledge-aware Applications](#knownwledge-aware-applications)
     - [Recommendation System](#recommendation-system)
     - [Question Answering](#question-answering)
-    - [Conversation Generation](#conversation-generation)
+    - [Dialogue Systems](#dialogue-systems)
     - [Language Modeling](#language-modeling)
+    - [Sentiment Analysis](#sentiment-analysis)
     - [Software Engineering](#software-engineering)
     - [Other Applications](#other-applications)
   - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
@@ -277,6 +279,8 @@ __Attention-based bidirectional long short-term memory networks for relation cla
 
 __Reinforcement learning for relation classification from noisy data__. AAAI 2018. _Feng, Jun and Huang, Minlie and Zhao, Li and Yang, Yang and Zhu, Xiaoyan_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17151/16140)]
 
+### Entity Recognition 
+
 ### Entity Alignment 
 __Bootstrapping Entity Alignment with Knowledge Graph Embedding__.  IJCAI 2018. _Zequn Sun, Wei Hu, Qingheng Zhang and Yuzhong Qu._ [[Paper](https://www.ijcai.org/proceedings/2018/0611.pdf)] [[Code](https://github.com/nju-websoft/BootEA)] [[Note](./notes/embedding/BootEA.md)]  
 
@@ -293,6 +297,8 @@ __Entity disambiguation by knowledge and text jointly embedding__. CoNLL 2016. _
 
 ### Entity Typing
 __Label noise reduction in entity typing by heterogeneous partial-label embedding__. KDD 2016. _Ren, Xiang and He, Wenqi and Qu, Meng and Voss, Clare R and Ji, Heng and Han, Jiawei_. [[Paper](https://arxiv.org/pdf/1602.05307)]
+
+__Label Embedding for Zero-shot Fine-grained Named Entity Typing__. COLING 2016. _Yukun Ma, Erik Cambria, Sa Gao_. [[Paper](https://www.aclweb.org/anthology/C16-1017)] [[Code](https://github.com/fnet-coling/ner-zero)]
 
 
 __[⬆](#awesome-knowledge-graph)__
@@ -326,11 +332,23 @@ __Transliteration Better than Translation? Answering Code-mixed Questions over a
 
 __TEQUILA: Temporal Question Answering over Knowledge Bases__. CIKM 2018. _Zhen Jia, Abdalghani Abujabal, Rishiraj Saha Roy, Jannik Strötgen, Gerhard Weikum_. [[Paper](https://dl.acm.org/citation.cfm?id=3269247&dl=ACM&coll=DL)]
 
-### Conversation Generation  
-__Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Note](./notes/conversation/commonsense.md)]    
+### Dialogue Systems  
+__Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](./notes/conversation/commonsense.md)]   
+
+__Improving Response Selection in Multi-Turn Dialogue Systems by Incorporating Domain Knowledge__. CoNLL 2018. _Chaudhuri, Debanjan and Kristiadi, Agustinus and Lehmann, Jens and Fischer, Asja_. [[Paper](https://www.aclweb.org/anthology/K18-1048)]
+
+
+__Incorporating loose-structured knowledge into conversation modeling via recall-gate LSTM__. IJCNN 2017. _Xu, Zhen and Liu, Bingquan and Wang, Baoxun and Sun, Chengjie and Wang, Xiaolong_. [[Paper](https://ieeexplore.ieee.org/iel7/7958416/7965814/07966297.pdf)]
+
+__Lstm-based mixture-of-experts for knowledge-aware dialogues__. ACL 2016 Workshop. _Le, Phong and Dymetman, Marc and Renders, Jean-Michel_. [[Paper](https://arxiv.org/pdf/1605.01652.pdf)]
+
+__Flexible end-to-end dialogue system for knowledge grounded conversation__. 2017. _Zhu, Wenya and Mo, Kaixiang and Zhang, Yu and Zhu, Zhangbin and Peng, Xuezheng and Yang, Qiang_. [[Paper](https://arxiv.org/pdf/1709.04264)]
 
 ### Language Modeling
-__A neural knowledge language model__. 2016. _Ahn, Sungjin and Choi, Heeyoul and Pärnamaa, Tanel and Bengio, Yoshua_. [[Paper](https://arxiv.org/pdf/1608.00318)]
+__A neural knowledge language model__. 2016. _Ahn, Sungjin and Choi, Heeyoul and Pärnamaa, Tanel and Bengio, Yoshua_. [[Paper](https://arxiv.org/pdf/1608.00318)] [[Dataset](https://bitbucket.org/skaasj/wikifact_filmactor)]
+
+### Sentiment Analysis
+__Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM__. AAAI 2018. _Yukun Ma, Haiyun Peng, Erik Cambria_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16541/16152)]
 
 ### Software Engineering
 
@@ -355,6 +373,8 @@ __Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention_
 __Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding__. NAACL-HLT 2015. _Yun-Nung Chen, William Yang Wang, Alex Rudnicky_. [[Paper](http://www.cs.ucsb.edu/~william/papers/NAACL15_InterSlotRelation.pdf)]
 
 __Hybrid Knowledge Routed Modules for Large-scale Object Detection__. NIPS 2018. _Chenhan Jiang, Hang Xu, Xiaodan Liang, and Liang Lin_. [[Paper](http://papers.nips.cc/paper/7428-hybrid-knowledge-routed-modules-for-large-scale-object-detection)] [[Code](https://github.com/chanyn/HKRM)]
+
+__Knowledge questions from knowledge graphs__. SIGIR 2016. _Seyler, Dominic and Yahya, Mohamed and Berberich, Klaus_. [[Paper](https://arxiv.org/pdf/1610.09935)]
 
 __[⬆](#awesome-knowledge-graph)__
 ## Dynamic Knowledge Graph
