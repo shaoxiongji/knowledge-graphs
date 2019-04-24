@@ -332,6 +332,16 @@ __Transliteration Better than Translation? Answering Code-mixed Questions over a
 
 __TEQUILA: Temporal Question Answering over Knowledge Bases__. CIKM 2018. _Zhen Jia, Abdalghani Abujabal, Rishiraj Saha Roy, Jannik Strötgen, Gerhard Weikum_. [[Paper](https://dl.acm.org/citation.cfm?id=3269247&dl=ACM&coll=DL)]
 
+__Question answering over knowledge base with neural attention combining global knowledge information__. 2016. _Zhang et al._. [[Paper](https://arxiv.org/pdf/1606.00979)]
+
+__CFO: Conditional Focused Neural Question Answering with Large-scale Knowledge Bases__. ACL 2016. _Dai et al._. [[Paper](https://www.aclweb.org/anthology/P16-1076)]
+
+__Efficiently answering technical questions—a knowledge graph approach__. AAAI 2017. _Yang et al._. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPDFInterstitial/14576/14085)]
+
+__An end-to-end model for question answering over knowledge base with cross-attention combining global knowledge__. ACL 2017. _Hao et al._. [[Paper](https://www.aclweb.org/anthology/P17-1021)]
+
+__Generating natural answers by incorporating copying and retrieving mechanisms in sequence-to-sequence learning__. ACL 2017. _He et al._. [[Paper](https://www.aclweb.org/anthology/P17-1019)]
+
 ### Dialogue Systems  
 __Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](./notes/conversation/commonsense.md)]   
 
