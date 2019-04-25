@@ -26,6 +26,7 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Dialogue Systems](#dialogue-systems)
     - [Language Modeling](#language-modeling)
     - [Sentiment Analysis](#sentiment-analysis)
+    - [Healthcare](#healthcare)
     - [Software Engineering](#software-engineering)
     - [Other Applications](#other-applications)
   - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
@@ -367,6 +368,14 @@ __A neural knowledge language model__. 2016. _Ahn, Sungjin and Choi, Heeyoul and
 
 ### Sentiment Analysis
 __Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM__. AAAI 2018. _Yukun Ma, Haiyun Peng, Erik Cambria_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16541/16152)]
+
+
+### Healthcare 
+__Constructing biomedical domain-specific knowledge graph with minimum supervision__ KAIS 2019. _Yuan, Jianbo and Jin, Zhiwei and Guo, Han and Jin, Hongxia and Zhang, Xianchao and Smith, Tristram and Luo, Jiebo_. [[Paper](https://link.springer.com/article/10.1007/s10115-019-01351-4)]
+
+__Knowledge-driven Encode, Retrieve, Paraphrase for Medical Image Report Generation__. AAAI 2019. _Li, Christy Y and Liang, Xiaodan and Hu, Zhiting and Xing, Eric P_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-LiChristy.629.pdf)]
+
+
 
 ### Software Engineering
 
