@@ -315,6 +315,14 @@ __Exploring High-Order User Preference on the Knowledge Graph for Recommender Sy
 
 __RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems__. CIKM 2018. _Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://dl.acm.org/citation.cfm?id=3271739)]
 
+__Collaborative knowledge base embedding for recommender systems__. SIGKDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
+
+__Top-n recommendations from implicit feedback leveraging linked open data__. RecSys 2013. _Ostuni, Vito Claudio and Di Noia, Tommaso and Di Sciascio, Eugenio and Mirizzi, Roberto_. [[Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.649.3358&rep=rep1&type=pdf)]
+
+__dbrec—music recommendations using DBpedia__. ISWC 2010. _Passant, Alexandre_. [[Paper](https://link.springer.com/content/pdf/10.1007/978-3-642-17749-1_14.pdf)]
+
+__Collaborative knowledge base embedding for recommender systems__. KDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
+
 
 ### Question Answering
 
@@ -385,6 +393,15 @@ __Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for U
 __Hybrid Knowledge Routed Modules for Large-scale Object Detection__. NIPS 2018. _Chenhan Jiang, Hang Xu, Xiaodan Liang, and Liang Lin_. [[Paper](http://papers.nips.cc/paper/7428-hybrid-knowledge-routed-modules-for-large-scale-object-detection)] [[Code](https://github.com/chanyn/HKRM)]
 
 __Knowledge questions from knowledge graphs__. SIGIR 2016. _Seyler, Dominic and Yahya, Mohamed and Berberich, Klaus_. [[Paper](https://arxiv.org/pdf/1610.09935)]
+
+__One for All: Neural Joint Modeling of Entities and Events__. AAAI 2019. _Nguyen, Trung Minh and Nguyen, Thien Huu_. [[Paper](https://arxiv.org/pdf/1812.00195)]
+
+__Explicit semantic ranking for academic search via knowledge graph embedding__. WWW 2017. _Xiong et al._ [[Paper](http://www.cs.cmu.edu/~cx/papers/Explicit_Semantic_Ranking.pdf)]
+
+__Linking named entities in tweets with knowledge base via user interest modeling__. KDD 2013. _Shen, Wei and Wang, Jianyong and Luo, Ping and Wang, Min_. [[Paper](http://chbrown.github.io/kdd-2013-usb/kdd/p68.pdf)]
+
+__TransNet: Translation-Based Network Representation Learning for Social Relation Extraction__. IJCAI 2017. _Tu, Cunchao and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2017_transnet.pdf)]
+
 
 __[⬆](#awesome-knowledge-graph)__
 ## Dynamic Knowledge Graph
