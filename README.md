@@ -376,7 +376,6 @@ __Constructing biomedical domain-specific knowledge graph with minimum supervisi
 __Knowledge-driven Encode, Retrieve, Paraphrase for Medical Image Report Generation__. AAAI 2019. _Li, Christy Y and Liang, Xiaodan and Hu, Zhiting and Xing, Eric P_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-LiChristy.629.pdf)]
 
 
-
 ### Software Engineering
 
 __HDSKG: harvesting domain specific knowledge graph from content of webpages__. SANER 2017. _Zhao, Xuejiao and Xing, Zhenchang and Kabir, Muhammad Ashad and Sawada, Naoya and Li, Jing and Lin, Shang-Wei_. [[Paper](https://dr.ntu.edu.sg/bitstream/handle/10220/42426/Finalmain.pdf?sequence=1&isAllowed=y)]
@@ -438,6 +437,8 @@ __Differentiable learning of logical rules for knowledge base reasoning__. NIPS 
 
 __Go for a walk and arrive at the answer: Reasoning over paths in knowledge bases using reinforcement learning__. ICLR 2017. _Das, Rajarshi and Dhuliawala, Shehzaad and Zaheer, Manzil and Vilnis, Luke and Durugkar, Ishan and Krishnamurthy, Akshay and Smola, Alex and McCallum, Andrew_. [[Paper](https://arxiv.org/pdf/1711.05851)]
 
+__Iteratively Learning Embeddings and Rules for Knowledge Graph Reasoning__. WWW 2019. _Zhang, Wen and Paudel, Bibek and Wang, Liang and Chen, Jiaoyan and Zhu, Hai and Zhang, Wei and Bernstein, Abraham and Chen, Huajun_. [[Paper](https://arxiv.org/pdf/1903.08948)]
+
 __[⬆](#awesome-knowledge-graph)__
 ## One/few-Shot and Zero-Shot
 __One-Shot Relational Learning for Knowledge Graphs__. EMNLP 2018. _Xiong, Wenhan, Mo Yu, Shiyu Chang, Xiaoxiao Guo, and William Yang Wang._ [[Paper](https://arxiv.org/pdf/1808.09040)] [[Code](https://github.com/xwhan/One-shot-Relational-Learning)] [[Note](./notes/few-shot/one-shot-relational.md)]  
@@ -449,5 +450,7 @@ __Rethinking Knowledge Graph Propagation for Zero-Shot Learning__. 2018. _Kampff
 __Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs__. CVPR 2018. _Xiaolong Wang, Yufei Ye, Abhinav Gupta_. [[Paper](https://arxiv.org/pdf/1803.08035.pdf)] [[Code](https://github.com/JudyYe/zero-shot-gcn)]
 
 __Hybrid Attention-Based Prototypical Networks for Noisy Few-Shot Relation Classification__. AAAI 2019. _Tianyu Gao, Xu Han, Zhiyuan Liu, Maosong Sun_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-GaoTianyu.915.pdf)] [[Code](http://github.com/thunlp/HATT-Proto)]
+
+__FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation__. EMNLP 2018. Han, Xu and Zhu, Hao and Yu, Pengfei and Wang, Ziyun and Yao, Yuan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1810.10147)]
 
 __[⬆](#awesome-knowledge-graph)__
