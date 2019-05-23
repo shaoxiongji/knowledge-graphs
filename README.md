@@ -26,6 +26,7 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Dialogue Systems](#dialogue-systems)
     - [Language Modeling](#language-modeling)
     - [Sentiment Analysis](#sentiment-analysis)
+    - [Text Classification](#text-classification)
     - [Healthcare](#healthcare)
     - [Software Engineering](#software-engineering)
     - [Other Applications](#other-applications)
@@ -184,6 +185,8 @@ __An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Ha
 
 __Embedding Multimodal Relational Data for Knowledge Base Completion__. EMNLP 2018. _Pezeshkpour, Pouya, Liyan Chen, and Sameer Singh._ [[Paper](https://arxiv.org/pdf/1809.01341.pdf)] [[Code](https://github.com/pouyapez/mkbe)] [[Note](./notes/completion/mkbe.md)]  
 
+__Shared Embedding Based Neural Networks for Knowledge Graph Completion__. CIKM 2018. _Guan, Saiping and Jin, Xiaolong and Wang, Yuanzhuo and Cheng, Xueqi_. [[Paper](https://dl.acm.org/citation.cfm?id=3271704)]
+
 __Expanding Holographic Embeddings for Knowledge Completion__. NIPS 2018. _Yexiang Xue, Yang Yuan, Zhitian Xu, and Ashish Sabharwal_. [[Paper](http://papers.nips.cc/paper/7701-expanding-holographic-embeddings-for-knowledge-completion)]
 
 __M-Walk: Learning to Walk over Graphs using Monte Carlo Tree Search__. NIPS 2018. Yelong Shen, Jianshu Chen, Po-Sen Huang, Yuqing Guo, Jianfeng Gao. [[Paper](http://papers.nips.cc/paper/7912-m-walk-learning-to-walk-over-graphs-using-monte-carlo-tree-search)]
@@ -291,6 +294,9 @@ __Iterative entity alignment via joint knowledge embeddings__. IJCAI 2017. _Zhu,
 
 __Multilingual knowledge graph embeddings for cross-lingual knowledge alignment__. IJCAI 2017. _Chen, Muhao and Tian, Yingtao and Yang, Mohan and Zaniolo, Carlo_. [[Paper](https://www.ijcai.org/proceedings/2017/0209.pdf)]
 
+__Aligning Knowledge Base and Document Embedding Models Using Regularized Multi-Task Learning__. ISWC 2018. _Baumgartner, Matthias and Zhang, Wen and Paudel, Bibek and Dell’Aglio, Daniele and Chen, Huajun and Bernstein, Abraham_. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_2)]
+
+
 ### Entity Disambiguation
 __Leveraging deep neural networks and knowledge graphs for entity disambiguation__. 2015. _Huang, Hongzhao and Heck, Larry and Ji, Heng_. [[Paper](https://arxiv.org/pdf/1504.07678.pdf)]
 
@@ -308,7 +314,7 @@ __[⬆](#awesome-knowledge-graph)__
 __Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
 
 __Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preference__. WWW 2019. _Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, Tat-Seng Chua_.
-[[Paper](https://www.comp.nus.edu.sg/~xiangnan/papers/www19-KGRec.pdf)] [[Code](https://github.com/TaoMiner/joint-kg-recommender)] [[Code](https://github.com/TaoMiner/joint-kg-recommender)]
+[[Paper](https://www.comp.nus.edu.sg/~xiangnan/papers/www19-KGRec.pdf)] [[Code](https://github.com/TaoMiner/joint-kg-recommender)]
 
 __Explianable Reasoning over Knowledge Graphs for Recommendation__. AAAI 2019. _Wang, Xiang and Wang, Dingxian and Xu, Canran and He, Xiangnan and Cao, Yixin and Chua, Tat-Seng_. [[Paper](https://arxiv.org/abs/1811.04540)] [[Code](https://github.com/eBay/KPRN)]  
 
@@ -331,11 +337,13 @@ __Dialog-to-Action: Conversational Question Answering Over a Large-Scale Knowled
 
 __Commonsense for Generative Multi-hop Question Answering Tasks__. EMNLP 2018. _Bauer, Lisa, Yicheng Wang, and Mohit Bansal._ [[Paper](https://arxiv.org/pdf/1809.06309.pdf)] [[Code](https://github.com/yicheng-w/CommonSenseMultiHopQA)] [[Note](./notes/QA/multi-hop.md)]  
 
-__EARL: Joint Entity and Relation Linking for Question Answering over Knowledge Graphs__. ISWC 2018. _Dubey, Mohnish, Debayan Banerjee, Debanjan Chaudhuri, and Jens Lehmann._ [[Paper](https://arxiv.org/pdf/1801.03825.pdf)] [[Note](./notes/QA/EARL.md)]  
+__Complex Sequential Question Answering: Towards Learning to Converse Over Linked Question Answer Pairs with a Knowledge Graph__. AAAI 2018. _Amrita Saha, Vardaan Pahuja, Mitesh M. Khapra, Karthik Sankaranarayanan, Sarath Chandar_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17181/15750)]
+
+__EARL: Joint Entity and Relation Linking for Question Answering over Knowledge Graphs__. ISWC 2018. _Dubey, Mohnish, Debayan Banerjee, Debanjan Chaudhuri, and Jens Lehmann._ [[Paper](https://arxiv.org/pdf/1801.03825.pdf)] [[Code](https://github.com/AskNowQA/EARL)] [[Note](./notes/QA/EARL.md)]  
 
 __Pattern-revising Enhanced Simple Question Answering over Knowledge Bases__. COLING 2018. _Hao, Yanchao, Hao Liu, Shizhu He, Kang Liu, and Jun Zhao._ [[Paper](http://www.aclweb.org/anthology/C18-1277)] [[Note](./notes/QA/pattern-revising.md)]  
 
-__Strong Baselines for Simple Question Answering over Knowledge Graphs with and without Neural Networks__. NAACL 2018. _Mohammed, Salman, Peng Shi, and Jimmy Lin._ [[Paper](https://arxiv.org/pdf/1712.01969.pdf)] [[Note](./notes/QA/strong-baselines.md)]     
+__Strong Baselines for Simple Question Answering over Knowledge Graphs with and without Neural Networks__. NAACL 2018. _Mohammed, Salman, Peng Shi, and Jimmy Lin._ [[Paper](https://arxiv.org/pdf/1712.01969.pdf)] [[Code](http://buboqa.io/)]  [[Note](./notes/QA/strong-baselines.md)]    
 
 __Transliteration Better than Translation? Answering Code-mixed Questions over a Knowledge Base__. ACL 2018. _Gupta, Vishal, Manoj Chinnakotla, and Manish Shrivastava._ [[Paper](http://www.aclweb.org/anthology/W18-3205)] [[Note](./notes/QA/code-mixed.md)]  
 
@@ -350,6 +358,8 @@ __Efficiently answering technical questions—a knowledge graph approach__. AAAI
 __An end-to-end model for question answering over knowledge base with cross-attention combining global knowledge__. ACL 2017. _Hao et al._. [[Paper](https://www.aclweb.org/anthology/P17-1021)]
 
 __Generating natural answers by incorporating copying and retrieving mechanisms in sequence-to-sequence learning__. ACL 2017. _He et al._. [[Paper](https://www.aclweb.org/anthology/P17-1019)]
+
+__Neural Generative Question Answering__. IJCAI 2016. _Yin, Jun and Jiang, Xin and Lu, Zhengdong and Shang, Lifeng and Li, Hang and Li, Xiaoming_. [[Paper](https://arxiv.org/pdf/1512.01337)] [[Dataset](http://github.com/jxfeb/Generative_QA)]
 
 ### Dialogue Systems  
 __Commonsense Knowledge Aware Conversation Generation with Graph Attention__. IJCAI 2018. _Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu._ [[Paper](https://www.ijcai.org/proceedings/2018/0643.pdf)] [[Code](https://github.com/tuxchow/ccm)] [[Note](./notes/conversation/commonsense.md)]   
@@ -369,6 +379,8 @@ __A neural knowledge language model__. 2016. _Ahn, Sungjin and Choi, Heeyoul and
 ### Sentiment Analysis
 __Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM__. AAAI 2018. _Yukun Ma, Haiyun Peng, Erik Cambria_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16541/16152)]
 
+### Text Classification
+__Combining Knowledge with Deep Convolutional Neural Networks for Short Text Classification__. IJCAI 2017. _Wang, Jin and Wang, Zhongyuan and Zhang, Dawei and Yan, Jun_. [[Paper](http://yellowstone.cs.ucla.edu/~jinwang/jinwang_files/ijcai2017.pdf)]
 
 ### Healthcare 
 __Constructing biomedical domain-specific knowledge graph with minimum supervision__ KAIS 2019. _Yuan, Jianbo and Jin, Zhiwei and Guo, Han and Jin, Hongxia and Zhang, Xianchao and Smith, Tristram and Luo, Jiebo_. [[Paper](https://link.springer.com/article/10.1007/s10115-019-01351-4)]
@@ -410,6 +422,7 @@ __Linking named entities in tweets with knowledge base via user interest modelin
 
 __TransNet: Translation-Based Network Representation Learning for Social Relation Extraction__. IJCAI 2017. _Tu, Cunchao and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2017_transnet.pdf)]
 
+__Joint event extraction via recurrent neural networks__. NAACL 2016. _Nguyen, Thien Huu and Cho, Kyunghyun and Grishman, Ralph_. [[Paper](https://www.aclweb.org/anthology/N16-1034)]
 
 __[⬆](#awesome-knowledge-graph)__
 ## Dynamic Knowledge Graph
@@ -438,6 +451,10 @@ __Differentiable learning of logical rules for knowledge base reasoning__. NIPS 
 __Go for a walk and arrive at the answer: Reasoning over paths in knowledge bases using reinforcement learning__. ICLR 2017. _Das, Rajarshi and Dhuliawala, Shehzaad and Zaheer, Manzil and Vilnis, Luke and Durugkar, Ishan and Krishnamurthy, Akshay and Smola, Alex and McCallum, Andrew_. [[Paper](https://arxiv.org/pdf/1711.05851)]
 
 __Iteratively Learning Embeddings and Rules for Knowledge Graph Reasoning__. WWW 2019. _Zhang, Wen and Paudel, Bibek and Wang, Liang and Chen, Jiaoyan and Zhu, Hai and Zhang, Wei and Bernstein, Abraham and Chen, Huajun_. [[Paper](https://arxiv.org/pdf/1903.08948)]
+
+__Variational reasoning for question answering with knowledge graph__. AAAI 2018. _Zhang, Yuyu and Dai, Hanjun and Kozareva, Zornitsa and Smola, Alexander J and Song, Le_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16983/16176)]
+
+__The winograd schema challenge__. Thirteenth International Conference on the Principles of Knowledge Representation and Reasoning 2012. _Levesque, Hector and Davis, Ernest and Morgenstern, Leora_. [[Paper](https://www.aaai.org/ocs/index.php/KR/KR12/paper/download/4492/4924)]
 
 __[⬆](#awesome-knowledge-graph)__
 ## One/few-Shot and Zero-Shot
