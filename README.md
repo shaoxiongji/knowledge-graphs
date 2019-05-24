@@ -430,6 +430,8 @@ __HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding__. EMNLP 201
 
 __[⬆](#awesome-knowledge-graph)__
 ## Knowledge Graph Reasoning
+__Chain of Reasoning for Visual Question Answering__. NIPS 2018. _Wu, Chenfei and Liu, Jinlai and Wang, Xiaojie and Dong, Xuan_. [[Paper](https://papers.nips.cc/paper/7311-chain-of-reasoning-for-visual-question-answering.pdf)]
+
 __Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering__. NIPS 2018. _Medhini Narasimhan, Svetlana Lazebnik, Alex Schwing_. [[Paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering)] 
 
 __Symbolic Graph Reasoning Meets Convolutions__. NIPS 2018. _Xiaodan Liang, Zhiting HU, Hao Zhang, Liang Lin, and Eric P. Xing_. [[Paper](http://papers.nips.cc/paper/7456-symbolic-graph-reasoning-meets-convolutions)]
@@ -455,6 +457,12 @@ __Iteratively Learning Embeddings and Rules for Knowledge Graph Reasoning__. WWW
 __Variational reasoning for question answering with knowledge graph__. AAAI 2018. _Zhang, Yuyu and Dai, Hanjun and Kozareva, Zornitsa and Smola, Alexander J and Song, Le_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16983/16176)]
 
 __The winograd schema challenge__. Thirteenth International Conference on the Principles of Knowledge Representation and Reasoning 2012. _Levesque, Hector and Davis, Ernest and Morgenstern, Leora_. [[Paper](https://www.aaai.org/ocs/index.php/KR/KR12/paper/download/4492/4924)]
+
+__Straight to the facts: Learning knowledge base retrieval for factual visual question answering__. ECCV 2018. _Narasimhan, Medhini and Schwing, Alexander G_. [[Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Medhini_Gulganjalli_Narasimhan_Straight_to_the_ECCV_2018_paper.pdf)]
+
+__Inferring and executing programs for visual reasoning__. ICCV 2017. _Johnson, Justin and Hariharan, Bharath and van der Maaten, Laurens and Hoffman, Judy and Fei-Fei, Li and Lawrence Zitnick, C and Girshick, Ross_. [[Paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Johnson_Inferring_and_Executing_ICCV_2017_paper.pdf)]
+
+__End-to-end differentiable proving__. NIPS 2017. _Rocktäschel, Tim and Riedel, Sebastian_. [[Paper](https://papers.nips.cc/paper/6969-end-to-end-differentiable-proving.pdf)]
 
 __[⬆](#awesome-knowledge-graph)__
 ## One/few-Shot and Zero-Shot
