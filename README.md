@@ -29,6 +29,7 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Text Classification](#text-classification)
     - [Healthcare](#healthcare)
     - [Software Engineering](#software-engineering)
+    - [Image Classification](#image-classification)
     - [Other Applications](#other-applications)
   - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
@@ -208,6 +209,8 @@ __On Multi-Relational Link Prediction with Bilinear Models__. AAAI 2018. _Wang, 
 
 __Inferring missing entity type instances for knowledge base completion: New dataset and methods__. NAACL 2016. _Neelakantan, Arvind and Chang, Ming-Wei_. [[Paper](https://arxiv.org/pdf/1504.06658)]
 
+__Spring-Electrical Models For Link Prediction__. WSDM 2019. _Kashinskaya, Yana and Samosvat, Egor and Artikov, Akmal_. [[Paper](https://dl.acm.org/citation.cfm?id=3290961)]
+
 ### Relation Extraction
 __Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks__. NAACL 2019. _Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen_. [[Paper](https://arxiv.org/abs/1903.01306)]  
 
@@ -311,6 +314,8 @@ __Label Embedding for Zero-shot Fine-grained Named Entity Typing__. COLING 2016.
 __[⬆](#awesome-knowledge-graph)__
 ## Knownwledge-aware Applications
 ### Recommendation System
+__KGAT: Knowledge Graph Attention Network for Recommendation__. KDD 2019. _Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu and Tat-Seng Chua_. [[Paper](https://arxiv.org/pdf/1905.07854)] [[Code](https://github.com/xiangwang1223/knowledge_graph_attention_network)]
+
 __Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
 
 __Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preference__. WWW 2019. _Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, Tat-Seng Chua_.
@@ -332,6 +337,7 @@ __Collaborative knowledge base embedding for recommender systems__. KDD 2016. _Z
 
 
 ### Question Answering
+__An Interpretable Reasoning Network for Multi-Relation Question Answering__. COLING 2018. _Zhou, Mantong and Huang, Minlie and Zhu, Xiaoyan_. [[Paper](https://arxiv.org/abs/1801.04726)]
 
 __Dialog-to-Action: Conversational Question Answering Over a Large-Scale Knowledge Base__. NIPS 2018. _Daya Guo, Duyu Tang, Nan Duan, Ming Zhou, Jian Yin_. [[Paper](http://papers.nips.cc/paper/7558-dialog-to-action-conversational-question-answering-over-a-large-scale-knowledge-base)]
 
@@ -403,6 +409,9 @@ __Predicting semantically linkable knowledge in developer online forums via conv
 __Mining Analogical Libraries in Q&A Discussions — Incorporating Relational and Categorical Knowledge into Word Embedding__. SANER 2016. _Chunyang Chen, Sa Gao, and Zhenchang Xing_. [[Paper](https://chunyang-chen.github.io/publication/analogical_libraries.pdf)]
 
 __TechLand: Assisting technology landscape inquiries with insights from stack overflow__. ICSME 2016. _Chen, Chunyang and Xing, Zhenchang and Han, Lei_. [[Paper](http://ccywch.github.io/chenchunyang.github.io/publication/techLand.pdf)]
+
+### Image Classification 
+__The More You Know: Using Knowledge Graphs for Image Classification__. CVPR 2017. _Marino, Kenneth and Salakhutdinov, Ruslan and Gupta, Abhinav_. [[Paper](https://arxiv.org/pdf/1612.04844)]
 
 
 ### Other Applications
@@ -491,12 +500,12 @@ __One-Shot Relational Learning for Knowledge Graphs__. EMNLP 2018. _Xiong, Wenha
 
 __Multi-Label Zero-Shot Learning with Structured Knowledge Graphs__. CVPR 2018. _Chung-Wei Lee, Wei Fang, Chih-Kuan Yeh, Yu-Chiang Frank Wang_. [[Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Lee_Multi-Label_Zero-Shot_Learning_CVPR_2018_paper.pdf)]
 
-__Rethinking Knowledge Graph Propagation for Zero-Shot Learning__. 2018. _Kampffmeyer, Michael and Chen, Yinbo and Liang, Xiaodan and Wang, Hao and Zhang, Yujia and Xing, Eric P_. [[Paper](https://arxiv.org/pdf/1805.11724.pdf)] [[Code](https://github.com/cyvius96/adgpm)]
+__Rethinking Knowledge Graph Propagation for Zero-Shot Learning__. CVPR 2019. _Kampffmeyer, Michael and Chen, Yinbo and Liang, Xiaodan and Wang, Hao and Zhang, Yujia and Xing, Eric P_. [[Paper](https://arxiv.org/pdf/1805.11724.pdf)] [[Code](https://github.com/cyvius96/adgpm)]
 
 __Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs__. CVPR 2018. _Xiaolong Wang, Yufei Ye, Abhinav Gupta_. [[Paper](https://arxiv.org/pdf/1803.08035.pdf)] [[Code](https://github.com/JudyYe/zero-shot-gcn)]
 
 __Hybrid Attention-Based Prototypical Networks for Noisy Few-Shot Relation Classification__. AAAI 2019. _Tianyu Gao, Xu Han, Zhiyuan Liu, Maosong Sun_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-GaoTianyu.915.pdf)] [[Code](http://github.com/thunlp/HATT-Proto)]
 
-__FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation__. EMNLP 2018. Han, Xu and Zhu, Hao and Yu, Pengfei and Wang, Ziyun and Yao, Yuan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1810.10147)]
+__FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation__. EMNLP 2018. _Han, Xu and Zhu, Hao and Yu, Pengfei and Wang, Ziyun and Yao, Yuan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1810.10147)]
 
 __[⬆](#awesome-knowledge-graph)__
