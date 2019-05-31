@@ -5,6 +5,7 @@
 A collection of knowledge graph papers, codes, and reading notes.
 
 - [Awesome Knowledge Graph](#awesome-knowledge-graph)
+  - [Survey](#survey)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Cross-Modal KG Embedding](#cross-modal-kg-embedding)
     - [Textual Desciption](#textual-desciption)
@@ -34,6 +35,15 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
   - [One/few-Shot and Zero-Shot](#onefew-shot-and-zero-shot)
+
+## Survey
+__Knowledge Representation Learning: A Quantitative Review__. _Lin, Yankai and Han, Xu and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1812.10901)]
+
+__Knowledge graph embedding: A survey of approaches and applications__. TKDE 2017. _Wang, Quan and Mao, Zhendong and Wang, Bin and Guo, Li_. [[Paper](https://persagen.com/files/misc/Wang2017Knowledge.pdf)]
+
+__Knowledge graph refinement: A survey of approaches and evaluation methods__. Semantic web 2017. _Paulheim, Heiko_. [[Paper](http://www.semantic-web-journal.net/system/files/swj1167.pdf)]
+
+__A review of relational machine learning for knowledge graphs__. Proceedings of the IEEE 2015. _Nickel, Maximilian and Murphy, Kevin and Tresp, Volker and Gabrilovich, Evgeniy_. [[Paper](https://arxiv.org/pdf/1503.00759)]
 
 
 ## Knowledge Graph Embedding
