@@ -8,7 +8,7 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Survey](#survey)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Cross-Modal KG Embedding](#cross-modal-kg-embedding)
-    - [Textual Desciption](#textual-desciption)
+    - [Textual Description](#textual-description)
     - [Type Information](#type-information)
     - [Logic Rules](#logic-rules)
     - [Relational Path](#relational-path)
@@ -19,9 +19,9 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Relation Classification](#relation-classification)
     - [Entity Recognition](#entity-recognition)
     - [Entity Alignment](#entity-alignment)
-    - [Entity Disambiguation](#entity-disambiguation)
+    - [Entity Linking](#entity-linking)
     - [Entity Typing](#entity-typing)
-  - [Knownwledge-aware Applications](#knownwledge-aware-applications)
+  - [Knowledge-aware Applications](#knowledge-aware-applications)
     - [Recommendation System](#recommendation-system)
     - [Question Answering](#question-answering)
     - [Dialogue Systems](#dialogue-systems)
@@ -32,9 +32,9 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Software Engineering](#software-engineering)
     - [Image Classification](#image-classification)
     - [Other Applications](#other-applications)
-  - [Dynamic Knowledge Graph](#dynamic-knowledge-graph)
+  - [Temporal Knowledge Graph](#temporal-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
-  - [One/few-Shot and Zero-Shot](#onefew-shot-and-zero-shot)
+  - [One/few-Shot and Zero-Shot Learning](#onefew-shot-and-zero-shot-learning)
 
 ## Survey
 __Knowledge Representation Learning: A Quantitative Review__. _Lin, Yankai and Han, Xu and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1812.10901)]
@@ -47,6 +47,8 @@ __A review of relational machine learning for knowledge graphs__. Proceedings of
 
 
 ## Knowledge Graph Embedding
+__Relation Embedding with Dihedral Group in Knowledge Graph__. ACL 2019. _Xu, Canran and Li, Ruijiang_. [[Paper](https://arxiv.org/pdf/1906.00687)]
+
 __RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space__. ICLR 2019. _Zhiqing Sun and Zhi-Hong Deng and Jian-Yun Nie and Jian Tang_. [[Paper](https://arxiv.org/pdf/1902.10197)] [[Code](https://github.com/DeepGraphLearning/KnowledgeGraphEmbedding)]
 
 __Logic Attention Based Neighborhood Aggregation for Inductive Knowledge Graph Embedding__. AAAI 2019. _Wang, Peifeng and Han, Jialong and Li, Chenliang and Pan, Rong_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-WangPeifeng.2685.pdf)]
@@ -56,6 +58,8 @@ __Variational Quantum Circuit Model for Knowledge Graph Embedding__. Advanced Qu
 __Interaction Embeddings for Prediction and Explanation in Knowledge Graphs__. WSDM 2019. _Wen Zhang, Bibek Paudel, Wei Zhang, Abraham Bernstein, Huajun Chen_. [[Paper](https://www.zora.uzh.ch/id/eprint/162876/1/interaction-embeddings-prediction_merlin_version.pdf)]
 
 __Does William Shakespeare Really Write Hamlet? Knowledge Representation Learning with Confidence__. AAAI 2018. _Ruobing Xie, Zhiyuan Liu, Fen Lin, and Leyu Lin_. [[Paper](https://arxiv.org/pdf/1705.03202.pdf)] [[Code](https://github.com/thunlp/CKRL)]
+
+__TorusE: Knowledge graph embedding on a lie group__. AAAI 2018. _Ebisu, Takuma and Ichise, Ryutaro_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/16227/15885)]
 
 __Convolutional 2d knowledge graph embeddings__. AAAI 2018. _Dettmers, Tim and Minervini, Pasquale and Stenetorp, Pontus and Riedel, Sebastian_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/17366/15884)]
 
@@ -75,7 +79,11 @@ __Differentiating Concepts and Instances for Knowledge Graph Embedding__. EMNLP 
 
 __Analogical inference for multi-relational embeddings__. ICML 2017. _Liu, Hanxiao and Wu, Yuexin and Yang, Yiming_. [[Paper](https://arxiv.org/pdf/1705.02426.pdf)] [[Code](https://github.com/quark0/ANALOGY)]
 
+__Poincaré embeddings for learning hierarchical representations__. NIPS 2017. _Nickel, Maximillian and Kiela_.[[Paper](https://papers.nips.cc/paper/7213-poincare-embeddings-for-learning-hierarchical-representations.pdf)] [[Code](https://github.com/facebookresearch/poincare-embeddings)]
+
 __On the equivalence of holographic and complex embeddings for link prediction__. ACL 2017. _Hayashi, Katsuhiko and Shimbo, Masashi_. [[Paper](https://arxiv.org/pdf/1702.05563.pdf)]
+
+__Modeling relational data with graph convolutional networks__. European Semantic Web Conference 2017. _Schlichtkrull, Michael and Kipf, Thomas N and Bloem, Peter and Van Den Berg, Rianne and Titov, Ivan and Welling, Max_. [[Paper](https://arxiv.org/pdf/1903.02188)]
 
 __Holographic embeddings of knowledge graphs__. AAAI 2016. _Nickel, Maximilian and Rosasco, Lorenzo and Poggio, Tomaso_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/12484/11828)]
 
@@ -83,13 +91,15 @@ __Complex embeddings for simple link prediction__. ICML 2016. _Trouillon, Théo 
 
 __Embedding entities and relations for learning and inference in knowledge bases__. ICLR 2015. _Yang, Bishan and Yih, Wen-tau and He, Xiaodong and Gao, Jianfeng and Deng, Li_. [[Paper](https://arxiv.org/pdf/1412.6575.pdf)]
 
+__Effective blending of two and three-way interactions for modeling multi-relational data__. ECML-KDD 2014. _García-Durán, Alberto and Bordes, Antoine and Usunier, Nicolas_. [[Paper](https://link.springer.com/chapter/10.1007/978-3-662-44848-9_28)]
+
 __Relation extraction with matrix factorization and universal schemas__. NAACL 2013. _Riedel, Sebastian and Yao, Limin and McCallum, Andrew and Marlin, Benjamin M_. [[Paper](http://www.aclweb.org/anthology/N13-1008)]
 
 __A latent factor model for highly multi-relational data__. NIPS 2012. _Jenatton, Rodolphe and Roux, Nicolas L and Bordes, Antoine and Obozinski, Guillaume R_. [[Paper](https://papers.nips.cc/paper/4744-a-latent-factor-model-for-highly-multi-relational-data.pdf)]
 
 __Factorizing YAGO: scalable machine learning for linked data__. ICML 2012. _Nickel, Maximilian and Tresp, Volker and Kriegel, Hans-Peter_. [[Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.2015&rep=rep1&type=pdf)]
 
-__A Three-Way Model for Collective Learning on Multi-Relational Data__. WWW 2011. _Nickel, Maximilian and Tresp, Volker and Kriegel, Hans-Peter_. [[Paper](http://www.dbs.ifi.lmu.de/~tresp/papers/p271.pdf)]
+__A Three-Way Model for Collective Learning on Multi-Relational Data__. ICML 2011. _Nickel, Maximilian and Tresp, Volker and Kriegel, Hans-Peter_. [[Paper](http://www.dbs.ifi.lmu.de/~tresp/papers/p271.pdf)]
 
 __Modelling relational data using bayesian clustered tensor factorization__. NIPS 2009. _Sutskever, Ilya and Tenenbaum, Joshua B and Salakhutdinov, Ruslan R_. [[Paper](https://papers.nips.cc/paper/3863-modelling-relational-data-using-bayesian-clustered-tensor-factorization.pdf)]
 
@@ -119,7 +129,7 @@ __Composing relationships with translations__. EMNLP 2015. _García-Durán, Albe
 
 __[⬆](#awesome-knowledge-graph)__
 ## Cross-Modal KG Embedding
-### Textual Desciption 
+### Textual Description 
 __Knowledge graph and text jointly embedding__. EMNLP 2015. _Wang, Zhen and Zhang, Jianwen and Feng, Jianlin and Chen, Zheng_. [[Paper](https://www.aclweb.org/anthology/D14-1167)]
 
 __Aligning knowledge and text embeddings by entity descriptions__. EMNLP 2015. _Zhong, Huaping and Zhang, Jianwen and Wang, Zhen and Wan, Hai and Chen, Zheng_. [[Paper](https://www.aclweb.org/anthology/D15-1031)]
@@ -192,6 +202,8 @@ __Image-embodied knowledge representation learning__. IJCAI 2017. _Xie, Ruobing 
 __[⬆](#awesome-knowledge-graph)__
 ## Knowledge Acquisition 
 ### Knowledge Graph Completion
+__End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion__. AAAI 2019. _Shang, Chao and Tang, Yun and Huang, Jing and Bi, Jinbo and He, Xiaodong and Zhou, Bowen_. [[Paper](https://arxiv.org/pdf/1811.04441)]
+
 __An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Haseeb Shah, Johannes Villmow, Adrian Ulges, Ulrich Schwanecke, Faisal Shafait_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-ShahH.6029.pdf)] [[Code](http://github.com/haseebs/OWE)]
 
 __Embedding Multimodal Relational Data for Knowledge Base Completion__. EMNLP 2018. _Pezeshkpour, Pouya, Liyan Chen, and Sameer Singh._ [[Paper](https://arxiv.org/pdf/1809.01341.pdf)] [[Code](https://github.com/pouyapez/mkbe)] [[Note](./notes/completion/mkbe.md)]  
@@ -201,6 +213,8 @@ __Shared Embedding Based Neural Networks for Knowledge Graph Completion__. CIKM 
 __Expanding Holographic Embeddings for Knowledge Completion__. NIPS 2018. _Yexiang Xue, Yang Yuan, Zhitian Xu, and Ashish Sabharwal_. [[Paper](http://papers.nips.cc/paper/7701-expanding-holographic-embeddings-for-knowledge-completion)]
 
 __M-Walk: Learning to Walk over Graphs using Monte Carlo Tree Search__. NIPS 2018. Yelong Shen, Jianshu Chen, Po-Sen Huang, Yuqing Guo, Jianfeng Gao. [[Paper](http://papers.nips.cc/paper/7912-m-walk-learning-to-walk-over-graphs-using-monte-carlo-tree-search)]
+
+__Translating Embeddings for Knowledge Graph Completion with Relation Attention Mechanism__. IJCAI 2018. _Qian, Wei and Fu, Cong and Zhu, Yu and Cai, Deng and He, Xiaofei_. [[Paper](https://www.ijcai.org/proceedings/2018/0596.pdf)]
 
 __Compositional Vector Space Models for Knowledge Base Completion__. ACL-IJCNLP 2015. _Neelakantan, Arvind and Roth, Benjamin and McCallum, Andrew_. [[Paper](http://anthology.aclweb.org/P/P15/P15-1016.pdf)]
 
@@ -297,20 +311,35 @@ __Attention-based bidirectional long short-term memory networks for relation cla
 __Reinforcement learning for relation classification from noisy data__. AAAI 2018. _Feng, Jun and Huang, Minlie and Zhao, Li and Yang, Yang and Zhu, Xiaoyan_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17151/16140)]
 
 ### Entity Recognition 
+__Neural architectures for named entity recognition__. NAACL 2017. _Lample, Guillaume and Ballesteros, Miguel and Subramanian, Sandeep and Kawakami, Kazuya and Dyer, Chris_. [[Paper](https://arxiv.org/pdf/1603.01360)] [[Cdde](https://github.com/glample/tagger)] [[Code](https://github.com/clab/stack-lstm-ner)]
+
+__Named entity recognition with bidirectional LSTM-CNNs__. TACL 2016. _Chiu, Jason PC and Nichols, Eric_. [[Paper](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00104)]
 
 ### Entity Alignment 
+__Entity Alignment between Knowledge Graphs Using Attribute Embeddings__. AAAI 2019. _Trsedya, Bayu Distiawan and Qi, Jianzhong and Zhang, Rui_. [[Paper](https://people.eng.unimelb.edu.au/jianzhongq/papers/AAAI2019_EntityAlignment.pdf)] [[Code](https://bitbucket.org/bayudt/kba/src/master/)]
+
+__Multi-view Knowledge Graph Embedding for Entity Alignment__. IJCAI 2019. _Zhang, Qingheng and Sun, Zequn and Hu, Wei and Chen, Muhao and Guo, Lingbing and Qu, Yuzhong_. [[Paper](https://arxiv.org/pdf/1906.02390.pdf)] [[Code](https://github.com/nju-websoft/MultiKE)]
+
+__Co-training embeddings of knowledge graphs and entity descriptions for cross-lingual entity alignment__. IJCAI 2018. _Chen, Muhao and Tian, Yingtao and Chang, Kai-Wei and Skiena, Steven and Zaniolo, Carlo_. [[Paper](https://www.ijcai.org/proceedings/2018/0556.pdf)]
+
 __Bootstrapping Entity Alignment with Knowledge Graph Embedding__.  IJCAI 2018. _Zequn Sun, Wei Hu, Qingheng Zhang and Yuzhong Qu._ [[Paper](https://www.ijcai.org/proceedings/2018/0611.pdf)] [[Code](https://github.com/nju-websoft/BootEA)] [[Note](./notes/embedding/BootEA.md)]  
 
 __Cross-lingual entity alignment via joint attribute-preserving embedding__. ISWC 2017. _Sun, Zequn and Hu, Wei and Li, Chengkai_. [[Paper](https://arxiv.org/pdf/1708.05045)] 
 
-__Iterative entity alignment via joint knowledge embeddings__. IJCAI 2017. _Zhu, Hao and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0595.pdf)]
+__Iterative entity alignment via joint knowledge embeddings__. IJCAI 2017. _Zhu, Hao and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0595.pdf)] [[Code](https://github.com/thunlp/IEAJKE)]
 
 __Multilingual knowledge graph embeddings for cross-lingual knowledge alignment__. IJCAI 2017. _Chen, Muhao and Tian, Yingtao and Yang, Mohan and Zaniolo, Carlo_. [[Paper](https://www.ijcai.org/proceedings/2017/0209.pdf)]
 
 __Aligning Knowledge Base and Document Embedding Models Using Regularized Multi-Task Learning__. ISWC 2018. _Baumgartner, Matthias and Zhang, Wen and Paudel, Bibek and Dell’Aglio, Daniele and Chen, Huajun and Bernstein, Abraham_. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_2)]
 
 
-### Entity Disambiguation
+### Entity Linking
+__Improving Entity Linking by Modeling Latent Relations between Mentions__. ACL 2018. _Le, Phong and Titov, Ivan_. [[Paper](https://arxiv.org/pdf/1804.10637)]
+
+__Deep Joint Entity Disambiguation with Local Neural Attention__. EMNLP 2017. _Ganea, Octavian-Eugen and Hofmann, Thomas_. [[Paper](https://arxiv.org/pdf/1704.04920)]
+
+__Design challenges for entity linking__. TACL 2015. _Ling, Xiao and Singh, Sameer and Weld, Daniel S_. [[Paper](https://www.mitpressjournals.org/doi/pdfplus/10.1162/tacl_a_00141)]
+
 __Leveraging deep neural networks and knowledge graphs for entity disambiguation__. 2015. _Huang, Hongzhao and Heck, Larry and Ji, Heng_. [[Paper](https://arxiv.org/pdf/1504.07678.pdf)]
 
 __Entity disambiguation by knowledge and text jointly embedding__. CoNLL 2016. _Fang, Wei and Zhang, Jianwen and Wang, Dilin and Chen, Zheng and Li, Ming_. [[Paper](https://www.aclweb.org/anthology/K16-1026)]
@@ -320,9 +349,12 @@ __Label noise reduction in entity typing by heterogeneous partial-label embeddin
 
 __Label Embedding for Zero-shot Fine-grained Named Entity Typing__. COLING 2016. _Yukun Ma, Erik Cambria, Sa Gao_. [[Paper](https://www.aclweb.org/anthology/C16-1017)] [[Code](https://github.com/fnet-coling/ner-zero)]
 
+__ERNIE: Enhanced Language Representation with Informative Entities__. ACL 2019. _Zhang, Zhengyan and Han, Xu and Liu, Zhiyuan and Jiang, Xin and Sun, Maosong and Liu, Qun_. [[Paper](https://arxiv.org/pdf/1905.07129)] [[Code](https://github.com/thunlp/ERNIE)]
+
+
 
 __[⬆](#awesome-knowledge-graph)__
-## Knownwledge-aware Applications
+## Knowledge-aware Applications
 ### Recommendation System
 __KGAT: Knowledge Graph Attention Network for Recommendation__. KDD 2019. _Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu and Tat-Seng Chua_. [[Paper](https://arxiv.org/pdf/1905.07854)] [[Code](https://github.com/xiangwang1223/knowledge_graph_attention_network)]
 
@@ -444,7 +476,7 @@ __TransNet: Translation-Based Network Representation Learning for Social Relatio
 __Joint event extraction via recurrent neural networks__. NAACL 2016. _Nguyen, Thien Huu and Cho, Kyunghyun and Grishman, Ralph_. [[Paper](https://www.aclweb.org/anthology/N16-1034)]
 
 __[⬆](#awesome-knowledge-graph)__
-## Dynamic Knowledge Graph
+## Temporal Knowledge Graph
 __HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding__. EMNLP 2018. _Dasgupta, Shib Sankar, Swayambhu Nath Ray, and Partha Talukdar._ [[Paper](http://www.aclweb.org/anthology/D18-1225)] [[Code](https://github.com/malllabiisc/HyTE)] [[Note](./notes/dynamic/HyTe.md)] 
 
 __Learning Sequence Encoders for Temporal Knowledge Graph Completion__. EMNLP 2018. _Garcia-Duran, Alberto and Dumančić, Sebastijan and Niepert, Mathias_. [[Paper](https://arxiv.org/pdf/1809.03202)] [[Code](https://github.com/nle-ml/mmkb)]
@@ -480,6 +512,8 @@ __Variational Knowledge Graph Reasoning__. NAACL-HLT 2018. _Wenhu Chen, Wenhan X
 
 __DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning__. EMNLP 2017. _Wenhan Xiong, Thien Hoang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/DeepPath.pdf)] [[Code](https://github.com/xwhan/DeepPath)]
 
+__Neural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision__. ACL 2017. _Liang, Chen and Berant, Jonathan and Le, Quoc and Forbus, Kenneth D and Lao, Ni_. [[Paper](https://arxiv.org/pdf/1611.00020)]
+
 __Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extracted Information using a Locally Groundable First-Order Probabilistic Logic__. MLJ 2015. _William Yang Wang, Kathryn Mazaitis, Ni Lao, William W. Cohen_. [[Paper](http://www.cs.ucsb.edu/~william/papers/ProPPR_MLJ_sub.pdf)] [[Code](https://github.com/TeamCohen/ProPPR/)]
 
 __Reasoning with neural tensor networks for knowledge base completion__. NIPS 2013. _Socher, Richard and Chen, Danqi and Manning, Christopher D and Ng, Andrew_. [[Paper](https://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf)]
@@ -505,7 +539,7 @@ __Inferring and executing programs for visual reasoning__. ICCV 2017. _Johnson, 
 __End-to-end differentiable proving__. NIPS 2017. _Rocktäschel, Tim and Riedel, Sebastian_. [[Paper](https://papers.nips.cc/paper/6969-end-to-end-differentiable-proving.pdf)]
 
 __[⬆](#awesome-knowledge-graph)__
-## One/few-Shot and Zero-Shot
+## One/few-Shot and Zero-Shot Learning
 __One-Shot Relational Learning for Knowledge Graphs__. EMNLP 2018. _Xiong, Wenhan, Mo Yu, Shiyu Chang, Xiaoxiao Guo, and William Yang Wang._ [[Paper](https://arxiv.org/pdf/1808.09040)] [[Code](https://github.com/xwhan/One-shot-Relational-Learning)] [[Note](./notes/few-shot/one-shot-relational.md)]  
 
 __Multi-Label Zero-Shot Learning with Structured Knowledge Graphs__. CVPR 2018. _Chung-Wei Lee, Wei Fang, Chih-Kuan Yeh, Yu-Chiang Frank Wang_. [[Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Lee_Multi-Label_Zero-Shot_Learning_CVPR_2018_paper.pdf)]
