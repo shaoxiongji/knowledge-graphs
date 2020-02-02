@@ -19,15 +19,13 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Relation Classification](#relation-classification)
     - [Entity Recognition](#entity-recognition)
     - [Entity Alignment](#entity-alignment)
-    - [Entity Linking](#entity-linking)
+    - [Entity Disambiguation](#entity-disambiguation)
     - [Entity Typing](#entity-typing)
   - [Knowledge-aware Applications](#knowledge-aware-applications)
-    - [Recommendation System](#recommendation-system)
+    - [Natural Language Understanding](#natural-language-understanding)
     - [Question Answering](#question-answering)
     - [Dialogue Systems](#dialogue-systems)
-    - [Language Modeling](#language-modeling)
-    - [Sentiment Analysis](#sentiment-analysis)
-    - [Text Classification](#text-classification)
+    - [Recommendation System](#recommendation-system)
     - [Healthcare](#healthcare)
     - [Software Engineering](#software-engineering)
     - [Image Classification](#image-classification)
@@ -311,6 +309,8 @@ __Attention-based bidirectional long short-term memory networks for relation cla
 __Reinforcement learning for relation classification from noisy data__. AAAI 2018. _Feng, Jun and Huang, Minlie and Zhao, Li and Yang, Yang and Zhu, Xiaoyan_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17151/16140)]
 
 ### Entity Recognition 
+__Multi-grained Named Entity Recognition__. ACL 2019. _Xia, Congying and Zhang, Chenwei and Yang, Tao and Li, Yaliang and Du, Nan and Wu, Xian and Fan, Wei and Ma, Fenglong and Philip, S Yu_. [[Paper](https://arxiv.org/abs/1906.08449)]
+
 __Neural architectures for named entity recognition__. NAACL 2017. _Lample, Guillaume and Ballesteros, Miguel and Subramanian, Sandeep and Kawakami, Kazuya and Dyer, Chris_. [[Paper](https://arxiv.org/pdf/1603.01360)] [[Cdde](https://github.com/glample/tagger)] [[Code](https://github.com/clab/stack-lstm-ner)]
 
 __Named entity recognition with bidirectional LSTM-CNNs__. TACL 2016. _Chiu, Jason PC and Nichols, Eric_. [[Paper](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00104)]
@@ -333,7 +333,7 @@ __Multilingual knowledge graph embeddings for cross-lingual knowledge alignment_
 __Aligning Knowledge Base and Document Embedding Models Using Regularized Multi-Task Learning__. ISWC 2018. _Baumgartner, Matthias and Zhang, Wen and Paudel, Bibek and Dell’Aglio, Daniele and Chen, Huajun and Bernstein, Abraham_. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-00671-6_2)]
 
 
-### Entity Linking
+### Entity Disambiguation
 __Improving Entity Linking by Modeling Latent Relations between Mentions__. ACL 2018. _Le, Phong and Titov, Ivan_. [[Paper](https://arxiv.org/pdf/1804.10637)]
 
 __Deep Joint Entity Disambiguation with Local Neural Attention__. EMNLP 2017. _Ganea, Octavian-Eugen and Hofmann, Thomas_. [[Paper](https://arxiv.org/pdf/1704.04920)]
@@ -349,33 +349,24 @@ __Label noise reduction in entity typing by heterogeneous partial-label embeddin
 
 __Label Embedding for Zero-shot Fine-grained Named Entity Typing__. COLING 2016. _Yukun Ma, Erik Cambria, Sa Gao_. [[Paper](https://www.aclweb.org/anthology/C16-1017)] [[Code](https://github.com/fnet-coling/ner-zero)]
 
-__ERNIE: Enhanced Language Representation with Informative Entities__. ACL 2019. _Zhang, Zhengyan and Han, Xu and Liu, Zhiyuan and Jiang, Xin and Sun, Maosong and Liu, Qun_. [[Paper](https://arxiv.org/pdf/1905.07129)] [[Code](https://github.com/thunlp/ERNIE)]
+
 
 
 
 __[⬆](#awesome-knowledge-graph)__
 ## Knowledge-aware Applications
-### Recommendation System
-__KGAT: Knowledge Graph Attention Network for Recommendation__. KDD 2019. _Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu and Tat-Seng Chua_. [[Paper](https://arxiv.org/pdf/1905.07854)] [[Code](https://github.com/xiangwang1223/knowledge_graph_attention_network)]
 
-__Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
+### Natural Language Understanding
+__A neural knowledge language model__. 2016. _Ahn, Sungjin and Choi, Heeyoul and Pärnamaa, Tanel and Bengio, Yoshua_. [[Paper](https://arxiv.org/pdf/1608.00318)] [[Dataset](https://bitbucket.org/skaasj/wikifact_filmactor)]
 
-__Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preference__. WWW 2019. _Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, Tat-Seng Chua_.
-[[Paper](https://www.comp.nus.edu.sg/~xiangnan/papers/www19-KGRec.pdf)] [[Code](https://github.com/TaoMiner/joint-kg-recommender)]
+__ERNIE: Enhanced Language Representation with Informative Entities__. ACL 2019. _Zhang, Zhengyan and Han, Xu and Liu, Zhiyuan and Jiang, Xin and Sun, Maosong and Liu, Qun_. [[Paper](https://arxiv.org/pdf/1905.07129)] [[Code](https://github.com/thunlp/ERNIE)]
 
-__Explianable Reasoning over Knowledge Graphs for Recommendation__. AAAI 2019. _Wang, Xiang and Wang, Dingxian and Xu, Canran and He, Xiangnan and Cao, Yixin and Chua, Tat-Seng_. [[Paper](https://arxiv.org/abs/1811.04540)] [[Code](https://github.com/eBay/KPRN)]  
+__Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM__. AAAI 2018. _Yukun Ma, Haiyun Peng, Erik Cambria_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16541/16152)]
 
-__Exploring High-Order User Preference on the Knowledge Graph for Recommender Systems__. TOIS 2019. _Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://dl.acm.org/citation.cfm?id=3312738)]
 
-__RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems__. CIKM 2018. _Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://dl.acm.org/citation.cfm?id=3271739)]
+__Combining Knowledge with Deep Convolutional Neural Networks for Short Text Classification__. IJCAI 2017. _Wang, Jin and Wang, Zhongyuan and Zhang, Dawei and Yan, Jun_. [[Paper](http://yellowstone.cs.ucla.edu/~jinwang/jinwang_files/ijcai2017.pdf)]
 
-__Collaborative knowledge base embedding for recommender systems__. SIGKDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
 
-__Top-n recommendations from implicit feedback leveraging linked open data__. RecSys 2013. _Ostuni, Vito Claudio and Di Noia, Tommaso and Di Sciascio, Eugenio and Mirizzi, Roberto_. [[Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.649.3358&rep=rep1&type=pdf)]
-
-__dbrec—music recommendations using DBpedia__. ISWC 2010. _Passant, Alexandre_. [[Paper](https://link.springer.com/content/pdf/10.1007/978-3-642-17749-1_14.pdf)]
-
-__Collaborative knowledge base embedding for recommender systems__. KDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
 
 
 ### Question Answering
@@ -421,20 +412,35 @@ __Lstm-based mixture-of-experts for knowledge-aware dialogues__. ACL 2016 Worksh
 
 __Flexible end-to-end dialogue system for knowledge grounded conversation__. 2017. _Zhu, Wenya and Mo, Kaixiang and Zhang, Yu and Zhu, Zhangbin and Peng, Xuezheng and Yang, Qiang_. [[Paper](https://arxiv.org/pdf/1709.04264)]
 
-### Language Modeling
-__A neural knowledge language model__. 2016. _Ahn, Sungjin and Choi, Heeyoul and Pärnamaa, Tanel and Bengio, Yoshua_. [[Paper](https://arxiv.org/pdf/1608.00318)] [[Dataset](https://bitbucket.org/skaasj/wikifact_filmactor)]
+### Recommendation System
+__KGAT: Knowledge Graph Attention Network for Recommendation__. KDD 2019. _Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu and Tat-Seng Chua_. [[Paper](https://arxiv.org/pdf/1905.07854)] [[Code](https://github.com/xiangwang1223/knowledge_graph_attention_network)]
 
-### Sentiment Analysis
-__Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge into an Attentive LSTM__. AAAI 2018. _Yukun Ma, Haiyun Peng, Erik Cambria_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16541/16152)]
+__Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
 
-### Text Classification
-__Combining Knowledge with Deep Convolutional Neural Networks for Short Text Classification__. IJCAI 2017. _Wang, Jin and Wang, Zhongyuan and Zhang, Dawei and Yan, Jun_. [[Paper](http://yellowstone.cs.ucla.edu/~jinwang/jinwang_files/ijcai2017.pdf)]
+__Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preference__. WWW 2019. _Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, Tat-Seng Chua_.
+[[Paper](https://www.comp.nus.edu.sg/~xiangnan/papers/www19-KGRec.pdf)] [[Code](https://github.com/TaoMiner/joint-kg-recommender)]
+
+__Explianable Reasoning over Knowledge Graphs for Recommendation__. AAAI 2019. _Wang, Xiang and Wang, Dingxian and Xu, Canran and He, Xiangnan and Cao, Yixin and Chua, Tat-Seng_. [[Paper](https://arxiv.org/abs/1811.04540)] [[Code](https://github.com/eBay/KPRN)]  
+
+__Exploring High-Order User Preference on the Knowledge Graph for Recommender Systems__. TOIS 2019. _Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://dl.acm.org/citation.cfm?id=3312738)]
+
+__RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems__. CIKM 2018. _Hongwei Wang, Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://dl.acm.org/citation.cfm?id=3271739)]
+
+__Collaborative knowledge base embedding for recommender systems__. SIGKDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
+
+__Top-n recommendations from implicit feedback leveraging linked open data__. RecSys 2013. _Ostuni, Vito Claudio and Di Noia, Tommaso and Di Sciascio, Eugenio and Mirizzi, Roberto_. [[Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.649.3358&rep=rep1&type=pdf)]
+
+__dbrec—music recommendations using DBpedia__. ISWC 2010. _Passant, Alexandre_. [[Paper](https://link.springer.com/content/pdf/10.1007/978-3-642-17749-1_14.pdf)]
+
+__Collaborative knowledge base embedding for recommender systems__. KDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
+
 
 ### Healthcare 
 __Constructing biomedical domain-specific knowledge graph with minimum supervision__ KAIS 2019. _Yuan, Jianbo and Jin, Zhiwei and Guo, Han and Jin, Hongxia and Zhang, Xianchao and Smith, Tristram and Luo, Jiebo_. [[Paper](https://link.springer.com/article/10.1007/s10115-019-01351-4)]
 
 __Knowledge-driven Encode, Retrieve, Paraphrase for Medical Image Report Generation__. AAAI 2019. _Li, Christy Y and Liang, Xiaodan and Hu, Zhiting and Xing, Eric P_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-LiChristy.629.pdf)]
 
+__On the Generative Discovery of Structured Medical Knowledge__. KDD 2018. _C. Zhang, Y. Li, N. Du, W. Fan, and P.S. Yu_ [[Paper](https://dl.acm.org/doi/abs/10.1145/3219819.3220010)]
 
 ### Software Engineering
 
@@ -474,6 +480,8 @@ __Linking named entities in tweets with knowledge base via user interest modelin
 __TransNet: Translation-Based Network Representation Learning for Social Relation Extraction__. IJCAI 2017. _Tu, Cunchao and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2017_transnet.pdf)]
 
 __Joint event extraction via recurrent neural networks__. NAACL 2016. _Nguyen, Thien Huu and Cho, Kyunghyun and Grishman, Ralph_. [[Paper](https://www.aclweb.org/anthology/N16-1034)]
+
+__Fine-grained Event Categorization with Heterogeneous Graph Convolutional Networks__. IJCAI 2019. _H. Peng, J. Li, Q. Gong, Y. Song, Y. Ning, K. Lai, and P.S. Yu_. [[Paper](https://www.ijcai.org/Proceedings/2019/0449.pdf)]
 
 __[⬆](#awesome-knowledge-graph)__
 ## Temporal Knowledge Graph
