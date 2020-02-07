@@ -35,6 +35,7 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [One/few-Shot and Zero-Shot Learning](#onefew-shot-and-zero-shot-learning)
   - [Libraries](#libraries)
   - [Related Repos](#related-repos)
+  - [Acknowledgements](#acknowledgements)
 
 ## Survey
 __A Survey on Knowledge Graphs: Representation, Acquisition and Applications__. Preprint 2020. _Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu_. [[Paper](https://arxiv.org/pdf/2002.00388)]
@@ -586,5 +587,10 @@ __[⬆](#awesome-knowledge-graph)__
 ## Related Repos
 A repo about knowledge graph in Chinese, [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph)
 
+## Acknowledgements 
+
+Acknoledgements give to the following people who comment or contribute to this repository (listed chronologically).
+
+- [DonaldTsang](https://github.com/DonaldTsang)
 
 __[⬆](#awesome-knowledge-graph)__
