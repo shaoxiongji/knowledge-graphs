@@ -33,6 +33,8 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Temporal Knowledge Graph](#temporal-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
   - [One/few-Shot and Zero-Shot Learning](#onefew-shot-and-zero-shot-learning)
+  - [Libraries](#libraries)
+  - [Related Repos](#related-repos)
 
 ## Survey
 __A Survey on Knowledge Graphs: Representation, Acquisition and Applications__. Preprint 2020. _Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu_. [[Paper](https://arxiv.org/pdf/2002.00388)]
@@ -561,5 +563,28 @@ __Zero-shot Recognition via Semantic Embeddings and Knowledge Graphs__. CVPR 201
 __Hybrid Attention-Based Prototypical Networks for Noisy Few-Shot Relation Classification__. AAAI 2019. _Tianyu Gao, Xu Han, Zhiyuan Liu, Maosong Sun_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-GaoTianyu.915.pdf)] [[Code](http://github.com/thunlp/HATT-Proto)]
 
 __FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation__. EMNLP 2018. _Han, Xu and Zhu, Hao and Yu, Pengfei and Wang, Ziyun and Yao, Yuan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1810.10147)]
+
+__[⬆](#awesome-knowledge-graph)__
+
+
+
+## Libraries
+[Grakn](https://github.com/graknlabs/kglib), Grakn Knowledge Graph Library (ML R&D) https://grakn.ai
+
+[AmpliGraph](https://github.com/Accenture/AmpliGraph), Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org
+
+[akutan](https://github.com/eBay/akutan), A distributed knowledge graph store
+
+[OpenKE](https://github.com/thunlp/OpenKE), An Open-Source Package for Knowledge Embedding (KE)
+
+[Fast-TransX](https://github.com/thunlp/Fast-TransX), An Efficient implementation of TransE and its extended models for Knowledge Representation Learning
+
+[scikit-kge](https://github.com/mnick/scikit-kge), Python library to compute knowledge graph embeddings
+
+[OpenNRE](https://github.com/thunlp/OpenNRE), An Open-Source Package for Neural Relation Extraction (NRE)
+
+## Related Repos
+A repo about knowledge graph in Chinese, [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph)
+
 
 __[⬆](#awesome-knowledge-graph)__
