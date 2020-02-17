@@ -5,6 +5,7 @@
 A collection of knowledge graph papers, codes, and reading notes.
 
 - [Awesome Knowledge Graph](#awesome-knowledge-graph)
+  - [Knowledge graphs about the novel coronavirus COVID-19](#knowledge-graphs-about-the-novel-coronavirus-covid-19)
   - [Survey](#survey)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Cross-Modal KG Embedding](#cross-modal-kg-embedding)
@@ -37,8 +38,26 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Related Repos](#related-repos)
   - [Acknowledgements](#acknowledgements)
 
+## Knowledge graphs about the novel coronavirus COVID-19
+OpenKG 新冠知识图谱 
+
+新冠百科图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-baike)]  
+Knowledge graph from encyclopedia[[Link](http://www.openkg.cn/dataset/2019-ncov-baike)]
+
+新冠科研图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-research)]   
+Knowledge graph of COVID-19 research [[Link](http://www.openkg.cn/dataset/2019-ncov-research)] 
+
+新冠临床图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-clinic)]  
+Clinical knowledge graph [[Link](http://www.openkg.cn/dataset/2019-ncov-clinic)]
+
+新冠英雄图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-hero)]  
+Knowledge graph of people, experts, and heroes [[Link](http://www.openkg.cn/dataset/2019-ncov-hero)]
+
+新冠热点事件图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-event)]  
+Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-event)]
+
 ## Survey
-__A Survey on Knowledge Graphs: Representation, Acquisition and Applications__. Preprint 2020. _Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu_. [[Paper](https://arxiv.org/pdf/2002.00388)]
+__A Survey on Knowledge Graphs: Representation, Acquisition and Applications__. Preprint 2020. _Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu_. [[Paper](https://arxiv.org/pdf/2002.00388)] [[专知](https://mp.weixin.qq.com/s/0f5E82utl-faCpmvrDoPEg)]
 
 __Knowledge Representation Learning: A Quantitative Review__. Preprint 2018. _Lin, Yankai and Han, Xu and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1812.10901)]
 
