@@ -534,6 +534,8 @@ __Dense event ordering with a multi-pass architecture__. TACL 2014. _Chambers, N
 
 __[⬆](#awesome-knowledge-graph)__
 ## Knowledge Graph Reasoning
+__DRUM: End-To-End Differentiable Rule Mining On Knowledge Graphs__. NeurIPS 2019. _Ali Sadeghian, Mohammadreza Armandpour, Patrick Ding, Daisy Zhe Wang_. [[Paper](https://papers.nips.cc/paper/9669-drum-end-to-end-differentiable-rule-mining-on-knowledge-graphs.pdf)] [[Code](https://github.com/alisadeghian/DRUM)]
+
 __Chain of Reasoning for Visual Question Answering__. NIPS 2018. _Wu, Chenfei and Liu, Jinlai and Wang, Xiaojie and Dong, Xuan_. [[Paper](https://papers.nips.cc/paper/7311-chain-of-reasoning-for-visual-question-answering.pdf)]
 
 __Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering__. NIPS 2018. _Medhini Narasimhan, Svetlana Lazebnik, Alex Schwing_. [[Paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering)] 
