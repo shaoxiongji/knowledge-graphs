@@ -606,7 +606,12 @@ __[⬆](#awesome-knowledge-graph)__
 [OpenNRE](https://github.com/thunlp/OpenNRE), An Open-Source Package for Neural Relation Extraction (NRE)
 
 ## Related Repos
-A repo about knowledge graph in Chinese, [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph)
+A repo about knowledge graph in Chinese - [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph)
+
+A repo about NLP, KG, Dialogue Systems in Chinese - [lihanghang/NLP-Knowledge-Graph](https://github.com/lihanghang/NLP-Knowledge-Graph)
+
+Top-level Conference Publications on Knowledge Graph - [wds-seu/Knowledge-Graph-Publications](https://github.com/wds-seu/Knowledge-Graph-Publications)
+
 
 ## Acknowledgements 
 
