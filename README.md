@@ -5,7 +5,6 @@
 A collection of knowledge graph papers, codes, and reading notes.
 
 - [Awesome Knowledge Graph](#awesome-knowledge-graph)
-  - [Knowledge graphs about the novel coronavirus COVID-19](#knowledge-graphs-about-the-novel-coronavirus-covid-19)
   - [Survey](#survey)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Cross-Modal KG Embedding](#cross-modal-kg-embedding)
@@ -34,32 +33,20 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Temporal Knowledge Graph](#temporal-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
   - [One/few-Shot and Zero-Shot Learning](#onefew-shot-and-zero-shot-learning)
-  - [Libraries](#libraries)
+  - [Data](#data)
+    - [Knowledge graphs about the novel coronavirus COVID-19](#knowledge-graphs-about-the-novel-coronavirus-covid-19)
+  - [Libraries, Softwares and Tools](#libraries-softwares-and-tools)
+    - [KRL Libraries](#krl-libraries)
+    - [Knowledge Graph Database](#knowledge-graph-database)
+    - [Interactive APP](#interactive-app)
   - [Related Repos](#related-repos)
   - [Acknowledgements](#acknowledgements)
 
-## Knowledge graphs about the novel coronavirus COVID-19
-OpenKG 新冠知识图谱 
-
-新冠百科图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-baike)]  
-Knowledge graph from encyclopedia[[Link](http://www.openkg.cn/dataset/2019-ncov-baike)]
-
-新冠科研图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-research)]   
-Knowledge graph of COVID-19 research [[Link](http://www.openkg.cn/dataset/2019-ncov-research)] 
-
-新冠临床图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-clinic)]  
-Clinical knowledge graph [[Link](http://www.openkg.cn/dataset/2019-ncov-clinic)]
-
-新冠英雄图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-hero)]  
-Knowledge graph of people, experts, and heroes [[Link](http://www.openkg.cn/dataset/2019-ncov-hero)]
-
-新冠热点事件图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-event)]  
-Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-event)]
 
 ## Survey
 __A Survey on Knowledge Graphs: Representation, Acquisition and Applications__. Preprint 2020. _Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu_. [[Paper](https://arxiv.org/pdf/2002.00388)] [[专知](https://mp.weixin.qq.com/s/0f5E82utl-faCpmvrDoPEg)]
 
-__Knowledge Graphs__. Preprint 2020. _Aidan Hogan et al._. [[Paper](https://arxiv.org/abs/2003.02320)] [[专知](https://mp.weixin.qq.com/s/X0Aoy8blwE3lUMZUTxbFhA)]
+__Knowledge Graphs__. Preprint 2020. _Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia d'Amato, Gerard de Melo, Claudio Gutierrez, José Emilio Labra Gayo, Sabrina Kirrane, Sebastian Neumaier, Axel Polleres, Roberto Navigli, Axel-Cyrille Ngonga Ngomo, Sabbir M. Rashid, Anisa Rula, Lukas Schmelzeisen, Juan Sequeda, Steffen Staab, Antoine Zimmermann_. [[Paper](https://arxiv.org/abs/2003.02320)] [[专知](https://mp.weixin.qq.com/s/X0Aoy8blwE3lUMZUTxbFhA)]
 
 __Knowledge Representation Learning: A Quantitative Review__. Preprint 2018. _Lin, Yankai and Han, Xu and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1812.10901)]
 
@@ -591,14 +578,30 @@ __FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with
 
 __[⬆](#awesome-knowledge-graph)__
 
+## Data
+### Knowledge graphs about the novel coronavirus COVID-19
+OpenKG 新冠知识图谱 
 
+新冠百科图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-baike)]  
+Knowledge graph from encyclopedia[[Link](http://www.openkg.cn/dataset/2019-ncov-baike)]
 
-## Libraries
+新冠科研图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-research)]   
+Knowledge graph of COVID-19 research [[Link](http://www.openkg.cn/dataset/2019-ncov-research)] 
+
+新冠临床图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-clinic)]  
+Clinical knowledge graph [[Link](http://www.openkg.cn/dataset/2019-ncov-clinic)]
+
+新冠英雄图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-hero)]  
+Knowledge graph of people, experts, and heroes [[Link](http://www.openkg.cn/dataset/2019-ncov-hero)]
+
+新冠热点事件图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-event)]  
+Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-event)]
+
+## Libraries, Softwares and Tools 
+### KRL Libraries 
 [Grakn](https://github.com/graknlabs/kglib), Grakn Knowledge Graph Library (ML R&D) https://grakn.ai
 
 [AmpliGraph](https://github.com/Accenture/AmpliGraph), Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org
-
-[akutan](https://github.com/eBay/akutan), A distributed knowledge graph store
 
 [OpenKE](https://github.com/thunlp/OpenKE), An Open-Source Package for Knowledge Embedding (KE)
 
@@ -607,6 +610,13 @@ __[⬆](#awesome-knowledge-graph)__
 [scikit-kge](https://github.com/mnick/scikit-kge), Python library to compute knowledge graph embeddings
 
 [OpenNRE](https://github.com/thunlp/OpenNRE), An Open-Source Package for Neural Relation Extraction (NRE)
+
+### Knowledge Graph Database
+[akutan](https://github.com/eBay/akutan), A distributed knowledge graph store
+
+### Interactive APP
+Knowledge graph APP, Simple knowledge graph applications can be easily built using JSON data managed entirely via a GraphQL layer. [[Github](https://github.com/epistemik-co/staple-api-kg-demo)] [[Website](http://demo.staple-api.org)]
+
 
 ## Related Repos
 A repo about knowledge graph in Chinese - [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph)
