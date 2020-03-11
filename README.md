@@ -59,6 +59,8 @@ Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-
 ## Survey
 __A Survey on Knowledge Graphs: Representation, Acquisition and Applications__. Preprint 2020. _Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu_. [[Paper](https://arxiv.org/pdf/2002.00388)] [[专知](https://mp.weixin.qq.com/s/0f5E82utl-faCpmvrDoPEg)]
 
+__Knowledge Graphs__. Preprint 2020. _Aidan Hogan et al._. [[Paper](https://arxiv.org/abs/2003.02320)] [[专知](https://mp.weixin.qq.com/s/X0Aoy8blwE3lUMZUTxbFhA)]
+
 __Knowledge Representation Learning: A Quantitative Review__. Preprint 2018. _Lin, Yankai and Han, Xu and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://arxiv.org/pdf/1812.10901)]
 
 __Knowledge graph embedding: A survey of approaches and applications__. TKDE 2017. _Wang, Quan and Mao, Zhendong and Wang, Bin and Guo, Li_. [[Paper](https://persagen.com/files/misc/Wang2017Knowledge.pdf)]
@@ -573,6 +575,7 @@ __Inferring and executing programs for visual reasoning__. ICCV 2017. _Johnson, 
 __End-to-end differentiable proving__. NIPS 2017. _Rocktäschel, Tim and Riedel, Sebastian_. [[Paper](https://papers.nips.cc/paper/6969-end-to-end-differentiable-proving.pdf)]
 
 __[⬆](#awesome-knowledge-graph)__
+
 ## One/few-Shot and Zero-Shot Learning
 __One-Shot Relational Learning for Knowledge Graphs__. EMNLP 2018. _Xiong, Wenhan, Mo Yu, Shiyu Chang, Xiaoxiao Guo, and William Yang Wang._ [[Paper](https://arxiv.org/pdf/1808.09040)] [[Code](https://github.com/xwhan/One-shot-Relational-Learning)] [[Note](./notes/few-shot/one-shot-relational.md)]  
 
