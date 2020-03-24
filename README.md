@@ -385,7 +385,7 @@ __Combining Knowledge with Deep Convolutional Neural Networks for Short Text Cla
 ### Question Answering
 __An Interpretable Reasoning Network for Multi-Relation Question Answering__. COLING 2018. _Zhou, Mantong and Huang, Minlie and Zhu, Xiaoyan_. [[Paper](https://arxiv.org/abs/1801.04726)]
 
-__Dialog-to-Action: Conversational Question Answering Over a Large-Scale Knowledge Base__. NIPS 2018. _Daya Guo, Duyu Tang, Nan Duan, Ming Zhou, Jian Yin_. [[Paper](http://papers.nips.cc/paper/7558-dialog-to-action-conversational-question-answering-over-a-large-scale-knowledge-base)]
+__Dialog-to-Action: Conversational Question Answering Over a Large-Scale Knowledge Base__. NIPS 2018. _Daya Guo, Duyu Tang, Nan Duan, Ming Zhou, Jian Yin_. [[Paper](http://papers.nips.cc/paper/7558-dialog-to-action-conversational-question-answering-over-a-large-scale-knowledge-base)] [[Code](https://github.com/guoday/Dialog-to-Action)]
 
 __Commonsense for Generative Multi-hop Question Answering Tasks__. EMNLP 2018. _Bauer, Lisa, Yicheng Wang, and Mohit Bansal._ [[Paper](https://arxiv.org/pdf/1809.06309.pdf)] [[Code](https://github.com/yicheng-w/CommonSenseMultiHopQA)] [[Note](./notes/QA/multi-hop.md)]  
 
