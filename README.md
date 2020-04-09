@@ -215,7 +215,7 @@ __[⬆](#awesome-knowledge-graph)__
 ### Knowledge Graph Completion
 __End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion__. AAAI 2019. _Shang, Chao and Tang, Yun and Huang, Jing and Bi, Jinbo and He, Xiaodong and Zhou, Bowen_. [[Paper](https://arxiv.org/pdf/1811.04441)]
 
-__An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Haseeb Shah, Johannes Villmow, Adrian Ulges, Ulrich Schwanecke, Faisal Shafait_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-ShahH.6029.pdf)] [[Code](http://github.com/haseebs/OWE)]
+__An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Haseeb Shah, Johannes Villmow, Adrian Ulges, Ulrich Schwanecke, Faisal Shafait_. [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4162/4040)] [[Code](http://github.com/haseebs/OWE)]
 
 __Embedding Multimodal Relational Data for Knowledge Base Completion__. EMNLP 2018. _Pezeshkpour, Pouya, Liyan Chen, and Sameer Singh._ [[Paper](https://arxiv.org/pdf/1809.01341.pdf)] [[Code](https://github.com/pouyapez/mkbe)] [[Note](./notes/completion/mkbe.md)]  
 
