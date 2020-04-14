@@ -34,10 +34,14 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
   - [One/few-Shot and Zero-Shot Learning](#onefew-shot-and-zero-shot-learning)
   - [Data](#data)
-    - [Knowledge graphs about the novel coronavirus COVID-19](#knowledge-graphs-about-the-novel-coronavirus-covid-19)
+    - [General Knowledge Graphs](#general-knowledge-graphs)
+    - [Domain-specific Data](#domain-specific-data)
+    - [Entity Recognition](#entity-recognition-1)
+    - [Other Collections](#other-collections)
   - [Libraries, Softwares and Tools](#libraries-softwares-and-tools)
     - [KRL Libraries](#krl-libraries)
     - [Knowledge Graph Database](#knowledge-graph-database)
+    - [Others](#others)
     - [Interactive APP](#interactive-app)
   - [Related Repos](#related-repos)
   - [Acknowledgements](#acknowledgements)
@@ -579,23 +583,48 @@ __FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with
 __[⬆](#awesome-knowledge-graph)__
 
 ## Data
-### Knowledge graphs about the novel coronavirus COVID-19
-OpenKG 新冠知识图谱 
+### General Knowledge Graphs
+- WordNet, https://wordnet.princeton.edu
+- OpenCyc, https://www.cyc.com/opencyc/
+- Cyc, https://www.cyc.com
+- YAGO, http://www.mpii.mpg.de/∼suchanek/yago
+- DBpedia, https://wiki.dbpedia.org/develop/datasets
+- Freebase, https://developers.google.com/freebase/
+- NELL, http://rtw.ml.cmu.edu/rtw/
+- Wikidata, https://www.wikidata.org/wiki
+- Probase IsA, https://concept.research.microsoft.com/Home/Download
+- Google KG, https://developers.google.com/knowledge- graph
+- A large-scale Chinese knowledge graph from [OwnThink](https://github.com/ownthink/KnowledgeGraph)
+- GDELT（Global Database of Events, Language, and Tone）[Web](https://www.gdeltproject.org)
 
-新冠百科图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-baike)]  
+### Domain-specific Data
+__OpenKG knowledge graphs about the novel coronavirus COVID-19__
+- 新冠百科图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-baike)]  
 Knowledge graph from encyclopedia[[Link](http://www.openkg.cn/dataset/2019-ncov-baike)]
 
-新冠科研图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-research)]   
+- 新冠科研图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-research)]   
 Knowledge graph of COVID-19 research [[Link](http://www.openkg.cn/dataset/2019-ncov-research)] 
 
-新冠临床图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-clinic)]  
+- 新冠临床图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-clinic)]  
 Clinical knowledge graph [[Link](http://www.openkg.cn/dataset/2019-ncov-clinic)]
 
-新冠英雄图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-hero)]  
+- 新冠英雄图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-hero)]  
 Knowledge graph of people, experts, and heroes [[Link](http://www.openkg.cn/dataset/2019-ncov-hero)]
 
-新冠热点事件图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-event)]  
+- 新冠热点事件图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-event)]  
 Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-event)]
+
+__COVID❋GRAPH  COVID-19 virus__
+[Web](http://www.odbms.org/2020/03/we-build-a-knowledge-graph-on-covid-19/)
+
+__Academic graphs__
+- OAG, Open Academic Graph, https://www.aminer.cn/open-academic-graph
+
+### Entity Recognition 
+CORD-19, a comprehensieve named entity annotation dataset, CORD-NER, on the COVID-19 Open Research Dataset Challenge (CORD-19) corpus [[Data](https://xuanwang91.github.io/2020-03-20-cord19-ner/)]
+
+### Other Collections
+Baidu BROAD datasets [[Web](https://ai.baidu.com/broad/introduction)]
 
 ## Libraries, Softwares and Tools 
 ### KRL Libraries 
@@ -614,6 +643,9 @@ Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-
 ### Knowledge Graph Database
 [akutan](https://github.com/eBay/akutan), A distributed knowledge graph store
 
+### Others
+- OpenNRE, https://github.com/thunlp/OpenNRE
+- 
 ### Interactive APP
 Knowledge graph APP, Simple knowledge graph applications can be easily built using JSON data managed entirely via a GraphQL layer. [[Github](https://github.com/epistemik-co/staple-api-kg-demo)] [[Website](http://demo.staple-api.org)]
 
@@ -631,5 +663,6 @@ Top-level Conference Publications on Knowledge Graph - [wds-seu/Knowledge-Graph-
 Acknoledgements give to the following people who comment or contribute to this repository (listed chronologically).
 
 - [DonaldTsang](https://github.com/DonaldTsang)
-
+- [NYXFLOWER](https://github.com/NYXFLOWER)
+  
 __[⬆](#awesome-knowledge-graph)__
