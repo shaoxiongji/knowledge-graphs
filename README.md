@@ -6,6 +6,7 @@ A collection of knowledge graph papers, codes, and reading notes.
 
 - [Awesome Knowledge Graph](#awesome-knowledge-graph)
   - [Survey](#survey)
+  - [Papers by venues](#papers-by-venues)
   - [Knowledge Graph Embedding](#knowledge-graph-embedding)
   - [Cross-Modal KG Embedding](#cross-modal-kg-embedding)
     - [Textual Description](#textual-description)
@@ -15,6 +16,7 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Visual Information](#visual-information)
   - [Knowledge Acquisition](#knowledge-acquisition)
     - [Knowledge Graph Completion](#knowledge-graph-completion)
+    - [Knowledge Graph Refinement](#knowledge-graph-refinement)
     - [Relation Extraction](#relation-extraction)
     - [Relation Classification](#relation-classification)
     - [Entity Recognition](#entity-recognition)
@@ -26,6 +28,7 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Question Answering](#question-answering)
     - [Dialogue Systems](#dialogue-systems)
     - [Recommendation System](#recommendation-system)
+  - [Information Retrieval](#information-retrieval)
     - [Healthcare](#healthcare)
     - [Software Engineering](#software-engineering)
     - [Image Classification](#image-classification)
@@ -33,6 +36,7 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Temporal Knowledge Graph](#temporal-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
   - [One/few-Shot and Zero-Shot Learning](#onefew-shot-and-zero-shot-learning)
+  - [KG Database Systems](#kg-database-systems)
   - [Data](#data)
     - [General Knowledge Graphs](#general-knowledge-graphs)
     - [Domain-specific Data](#domain-specific-data)
@@ -43,6 +47,8 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Knowledge Graph Database](#knowledge-graph-database)
     - [Others](#others)
     - [Interactive APP](#interactive-app)
+  - [Courses, Tutorials and Seminars](#courses-tutorials-and-seminars)
+    - [Courses](#courses)
   - [Related Repos](#related-repos)
   - [Acknowledgements](#acknowledgements)
 
@@ -60,6 +66,10 @@ __Knowledge graph refinement: A survey of approaches and evaluation methods__. S
 
 __A review of relational machine learning for knowledge graphs__. Proceedings of the IEEE 2015. _Nickel, Maximilian and Murphy, Kevin and Tresp, Volker and Gabrilovich, Evgeniy_. [[Paper](https://arxiv.org/pdf/1503.00759)]
 
+## Papers by venues
+| Year | WWW  |
+| ---- | ---- |
+| 2020 | [20](./conferences/www20.md) | 
 
 ## Knowledge Graph Embedding
 __Relation Embedding with Dihedral Group in Knowledge Graph__. ACL 2019. _Xu, Canran and Li, Ruijiang_. [[Paper](https://arxiv.org/pdf/1906.00687)]
@@ -214,9 +224,27 @@ __Traversing Knowledge Graphs in Vector Space__. EMNLP 2015. _Guu, Kelvin and Mi
 ### Visual Information
 __Image-embodied knowledge representation learning__. IJCAI 2017. _Xie, Ruobing and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0438.pdf)]
 
+__Answering Visual-Relational Queries in Web-Extracted Knowledge Graphs__. 
+Automated Knowledge Base Construction 2019. _Oñoro-Rubio et al._ [[Paper](https://arxiv.org/pdf/1709.02314.pdf)]
 __[⬆](#awesome-knowledge-graph)__
 ## Knowledge Acquisition 
 ### Knowledge Graph Completion
+__Beyond Triplets: Hyper-Relational Knowledge Graph Embedding for Link Prediction__
+WWW 2020. _Rosso et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380257)]
+
+__Generalizing Tensor Decomposition for N-ary Relational Knowledge Bases__
+WWW 2020. _Liu et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380188)]
+
+__Relation Adversarial Network for Low Resource Knowledge Graph Completion__
+WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380089)] 
+
+__Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning__
+WWW 2020. _He et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380155)]
+
+__Open Knowledge Enrichment for Long-tail Entities__.
+WWW 2020. _Cao et al._. 
+[[Paper](https://arxiv.org/pdf/2002.06397.pdf)] [[Code](https://github.com/nju-websoft/OKELE/)]
+
 __End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion__. AAAI 2019. _Shang, Chao and Tang, Yun and Huang, Jing and Bi, Jinbo and He, Xiaodong and Zhou, Bowen_. [[Paper](https://arxiv.org/pdf/1811.04441)]
 
 __An Open-World Extention to Knowledge Graph Completion MOdels__. AAAI 2019. _Haseeb Shah, Johannes Villmow, Adrian Ulges, Ulrich Schwanecke, Faisal Shafait_. [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4162/4040)] [[Code](http://github.com/haseebs/OWE)]
@@ -250,7 +278,24 @@ __Inferring missing entity type instances for knowledge base completion: New dat
 
 __Spring-Electrical Models For Link Prediction__. WSDM 2019. _Kashinskaya, Yana and Samosvat, Egor and Artikov, Akmal_. [[Paper](https://dl.acm.org/citation.cfm?id=3290961)]
 
+### Knowledge Graph Refinement
+__What is Normal, What is Strange, and What is Missing in a Knowledge Graph: Unified Characterization via Inductive Summarization__
+WWW 2020. _Belth et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380189)]
+
+
+__Correcting Knowledge Base Assertions__.
+WWW 2020. _Chen et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380226)]
+
+__Expanding Taxonomies with Implicit Edge Semantics__
+WWW 2020. _Manzoor et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380271)]
+
 ### Relation Extraction
+__NERO: A Neural Rule Grounding Framework for Label-Efficient Relation Extraction__
+WWW 2020. _Zhou et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380282)]
+
+__LOREM: Language-consistent Open Relation Extraction from Unstructured Text__. 
+WWW 2020. _Harting et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380252)]
+
 __Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks__. NAACL 2019. _Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen_. [[Paper](https://arxiv.org/abs/1903.01306)]  
 
 __Discovering Correlations between Sparse Features in Distant Supervision for Relation Extraction__. WSDM 2019. _Qu, Jianfeng and Ouyang, Dantong and Hua, Wen and Ye, Yuxin and Zhou, Xiaofang_. [[Paper](https://dl.acm.org/citation.cfm?id=3291004)]
@@ -332,7 +377,16 @@ __Neural architectures for named entity recognition__. NAACL 2017. _Lample, Guil
 
 __Named entity recognition with bidirectional LSTM-CNNs__. TACL 2016. _Chiu, Jason PC and Nichols, Eric_. [[Paper](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00104)]
 
+__Novel Entity Discovery from Web Tables__
+WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380205)] 
+
+__MetaNER: Named Entity Recognition with Meta-Learning__
+WWW 2020. _Li et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380127)]
+
 ### Entity Alignment 
+__Collective Multi-type Entity Alignment Between Knowledge Graphs__
+WWW 2020. _Zhu et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380289)]
+
 __Entity Alignment between Knowledge Graphs Using Attribute Embeddings__. AAAI 2019. _Trsedya, Bayu Distiawan and Qi, Jianzhong and Zhang, Rui_. [[Paper](https://people.eng.unimelb.edu.au/jianzhongq/papers/AAAI2019_EntityAlignment.pdf)] [[Code](https://bitbucket.org/bayudt/kba/src/master/)]
 
 __Multi-view Knowledge Graph Embedding for Entity Alignment__. IJCAI 2019. _Zhang, Qingheng and Sun, Zequn and Hu, Wei and Chen, Muhao and Guo, Lingbing and Qu, Yuzhong_. [[Paper](https://arxiv.org/pdf/1906.02390.pdf)] [[Code](https://github.com/nju-websoft/MultiKE)]
@@ -351,6 +405,12 @@ __Aligning Knowledge Base and Document Embedding Models Using Regularized Multi-
 
 
 ### Entity Disambiguation
+__High Quality Candidate Generation and Sequential Graph Attention Network for Entity Linking__
+WWW 2020. _Fang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380146)]
+
+__Dynamic Graph Convolutional Networks for Entity Linking__
+WWW 2020. _Wu et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380192)]
+
 __Improving Entity Linking by Modeling Latent Relations between Mentions__. ACL 2018. _Le, Phong and Titov, Ivan_. [[Paper](https://arxiv.org/pdf/1804.10637)]
 
 __Deep Joint Entity Disambiguation with Local Neural Attention__. EMNLP 2017. _Ganea, Octavian-Eugen and Hofmann, Thomas_. [[Paper](https://arxiv.org/pdf/1704.04920)]
@@ -387,6 +447,9 @@ __Combining Knowledge with Deep Convolutional Neural Networks for Short Text Cla
 
 
 ### Question Answering
+__Complex Factoid Question Answering with a Free-Text Knowledge Graph__ 
+WWW 2020. _Zhao et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380197)]
+
 __An Interpretable Reasoning Network for Multi-Relation Question Answering__. COLING 2018. _Zhou, Mantong and Huang, Minlie and Zhu, Xiaoyan_. [[Paper](https://arxiv.org/abs/1801.04726)]
 
 __Dialog-to-Action: Conversational Question Answering Over a Large-Scale Knowledge Base__. NIPS 2018. _Daya Guo, Duyu Tang, Nan Duan, Ming Zhou, Jian Yin_. [[Paper](http://papers.nips.cc/paper/7558-dialog-to-action-conversational-question-answering-over-a-large-scale-knowledge-base)] [[Code](https://github.com/guoday/Dialog-to-Action)]
@@ -430,6 +493,9 @@ __Lstm-based mixture-of-experts for knowledge-aware dialogues__. ACL 2016 Worksh
 __Flexible end-to-end dialogue system for knowledge grounded conversation__. 2017. _Zhu, Wenya and Mo, Kaixiang and Zhang, Yu and Zhu, Zhangbin and Peng, Xuezheng and Yang, Qiang_. [[Paper](https://arxiv.org/pdf/1709.04264)]
 
 ### Recommendation System
+__Reinforced Negative Sampling over Knowledge Graph for Recommendation__
+WWW 2020. _Wang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380098)]
+
 __KGAT: Knowledge Graph Attention Network for Recommendation__. KDD 2019. _Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu and Tat-Seng Chua_. [[Paper](https://arxiv.org/pdf/1905.07854)] [[Code](https://github.com/xiangwang1223/knowledge_graph_attention_network)]
 
 __Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation__. WWW 2019. _Wang, Hongwei, Fuzheng Zhang, Miao Zhao, Wenjie Li, Xing Xie, and Minyi Guo_. [[Paper](https://arxiv.org/pdf/1901.08907.pdf)] [[Code](https://github.com/hwwang55/MKR)]
@@ -451,6 +517,18 @@ __dbrec—music recommendations using DBpedia__. ISWC 2010. _Passant, Alexandre_
 
 __Collaborative knowledge base embedding for recommender systems__. KDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
 
+## Information Retrieval 
+__Keyword Search over Knowledge Graphs via Static and Dynamic Hub Labelings__
+WWW 2020. _Shi et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380110)]
+
+__Explicit semantic ranking for academic search via knowledge graph embedding__. WWW 2017. _Xiong et al._ [[Paper](http://www.cs.cmu.edu/~cx/papers/Explicit_Semantic_Ranking.pdf)]
+
+__Joint event extraction via recurrent neural networks__. NAACL 2016. _Nguyen, Thien Huu and Cho, Kyunghyun and Grishman, Ralph_. [[Paper](https://www.aclweb.org/anthology/N16-1034)]
+
+__Fine-grained Event Categorization with Heterogeneous Graph Convolutional Networks__. IJCAI 2019. _H. Peng, J. Li, Q. Gong, Y. Song, Y. Ning, K. Lai, and P.S. Yu_. [[Paper](https://www.ijcai.org/Proceedings/2019/0449.pdf)]
+
+
+__TransNet: Translation-Based Network Representation Learning for Social Relation Extraction__. IJCAI 2017. _Tu, Cunchao and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2017_transnet.pdf)]
 
 ### Healthcare 
 __Constructing biomedical domain-specific knowledge graph with minimum supervision__ KAIS 2019. _Yuan, Jianbo and Jin, Zhiwei and Guo, Han and Jin, Hongxia and Zhang, Xianchao and Smith, Tristram and Luo, Jiebo_. [[Paper](https://link.springer.com/article/10.1007/s10115-019-01351-4)]
@@ -458,6 +536,9 @@ __Constructing biomedical domain-specific knowledge graph with minimum supervisi
 __Knowledge-driven Encode, Retrieve, Paraphrase for Medical Image Report Generation__. AAAI 2019. _Li, Christy Y and Liang, Xiaodan and Hu, Zhiting and Xing, Eric P_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-LiChristy.629.pdf)]
 
 __On the Generative Discovery of Structured Medical Knowledge__. KDD 2018. _C. Zhang, Y. Li, N. Du, W. Fan, and P.S. Yu_ [[Paper](https://dl.acm.org/doi/abs/10.1145/3219819.3220010)]
+
+__Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
+
 
 ### Software Engineering
 
@@ -480,7 +561,6 @@ __The More You Know: Using Knowledge Graphs for Image Classification__. CVPR 201
 
 
 ### Other Applications
-__Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
 
 __Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding__. NAACL-HLT 2015. _Yun-Nung Chen, William Yang Wang, Alex Rudnicky_. [[Paper](http://www.cs.ucsb.edu/~william/papers/NAACL15_InterSlotRelation.pdf)]
 
@@ -490,15 +570,9 @@ __Knowledge questions from knowledge graphs__. SIGIR 2016. _Seyler, Dominic and 
 
 __One for All: Neural Joint Modeling of Entities and Events__. AAAI 2019. _Nguyen, Trung Minh and Nguyen, Thien Huu_. [[Paper](https://arxiv.org/pdf/1812.00195)]
 
-__Explicit semantic ranking for academic search via knowledge graph embedding__. WWW 2017. _Xiong et al._ [[Paper](http://www.cs.cmu.edu/~cx/papers/Explicit_Semantic_Ranking.pdf)]
-
 __Linking named entities in tweets with knowledge base via user interest modeling__. KDD 2013. _Shen, Wei and Wang, Jianyong and Luo, Ping and Wang, Min_. [[Paper](http://chbrown.github.io/kdd-2013-usb/kdd/p68.pdf)]
 
-__TransNet: Translation-Based Network Representation Learning for Social Relation Extraction__. IJCAI 2017. _Tu, Cunchao and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2017_transnet.pdf)]
 
-__Joint event extraction via recurrent neural networks__. NAACL 2016. _Nguyen, Thien Huu and Cho, Kyunghyun and Grishman, Ralph_. [[Paper](https://www.aclweb.org/anthology/N16-1034)]
-
-__Fine-grained Event Categorization with Heterogeneous Graph Convolutional Networks__. IJCAI 2019. _H. Peng, J. Li, Q. Gong, Y. Song, Y. Ning, K. Lai, and P.S. Yu_. [[Paper](https://www.ijcai.org/Proceedings/2019/0449.pdf)]
 
 __[⬆](#awesome-knowledge-graph)__
 ## Temporal Knowledge Graph
@@ -582,6 +656,10 @@ __FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with
 
 __[⬆](#awesome-knowledge-graph)__
 
+## KG Database Systems
+__Adaptive Low-level Storage of Very Large Knowledge Graphs__.
+WWW 2020. _Urbani et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380246)]
+
 ## Data
 ### General Knowledge Graphs
 - WordNet, https://wordnet.princeton.edu
@@ -615,8 +693,9 @@ Knowledge graph of people, experts, and heroes [[Link](http://www.openkg.cn/data
 Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-event)]
 
 __COVID❋GRAPH  COVID-19 virus__
-[Web](http://www.odbms.org/2020/03/we-build-a-knowledge-graph-on-covid-19/)
+[[Web](http://www.odbms.org/2020/03/we-build-a-knowledge-graph-on-covid-19/)]
 
+__KgBase COVID-19 knowledge graph__ [[Web](https://covid19.kgbase.com)]
 __Academic graphs__
 - OAG, Open Academic Graph, https://www.aminer.cn/open-academic-graph
 
@@ -625,6 +704,10 @@ CORD-19, a comprehensieve named entity annotation dataset, CORD-NER, on the COVI
 
 ### Other Collections
 Baidu BROAD datasets [[Web](https://ai.baidu.com/broad/introduction)]
+
+__ASER: A Large-scale Eventuality Knowledge Graph__
+WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380107)]
+
 
 ## Libraries, Softwares and Tools 
 ### KRL Libraries 
@@ -645,11 +728,14 @@ Baidu BROAD datasets [[Web](https://ai.baidu.com/broad/introduction)]
 
 ### Others
 - OpenNRE, https://github.com/thunlp/OpenNRE
-- 
+
 ### Interactive APP
 Knowledge graph APP, Simple knowledge graph applications can be easily built using JSON data managed entirely via a GraphQL layer. [[Github](https://github.com/epistemik-co/staple-api-kg-demo)] [[Website](http://demo.staple-api.org)]
 
-
+## Courses, Tutorials and Seminars
+### Courses
+- Stanford CS 520 Knowledge Graphs: How should AI explicitly represent knowledge? _Vinay K. Chaudhri, Naren Chittar, Michael Genesereth_. [[Web](https://web.stanford.edu/class/cs520/)]
+- Stanford CS 224W: Machine Learning with Graphs. _Jure Leskovec_. [[Web](http://web.stanford.edu/class/cs224w/index.html)]
 ## Related Repos
 A repo about knowledge graph in Chinese - [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph)
 
@@ -664,5 +750,6 @@ Acknoledgements give to the following people who comment or contribute to this r
 
 - [DonaldTsang](https://github.com/DonaldTsang)
 - [NYXFLOWER](https://github.com/NYXFLOWER)
-  
+- [Arun-George-Zachariah](https://github.com/Arun-George-Zachariah)  
+
 __[⬆](#awesome-knowledge-graph)__
