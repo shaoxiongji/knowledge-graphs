@@ -4,14 +4,18 @@ Knowledge graph is a hot topic in the Web Conference 2020, with tasks of entity 
 This paper list briefs those nice works. 
 
 Some interesting findings: 
+
 1) Many papers propose methods exploiting rich information such as [multi-type entities and neighborhood information](https://dl.acm.org/doi/abs/10.1145/3366423.3380289), [structural information and correlation](https://dl.acm.org/doi/abs/10.1145/3366423.3380257) and [user-item interaction](https://dl.acm.org/doi/abs/10.1145/3366423.3380155);
+
 2) Low resource settings are paid great attention, for example, relation extraction by [Zhou et al.](https://dl.acm.org/doi/abs/10.1145/3366423.3380282), [MetaNER](https://dl.acm.org/doi/abs/10.1145/3366423.3380127) and [KGC with adversarial network](https://dl.acm.org/doi/abs/10.1145/3366423.3380089);
-3) Rule mining is also an interesting direction, with papers like [NERO](https://dl.acm.org/doi/abs/10.1145/3366423.3380282) and [KGist](https://dl.acm.org/doi/abs/10.1145/3366423.3380189)
-4) Graph neural networks and adversarial learning are definitely among the most popular topics, such as [[He et al.]](https://dl.acm.org/doi/abs/10.1145/3366423.3380155) and [[Cao et al.]](https://arxiv.org/pdf/2002.06397.pdf)
 
-Last but not least, there are a paper on [storage architecture](https://dl.acm.org/doi/abs/10.1145/3366423.3380246), a resource article of [event knowledge graph](https://dl.acm.org/doi/abs/10.1145/3366423.3380107), and three downstream applications of [recommendation](https://dl.acm.org/doi/abs/10.1145/3366423.3380098), [QA](https://dl.acm.org/doi/abs/10.1145/3366423.3380197), and [kewword search](https://dl.acm.org/doi/abs/10.1145/3366423.3380110)
+3) Rule mining is also an interesting direction, with papers like [NERO](https://dl.acm.org/doi/abs/10.1145/3366423.3380282) and [KGist](https://dl.acm.org/doi/abs/10.1145/3366423.3380189);
 
-[Ads.] Know more about knowledge graphs, please check out our recent survey entitled [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/pdf/2002.00388)! 
+4) Graph neural networks and adversarial learning are definitely among the most popular topics, such as [[He et al.]](https://dl.acm.org/doi/abs/10.1145/3366423.3380155) and [[Cao et al.]](https://arxiv.org/pdf/2002.06397.pdf).
+
+Last but not least, there are a paper on [storage architecture](https://dl.acm.org/doi/abs/10.1145/3366423.3380246), a resource article of [event knowledge graph](https://dl.acm.org/doi/abs/10.1145/3366423.3380107), and three downstream applications of [recommendation](https://dl.acm.org/doi/abs/10.1145/3366423.3380098), [QA](https://dl.acm.org/doi/abs/10.1145/3366423.3380197), and [keyword search](https://dl.acm.org/doi/abs/10.1145/3366423.3380110).
+
+_Ads.: Know more about knowledge graphs, please check out our recent survey entitled [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/pdf/2002.00388)!_
 
 ## Entity Alignment
 __Collective Multi-type Entity Alignment Between Knowledge Graphs__
