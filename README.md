@@ -28,7 +28,7 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Question Answering](#question-answering)
     - [Dialogue Systems](#dialogue-systems)
     - [Recommendation System](#recommendation-system)
-  - [Information Retrieval](#information-retrieval)
+    - [Information Retrieval](#information-retrieval)
     - [Healthcare](#healthcare)
     - [Software Engineering](#software-engineering)
     - [Image Classification](#image-classification)
@@ -67,9 +67,9 @@ __Knowledge graph refinement: A survey of approaches and evaluation methods__. S
 __A review of relational machine learning for knowledge graphs__. Proceedings of the IEEE 2015. _Nickel, Maximilian and Murphy, Kevin and Tresp, Volker and Gabrilovich, Evgeniy_. [[Paper](https://arxiv.org/pdf/1503.00759)]
 
 ## Papers by venues
-| Year | WWW  |  
-| ---- | ---- |  
-| 2020 | [20](./conferences/www20.md) |  
+| Year      | WWW       |  
+| --------  | --------  |   
+| 2020      | [20](./conferences/www20.md) |  
 
 ## Knowledge Graph Embedding
 __Relation Embedding with Dihedral Group in Knowledge Graph__. ACL 2019. _Xu, Canran and Li, Ruijiang_. [[Paper](https://arxiv.org/pdf/1906.00687)]
@@ -517,7 +517,7 @@ __dbrec—music recommendations using DBpedia__. ISWC 2010. _Passant, Alexandre_
 
 __Collaborative knowledge base embedding for recommender systems__. KDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
 
-## Information Retrieval 
+### Information Retrieval 
 __Keyword Search over Knowledge Graphs via Static and Dynamic Hub Labelings__
 WWW 2020. _Shi et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380110)]
 
