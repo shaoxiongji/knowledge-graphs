@@ -67,9 +67,9 @@ __Knowledge graph refinement: A survey of approaches and evaluation methods__. S
 __A review of relational machine learning for knowledge graphs__. Proceedings of the IEEE 2015. _Nickel, Maximilian and Murphy, Kevin and Tresp, Volker and Gabrilovich, Evgeniy_. [[Paper](https://arxiv.org/pdf/1503.00759)]
 
 ## Papers by venues
-| Year | WWW  |
-| ---- | ---- |
-| 2020 | [20](./conferences/www20.md) | 
+| Year | WWW  |  
+| ---- | ---- |  
+| 2020 | [20](./conferences/www20.md) |  
 
 ## Knowledge Graph Embedding
 __Relation Embedding with Dihedral Group in Knowledge Graph__. ACL 2019. _Xu, Canran and Li, Ruijiang_. [[Paper](https://arxiv.org/pdf/1906.00687)]

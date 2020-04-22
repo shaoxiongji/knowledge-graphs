@@ -11,6 +11,8 @@ Some interesting findings:
 
 Last but not least, there are a paper on [storage architecture](https://dl.acm.org/doi/abs/10.1145/3366423.3380246), a resource article of [event knowledge graph](https://dl.acm.org/doi/abs/10.1145/3366423.3380107), and three downstream applications of [recommendation](https://dl.acm.org/doi/abs/10.1145/3366423.3380098), [QA](https://dl.acm.org/doi/abs/10.1145/3366423.3380197), and [kewword search](https://dl.acm.org/doi/abs/10.1145/3366423.3380110)
 
+[Ads.] Know more about knowledge graphs, please check out our recent survey entitled [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/pdf/2002.00388)! 
+
 ## Entity Alignment
 __Collective Multi-type Entity Alignment Between Knowledge Graphs__
 WWW 2020. _Zhu et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380289)]
