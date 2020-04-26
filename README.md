@@ -36,6 +36,8 @@ A collection of knowledge graph papers, codes, and reading notes.
   - [Temporal Knowledge Graph](#temporal-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
   - [One/few-Shot and Zero-Shot Learning](#onefew-shot-and-zero-shot-learning)
+  - [Domain-specific Knowledge Graphs](#domain-specific-knowledge-graphs)
+    - [Geospatial Knowledge Graphs](#geospatial-knowledge-graphs)
   - [KG Database Systems](#kg-database-systems)
   - [Data](#data)
     - [General Knowledge Graphs](#general-knowledge-graphs)
@@ -656,6 +658,18 @@ __FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with
 
 __[⬆](#awesome-knowledge-graph)__
 
+## Domain-specific Knowledge Graphs
+### Geospatial Knowledge Graphs
+__Extending the YAGO2 Knowledge Graph with Precise Geospatial Knowledge__. ISWC 2019. _Nikolaos Karalis, Georgios Mandilaras, and Manolis Koubarakis_ [[Paper](http://cgi.di.uoa.gr/~koubarak/publications/2019/yago2geo_iswc2019.pdf)] [[Code](https://github.com/nkaralis/Yago_Extension)]
+
+__Revisiting the Representation of and Need for Raw Geometries on the Linked Data Web__. CEUR Workshop Proceedings. [[Paper](http://ceur-ws.org/Vol-1809/article-04.p)]
+
+__Design and Development of Linked Data from The National Map__. Semnantic Web Journal. _E. Lynn Usery and Dalia Varanka_ [[Paper](http://www.semantic-web-journal.net/sites/default/files/swj180_2.pdf)]
+
+__Relaxing Unanswerable Geographic Questions Using A Spatially Explicit Knowledge Graph Embedding Model__ AGILE 2019. [[Paper](http://www.geog.ucsb.edu/~gengchen_mai/papers/2019-AGILE19_TransGeo.pdf)] [[Code](https://github.com/gengchenmai/TransGeo)] 
+
+__Enabling Spatio-Temporal Search in Open Data__. Journal of Web Semantics (JWS), Elsevier, 2018. _Sebastian Neumaier and Axel Polleres._ [[Paper](http://epub.wu.ac.at/6764/1/neumaier2018TR-enabling.pdf)]
+
 ## KG Database Systems
 __Adaptive Low-level Storage of Very Large Knowledge Graphs__.
 WWW 2020. _Urbani et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380246)]
@@ -743,6 +757,7 @@ A repo about NLP, KG, Dialogue Systems in Chinese - [lihanghang/NLP-Knowledge-Gr
 
 Top-level Conference Publications on Knowledge Graph - [wds-seu/Knowledge-Graph-Publications](https://github.com/wds-seu/Knowledge-Graph-Publications)
 
+Geospatial Knowledge Graphs - [semantic-geospatial](https://github.com/laurentlefort/semantic-geospatial/wiki/Geospatial-Knowledge-Graphs)
 
 ## Acknowledgements 
 
