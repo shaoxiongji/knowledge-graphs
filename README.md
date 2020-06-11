@@ -1,5 +1,5 @@
 # Awesome Knowledge Graph
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 A collection of knowledge graph papers, codes, and reading notes.
@@ -140,9 +140,9 @@ __STransE: a novel embedding model of entities and relationships in knowledge ba
 
 __Knowledge graph embedding via dynamic mapping matrix__. ACL 2015. _Ji, Guoliang and He, Shizhu and Xu, Liheng and Liu, Kang and Zhao, Jun_. [[Paper](http://www.aclweb.org/anthology/P15-1067)]
 
-__A translation-based knowledge graph embedding preserving logical property of relations__. NAACL 2016. _Yoon, Hee-Geun and Song, Hyun-Je and Park, Seong-Bae and Park, Se-Young_. [[Paper](http://www.aclweb.org/anthology/N16-1105)] 
+__A translation-based knowledge graph embedding preserving logical property of relations__. NAACL 2016. _Yoon, Hee-Geun and Song, Hyun-Je and Park, Seong-Bae and Park, Se-Young_. [[Paper](http://www.aclweb.org/anthology/N16-1105)]
 
-__Knowledge graph completion with adaptive sparse transfer matrix__. AAAI 2016. _Ji, Guoliang and Liu, Kang and He, Shizhu and Zhao, Jun_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/11982/11693)] 
+__Knowledge graph completion with adaptive sparse transfer matrix__. AAAI 2016. _Ji, Guoliang and Liu, Kang and He, Shizhu and Zhao, Jun_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/11982/11693)]
 
 __TransA: An adaptive approach for knowledge graph embedding__. AAAI 2015. _Xiao, Han and Huang, Minlie and Hao, Yu and Zhu, Xiaoyan_. [[Paper](https://arxiv.org/pdf/1509.05490.pdf)]
 
@@ -154,9 +154,11 @@ __From one point to a manifold: Orbit models for knowledge graph embedding__. IJ
 
 __Composing relationships with translations__. EMNLP 2015. _García-Durán, Alberto and Bordes, Antoine and Usunier, Nicolas_. [[Paper](http://www.aclweb.org/anthology/D15-1034)] [[Code](https://github.com/glorotxa/SME)]
 
+__A semantic matching energy function for learning with multi-relational data__. Machine Learning 2014. _Bordes, Antoine and Glorot, Xavier and Weston, Jason and Bengio, Yoshua_. [[Paper](https://arxiv.org/pdf/1301.3485)]
+
 __[⬆](#awesome-knowledge-graph)__
 ## Cross-Modal KG Embedding
-### Textual Description 
+### Textual Description
 __Knowledge graph and text jointly embedding__. EMNLP 2015. _Wang, Zhen and Zhang, Jianwen and Feng, Jianlin and Chen, Zheng_. [[Paper](https://www.aclweb.org/anthology/D14-1167)]
 
 __Aligning knowledge and text embeddings by entity descriptions__. EMNLP 2015. _Zhong, Huaping and Zhang, Jianwen and Wang, Zhen and Wan, Hai and Chen, Zheng_. [[Paper](https://www.aclweb.org/anthology/D15-1031)]
@@ -202,7 +204,7 @@ __Learning first-order logic embeddings via matrix factorization__. IJCAI 2016. 
 
 __Jointly embedding knowledge graphs and logical rules__. EMNLP 2016. _Guo, Shu and Wang, Quan and Wang, Lihong and Wang, Bin and Guo, Li_. [[Paper](https://www.aclweb.org/anthology/D16-1019)]
 
-__Knowledge Graph Embedding with Iterative Guidance from Soft Rules__. AAAI 2018. _Guo, Shu and Wang, Quan and Wang, Lihong and Wang, Bin and Guo, Li_. 
+__Knowledge Graph Embedding with Iterative Guidance from Soft Rules__. AAAI 2018. _Guo, Shu and Wang, Quan and Wang, Lihong and Wang, Bin and Guo, Li_.
 [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16369/16011)] [[Code](https://github.com/iieir-km/RUGE)]
 
 __Lifted rule injection for relation embeddings__. EMNLP 2016. _Demeester, Thomas and Rocktäschel, T and Riedel, S_. [[Paper](https://www.aclweb.org/anthology/D16-1146)]
@@ -226,10 +228,10 @@ __Traversing Knowledge Graphs in Vector Space__. EMNLP 2015. _Guu, Kelvin and Mi
 ### Visual Information
 __Image-embodied knowledge representation learning__. IJCAI 2017. _Xie, Ruobing and Liu, Zhiyuan and Luan, Huanbo and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0438.pdf)]
 
-__Answering Visual-Relational Queries in Web-Extracted Knowledge Graphs__. 
+__Answering Visual-Relational Queries in Web-Extracted Knowledge Graphs__.
 Automated Knowledge Base Construction 2019. _Oñoro-Rubio et al._ [[Paper](https://arxiv.org/pdf/1709.02314.pdf)]
 __[⬆](#awesome-knowledge-graph)__
-## Knowledge Acquisition 
+## Knowledge Acquisition
 ### Knowledge Graph Completion
 __Beyond Triplets: Hyper-Relational Knowledge Graph Embedding for Link Prediction__
 WWW 2020. _Rosso et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380257)]
@@ -238,13 +240,13 @@ __Generalizing Tensor Decomposition for N-ary Relational Knowledge Bases__
 WWW 2020. _Liu et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380188)]
 
 __Relation Adversarial Network for Low Resource Knowledge Graph Completion__
-WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380089)] 
+WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380089)]
 
 __Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning__
 WWW 2020. _He et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380155)]
 
 __Open Knowledge Enrichment for Long-tail Entities__.
-WWW 2020. _Cao et al._. 
+WWW 2020. _Cao et al._.
 [[Paper](https://arxiv.org/pdf/2002.06397.pdf)] [[Code](https://github.com/nju-websoft/OKELE/)]
 
 __End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion__. AAAI 2019. _Shang, Chao and Tang, Yun and Huang, Jing and Bi, Jinbo and He, Xiaodong and Zhou, Bowen_. [[Paper](https://arxiv.org/pdf/1811.04441)]
@@ -295,7 +297,7 @@ WWW 2020. _Manzoor et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3
 __NERO: A Neural Rule Grounding Framework for Label-Efficient Relation Extraction__
 WWW 2020. _Zhou et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380282)]
 
-__LOREM: Language-consistent Open Relation Extraction from Unstructured Text__. 
+__LOREM: Language-consistent Open Relation Extraction from Unstructured Text__.
 WWW 2020. _Harting et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380252)]
 
 __Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks__. NAACL 2019. _Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen_. [[Paper](https://arxiv.org/abs/1903.01306)]  
@@ -355,7 +357,7 @@ __Attention-based convolutional neural network for semantic relation extraction_
 
 __Neural knowledge acquisition via mutual attention between knowledge graph and text__. AAAI 2018. _Han, Xu and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16691/16013)] [[Code](https://github.com/thunlp/JointNRE)] Also for KGC.
 
-__Cooperative Denoising for Distantly Supervised Relation Extraction__. COLING 2018. _Lei, Kai and Chen, Daoyuan and Li, Yaliang and Du, Nan and Yang, Min and Fan, Wei and Shen, Ying_. [[Paper](https://www.aclweb.org/anthology/C18-1036)] 
+__Cooperative Denoising for Distantly Supervised Relation Extraction__. COLING 2018. _Lei, Kai and Chen, Daoyuan and Li, Yaliang and Du, Nan and Yang, Min and Fan, Wei and Shen, Ying_. [[Paper](https://www.aclweb.org/anthology/C18-1036)]
 
 __Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention__. EMNLP 2018. _Han, Xu and Yu, Pengfei and Liu, Zhiyuan and Sun, Maosong and Li, Peng_. [[Paper](https://www.aclweb.org/anthology/D18-1247)] [[Code](https://github.com/thunlp/HNRE)]
 
@@ -365,14 +367,14 @@ __Robust Distant Supervision Relation Extraction via Deep Reinforcement Learning
 
 __Incorporating vector space similarity in random walk inference over knowledge bases__. EMNLP 2014. _Gardner, Matt and Talukdar, Partha and Krishnamurthy, Jayant and Mitchell, Tom_. [[Paper](https://www.aclweb.org/anthology/D14-1044)]
 
-### Relation Classification 
+### Relation Classification
 __Bidirectional recurrent convolutional neural network for relation classification__. ACL 2016. _Cai, Rui and Zhang, Xiaodong and Wang, Houfeng_. [[Paper](https://www.aclweb.org/anthology/P16-1072)]
 
 __Attention-based bidirectional long short-term memory networks for relation classification__. ACL 2016. _Zhou, Peng and Shi, Wei and Tian, Jun and Qi, Zhenyu and Li, Bingchen and Hao, Hongwei and Xu, Bo_. [[Paper](https://www.aclweb.org/anthology/P16-2034)]
 
 __Reinforcement learning for relation classification from noisy data__. AAAI 2018. _Feng, Jun and Huang, Minlie and Zhao, Li and Yang, Yang and Zhu, Xiaoyan_. [[Paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/17151/16140)]
 
-### Entity Recognition 
+### Entity Recognition
 __Multi-grained Named Entity Recognition__. ACL 2019. _Xia, Congying and Zhang, Chenwei and Yang, Tao and Li, Yaliang and Du, Nan and Wu, Xian and Fan, Wei and Ma, Fenglong and Philip, S Yu_. [[Paper](https://arxiv.org/abs/1906.08449)]
 
 __Neural architectures for named entity recognition__. NAACL 2017. _Lample, Guillaume and Ballesteros, Miguel and Subramanian, Sandeep and Kawakami, Kazuya and Dyer, Chris_. [[Paper](https://arxiv.org/pdf/1603.01360)] [[Cdde](https://github.com/glample/tagger)] [[Code](https://github.com/clab/stack-lstm-ner)]
@@ -380,12 +382,12 @@ __Neural architectures for named entity recognition__. NAACL 2017. _Lample, Guil
 __Named entity recognition with bidirectional LSTM-CNNs__. TACL 2016. _Chiu, Jason PC and Nichols, Eric_. [[Paper](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00104)]
 
 __Novel Entity Discovery from Web Tables__
-WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380205)] 
+WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380205)]
 
 __MetaNER: Named Entity Recognition with Meta-Learning__
 WWW 2020. _Li et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380127)]
 
-### Entity Alignment 
+### Entity Alignment
 __Collective Multi-type Entity Alignment Between Knowledge Graphs__
 WWW 2020. _Zhu et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380289)]
 
@@ -397,7 +399,10 @@ __Co-training embeddings of knowledge graphs and entity descriptions for cross-l
 
 __Bootstrapping Entity Alignment with Knowledge Graph Embedding__.  IJCAI 2018. _Zequn Sun, Wei Hu, Qingheng Zhang and Yuzhong Qu._ [[Paper](https://www.ijcai.org/proceedings/2018/0611.pdf)] [[Code](https://github.com/nju-websoft/BootEA)] [[Note](./notes/embedding/BootEA.md)]  
 
-__Cross-lingual entity alignment via joint attribute-preserving embedding__. ISWC 2017. _Sun, Zequn and Hu, Wei and Li, Chengkai_. [[Paper](https://arxiv.org/pdf/1708.05045)] 
+__Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks__. EMNLP 2018.
+_Zhichun Wang, Qingsong Lv, Xiaohan Lan, Yu Zhang_. [[Paper](http://www.aclweb.org/anthology/D18-1032)]
+
+__Cross-lingual entity alignment via joint attribute-preserving embedding__. ISWC 2017. _Sun, Zequn and Hu, Wei and Li, Chengkai_. [[Paper](https://arxiv.org/pdf/1708.05045)]
 
 __Iterative entity alignment via joint knowledge embeddings__. IJCAI 2017. _Zhu, Hao and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong_. [[Paper](https://www.ijcai.org/proceedings/2017/0595.pdf)] [[Code](https://github.com/thunlp/IEAJKE)]
 
@@ -422,6 +427,11 @@ __Design challenges for entity linking__. TACL 2015. _Ling, Xiao and Singh, Same
 __Leveraging deep neural networks and knowledge graphs for entity disambiguation__. 2015. _Huang, Hongzhao and Heck, Larry and Ji, Heng_. [[Paper](https://arxiv.org/pdf/1504.07678.pdf)]
 
 __Entity disambiguation by knowledge and text jointly embedding__. CoNLL 2016. _Fang, Wei and Zhang, Jianwen and Wang, Dilin and Chen, Zheng and Li, Ming_. [[Paper](https://www.aclweb.org/anthology/K16-1026)]
+
+__End-to-End Neural Entity Linking__. CoNLL 2018.
+_Nikolaos Kolitsas, Octavian-Eugen Ganea, Thomas Hofmann_
+[[Paper](https://arxiv.org/abs/1808.07699})]
+
 
 ### Entity Typing
 __Label noise reduction in entity typing by heterogeneous partial-label embedding__. KDD 2016. _Ren, Xiang and He, Wenqi and Qu, Meng and Voss, Clare R and Ji, Heng and Han, Jiawei_. [[Paper](https://arxiv.org/pdf/1602.05307)]
@@ -449,7 +459,7 @@ __Combining Knowledge with Deep Convolutional Neural Networks for Short Text Cla
 
 
 ### Question Answering
-__Complex Factoid Question Answering with a Free-Text Knowledge Graph__ 
+__Complex Factoid Question Answering with a Free-Text Knowledge Graph__
 WWW 2020. _Zhao et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380197)]
 
 __An Interpretable Reasoning Network for Multi-Relation Question Answering__. COLING 2018. _Zhou, Mantong and Huang, Minlie and Zhu, Xiaoyan_. [[Paper](https://arxiv.org/abs/1801.04726)]
@@ -519,7 +529,7 @@ __dbrec—music recommendations using DBpedia__. ISWC 2010. _Passant, Alexandre_
 
 __Collaborative knowledge base embedding for recommender systems__. KDD 2016. _Zhang, Fuzheng and Yuan, Nicholas Jing and Lian, Defu and Xie, Xing and Ma, Wei-Ying_. [[Paper](https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf)]
 
-### Information Retrieval 
+### Information Retrieval
 __Keyword Search over Knowledge Graphs via Static and Dynamic Hub Labelings__
 WWW 2020. _Shi et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380110)]
 
@@ -532,14 +542,16 @@ __Fine-grained Event Categorization with Heterogeneous Graph Convolutional Netwo
 
 __TransNet: Translation-Based Network Representation Learning for Social Relation Extraction__. IJCAI 2017. _Tu, Cunchao and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2017_transnet.pdf)]
 
-### Healthcare 
+__Retrieving Textual Evidence for Knowledge Graph Facts__. ESWC 2019. _Gonenc Ercan, Shady Elbassuoni, and Katja Hose_. [[Paper](http://qweb.cs.aau.dk/factify/files/ESWC2019.pdf)]  
+
+### Healthcare
 __Constructing biomedical domain-specific knowledge graph with minimum supervision__ KAIS 2019. _Yuan, Jianbo and Jin, Zhiwei and Guo, Han and Jin, Hongxia and Zhang, Xianchao and Smith, Tristram and Luo, Jiebo_. [[Paper](https://link.springer.com/article/10.1007/s10115-019-01351-4)]
 
 __Knowledge-driven Encode, Retrieve, Paraphrase for Medical Image Report Generation__. AAAI 2019. _Li, Christy Y and Liang, Xiaodan and Hu, Zhiting and Xing, Eric P_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-LiChristy.629.pdf)]
 
 __On the Generative Discovery of Structured Medical Knowledge__. KDD 2018. _C. Zhang, Y. Li, N. Du, W. Fan, and P.S. Yu_ [[Paper](https://dl.acm.org/doi/abs/10.1145/3219819.3220010)]
 
-__Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)] 
+__Knowledge-aware Assessment of Severity of Suicide Risk for Early Intervention__. WWW 2019. _Gaur, Manas, Amanuel Alambo, Joy Prakash Sain, Ugur Kursuncu, Krishnaprasad Thirunarayan, Ramakanth Kavuluru, Amit Sheth, Randon S. Welton, and Jyotishman Pathak._ [[Paper](http://knoesis.org/sites/default/files/Suicide_Paper.pdf)]
 
 
 ### Software Engineering
@@ -558,7 +570,7 @@ __Mining Analogical Libraries in Q&A Discussions — Incorporating Relational an
 
 __TechLand: Assisting technology landscape inquiries with insights from stack overflow__. ICSME 2016. _Chen, Chunyang and Xing, Zhenchang and Han, Lei_. [[Paper](http://ccywch.github.io/chenchunyang.github.io/publication/techLand.pdf)]
 
-### Image Classification 
+### Image Classification
 __The More You Know: Using Knowledge Graphs for Image Classification__. CVPR 2017. _Marino, Kenneth and Salakhutdinov, Ruslan and Gupta, Abhinav_. [[Paper](https://arxiv.org/pdf/1612.04844)]
 
 
@@ -574,11 +586,11 @@ __One for All: Neural Joint Modeling of Entities and Events__. AAAI 2019. _Nguye
 
 __Linking named entities in tweets with knowledge base via user interest modeling__. KDD 2013. _Shen, Wei and Wang, Jianyong and Luo, Ping and Wang, Min_. [[Paper](http://chbrown.github.io/kdd-2013-usb/kdd/p68.pdf)]
 
-
+__Knowledge Aware Conversation Generation with Reasoning on Augmented Graph__. 2019. _Zhibin Liu, Zheng-Yu Niu, Hua Wu, Haifeng Wang_. [[Paper](https://arxiv.org/pdf/1903.10245.pdf)]
 
 __[⬆](#awesome-knowledge-graph)__
 ## Temporal Knowledge Graph
-__HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding__. EMNLP 2018. _Dasgupta, Shib Sankar, Swayambhu Nath Ray, and Partha Talukdar._ [[Paper](http://www.aclweb.org/anthology/D18-1225)] [[Code](https://github.com/malllabiisc/HyTE)] [[Note](./notes/dynamic/HyTe.md)] 
+__HyTE: Hyperplane-based Temporally aware Knowledge Graph Embedding__. EMNLP 2018. _Dasgupta, Shib Sankar, Swayambhu Nath Ray, and Partha Talukdar._ [[Paper](http://www.aclweb.org/anthology/D18-1225)] [[Code](https://github.com/malllabiisc/HyTE)] [[Note](./notes/dynamic/HyTe.md)]
 
 __Learning Sequence Encoders for Temporal Knowledge Graph Completion__. EMNLP 2018. _Garcia-Duran, Alberto and Dumančić, Sebastijan and Niepert, Mathias_. [[Paper](https://arxiv.org/pdf/1809.03202)] [[Code](https://github.com/nle-ml/mmkb)]
 
@@ -607,11 +619,11 @@ __DRUM: End-To-End Differentiable Rule Mining On Knowledge Graphs__. NeurIPS 201
 
 __Chain of Reasoning for Visual Question Answering__. NIPS 2018. _Wu, Chenfei and Liu, Jinlai and Wang, Xiaojie and Dong, Xuan_. [[Paper](https://papers.nips.cc/paper/7311-chain-of-reasoning-for-visual-question-answering.pdf)]
 
-__Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering__. NIPS 2018. _Medhini Narasimhan, Svetlana Lazebnik, Alex Schwing_. [[Paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering)] 
+__Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering__. NIPS 2018. _Medhini Narasimhan, Svetlana Lazebnik, Alex Schwing_. [[Paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering)]
 
 __Symbolic Graph Reasoning Meets Convolutions__. NIPS 2018. _Xiaodan Liang, Zhiting HU, Hao Zhang, Liang Lin, and Eric P. Xing_. [[Paper](http://papers.nips.cc/paper/7456-symbolic-graph-reasoning-meets-convolutions)]
 
-__Variational Knowledge Graph Reasoning__. NAACL-HLT 2018. _Wenhu Chen, Wenhan Xiong, Xifeng Yan, William Yang Wang_. [[Paper](https://arxiv.org/abs/1803.06581)] 
+__Variational Knowledge Graph Reasoning__. NAACL-HLT 2018. _Wenhu Chen, Wenhan Xiong, Xifeng Yan, William Yang Wang_. [[Paper](https://arxiv.org/abs/1803.06581)]
 
 __DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning__. EMNLP 2017. _Wenhan Xiong, Thien Hoang, William Yang Wang_. [[Paper](http://www.cs.ucsb.edu/~william/papers/DeepPath.pdf)] [[Code](https://github.com/xwhan/DeepPath)]
 
@@ -666,7 +678,7 @@ __Revisiting the Representation of and Need for Raw Geometries on the Linked Dat
 
 __Design and Development of Linked Data from The National Map__. Semnantic Web Journal. _E. Lynn Usery and Dalia Varanka_ [[Paper](http://www.semantic-web-journal.net/sites/default/files/swj180_2.pdf)]
 
-__Relaxing Unanswerable Geographic Questions Using A Spatially Explicit Knowledge Graph Embedding Model__ AGILE 2019. [[Paper](http://www.geog.ucsb.edu/~gengchen_mai/papers/2019-AGILE19_TransGeo.pdf)] [[Code](https://github.com/gengchenmai/TransGeo)] 
+__Relaxing Unanswerable Geographic Questions Using A Spatially Explicit Knowledge Graph Embedding Model__ AGILE 2019. [[Paper](http://www.geog.ucsb.edu/~gengchen_mai/papers/2019-AGILE19_TransGeo.pdf)] [[Code](https://github.com/gengchenmai/TransGeo)]
 
 __Enabling Spatio-Temporal Search in Open Data__. Journal of Web Semantics (JWS), Elsevier, 2018. _Sebastian Neumaier and Axel Polleres._ [[Paper](http://epub.wu.ac.at/6764/1/neumaier2018TR-enabling.pdf)]
 
@@ -695,7 +707,7 @@ __OpenKG knowledge graphs about the novel coronavirus COVID-19__
 Knowledge graph from encyclopedia[[Link](http://www.openkg.cn/dataset/2019-ncov-baike)]
 
 - 新冠科研图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-research)]   
-Knowledge graph of COVID-19 research [[Link](http://www.openkg.cn/dataset/2019-ncov-research)] 
+Knowledge graph of COVID-19 research [[Link](http://www.openkg.cn/dataset/2019-ncov-research)]
 
 - 新冠临床图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-clinic)]  
 Clinical knowledge graph [[Link](http://www.openkg.cn/dataset/2019-ncov-clinic)]
@@ -713,7 +725,7 @@ __KgBase COVID-19 knowledge graph__ [[Web](https://covid19.kgbase.com)]
 __Academic graphs__
 - OAG, Open Academic Graph, https://www.aminer.cn/open-academic-graph
 
-### Entity Recognition 
+### Entity Recognition
 CORD-19, a comprehensieve named entity annotation dataset, CORD-NER, on the COVID-19 Open Research Dataset Challenge (CORD-19) corpus [[Data](https://xuanwang91.github.io/2020-03-20-cord19-ner/)]
 
 ### Other Collections
@@ -723,8 +735,8 @@ __ASER: A Large-scale Eventuality Knowledge Graph__
 WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380107)]
 
 
-## Libraries, Softwares and Tools 
-### KRL Libraries 
+## Libraries, Softwares and Tools
+### KRL Libraries
 [Grakn](https://github.com/graknlabs/kglib), Grakn Knowledge Graph Library (ML R&D) https://grakn.ai
 
 [AmpliGraph](https://github.com/Accenture/AmpliGraph), Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org
@@ -750,6 +762,9 @@ Knowledge graph APP, Simple knowledge graph applications can be easily built usi
 ### Courses
 - Stanford CS 520 Knowledge Graphs: How should AI explicitly represent knowledge? _Vinay K. Chaudhri, Naren Chittar, Michael Genesereth_. [[Web](https://web.stanford.edu/class/cs520/)]
 - Stanford CS 224W: Machine Learning with Graphs. _Jure Leskovec_. [[Web](http://web.stanford.edu/class/cs224w/index.html)]
+- University of Bonn: Analysis of Knowledge Graphs. _Jens Lehmmann_. [[Web](https://sewiki.iai.uni-bonn.de/teaching/lectures/kga/2017/start)] [[GitHub](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises)]
+
+
 ## Related Repos
 A repo about knowledge graph in Chinese - [husthuke/awesome-knowledge-graph](https://github.com/husthuke/awesome-knowledge-graph)
 
@@ -759,7 +774,7 @@ Top-level Conference Publications on Knowledge Graph - [wds-seu/Knowledge-Graph-
 
 Geospatial Knowledge Graphs - [semantic-geospatial](https://github.com/laurentlefort/semantic-geospatial/wiki/Geospatial-Knowledge-Graphs)
 
-## Acknowledgements 
+## Acknowledgements
 
 Acknoledgements give to the following people who comment or contribute to this repository (listed chronologically).
 
