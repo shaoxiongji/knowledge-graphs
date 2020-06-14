@@ -25,13 +25,14 @@ A collection of knowledge graph papers, codes, and reading notes.
     - [Entity Typing](#entity-typing)
   - [Knowledge-aware Applications](#knowledge-aware-applications)
     - [Natural Language Understanding](#natural-language-understanding)
+    - [Commonsense Knowledge](#commonsense-knowledge)
     - [Question Answering](#question-answering)
     - [Dialogue Systems](#dialogue-systems)
     - [Recommendation System](#recommendation-system)
     - [Information Retrieval](#information-retrieval)
     - [Healthcare](#healthcare)
     - [Software Engineering](#software-engineering)
-    - [Image Classification](#image-classification)
+    - [Computer Vision](#computer-vision)
     - [Other Applications](#other-applications)
   - [Temporal Knowledge Graph](#temporal-knowledge-graph)
   - [Knowledge Graph Reasoning](#knowledge-graph-reasoning)
@@ -69,9 +70,9 @@ __Knowledge graph refinement: A survey of approaches and evaluation methods__. S
 __A review of relational machine learning for knowledge graphs__. Proceedings of the IEEE 2015. _Nickel, Maximilian and Murphy, Kevin and Tresp, Volker and Gabrilovich, Evgeniy_. [[Paper](https://arxiv.org/pdf/1503.00759)]
 
 ## Papers by venues
-| Year      | WWW       |  
-| --------  | --------  |   
-| 2020      | [20](./conferences/www20.md) |  
+| Year      | WWW                           | AAAI                          |
+| --------  | --------                      | --------                      |   
+| 2020      | [20](./conferences/www20.md)  | [28](./conferences/aaai20.md)   |
 
 ## Knowledge Graph Embedding
 __Relation Embedding with Dihedral Group in Knowledge Graph__. ACL 2019. _Xu, Canran and Li, Ruijiang_. [[Paper](https://arxiv.org/pdf/1906.00687)]
@@ -79,6 +80,19 @@ __Relation Embedding with Dihedral Group in Knowledge Graph__. ACL 2019. _Xu, Ca
 __RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space__. ICLR 2019. _Zhiqing Sun and Zhi-Hong Deng and Jian-Yun Nie and Jian Tang_. [[Paper](https://arxiv.org/pdf/1902.10197)] [[Code](https://github.com/DeepGraphLearning/KnowledgeGraphEmbedding)]
 
 __Logic Attention Based Neighborhood Aggregation for Inductive Knowledge Graph Embedding__. AAAI 2019. _Wang, Peifeng and Han, Jialong and Li, Chenliang and Pan, Rong_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-WangPeifeng.2685.pdf)]
+
+__Embedding Uncertain Knowledge Graphs__. AAAI 2019.
+_Chen et al._ [[Paper](https://arxiv.org/abs/1811.10667)]
+
+__TransGate: Knowledge Graph Embedding with Shared Gate Structure__. AAAI 2019.
+_Yuan et al._ [[Paper](https://aaai.org/ojs/index.php/AAAI/article/view/4169/4047)]
+
+__Improved Knowledge Graph Embedding using Background Taxonomic Information__. AAAI 2019.
+_Fatemi et al._ [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4231/4109)]
+
+__Validation of Growing Knowledge Graphs by Abductive Text Evidences__. AAAI 2019.
+_Du et al._ [[Paper](https://aaai.org/ojs/index.php/AAAI/article/view/4130/4008)]
+
 
 __Variational Quantum Circuit Model for Knowledge Graph Embedding__. Advanced Quantum Technologies 2019. _Yunpu Ma, Volker Tresp, Liming Zhao, and Yuyi Wang_. [[Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/qute.201800078)]
 
@@ -248,6 +262,12 @@ WWW 2020. _He et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.338015
 __Open Knowledge Enrichment for Long-tail Entities__.
 WWW 2020. _Cao et al._.
 [[Paper](https://arxiv.org/pdf/2002.06397.pdf)] [[Code](https://github.com/nju-websoft/OKELE/)]
+
+__LENA: Locality-Expanded Neural Embedding for Knowledge Base Completion__. AAAI 2019.
+_Kong et al._ [[Paper](https://aaai.org/ojs/index.php/AAAI/article/view/4144/4022)] [[Code](https://github.com/fskong/LENA)]
+
+__On Completing Sparse Knowledge Graph with Transitive Relation Embedding__. AAAI 2019.
+_Zhou et al._ [[Paper](https://aaai.org/ojs/index.php/AAAI/article/view/4173/4051)]
 
 __End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion__. AAAI 2019. _Shang, Chao and Tang, Yun and Huang, Jing and Bi, Jinbo and He, Xiaodong and Zhou, Bowen_. [[Paper](https://arxiv.org/pdf/1811.04441)]
 
@@ -446,6 +466,12 @@ __[⬆](#awesome-knowledge-graph)__
 ## Knowledge-aware Applications
 
 ### Natural Language Understanding
+__Combining Axiom Injection and Knowledge Base Completion for Efficient Natural Language Inference__. AAAI 2019.
+_Yoshikawa et al._ [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4730/4608)] [[Code](https://github.com/masashi-y/abduction_kbc)]
+
+__Deep Short Text Classification with Knowledge Powered Attention__. AAAI 2019.
+_Chen et al._ [[Paper](https://arxiv.org/abs/1902.08050)]
+
 __A neural knowledge language model__. 2016. _Ahn, Sungjin and Choi, Heeyoul and Pärnamaa, Tanel and Bengio, Yoshua_. [[Paper](https://arxiv.org/pdf/1608.00318)] [[Dataset](https://bitbucket.org/skaasj/wikifact_filmactor)]
 
 __ERNIE: Enhanced Language Representation with Informative Entities__. ACL 2019. _Zhang, Zhengyan and Han, Xu and Liu, Zhiyuan and Jiang, Xin and Sun, Maosong and Liu, Qun_. [[Paper](https://arxiv.org/pdf/1905.07129)] [[Code](https://github.com/thunlp/ERNIE)]
@@ -456,11 +482,26 @@ __Targeted Aspect-Based Sentiment Analysis via Embedding Commonsense Knowledge i
 __Combining Knowledge with Deep Convolutional Neural Networks for Short Text Classification__. IJCAI 2017. _Wang, Jin and Wang, Zhongyuan and Zhang, Dawei and Yan, Jun_. [[Paper](http://yellowstone.cs.ucla.edu/~jinwang/jinwang_files/ijcai2017.pdf)]
 
 
+### Commonsense Knowledge
+__Story Ending Generation with Incremental Encoding and Commonsense Knowledge__. AAAI 2019.
+_Jian Guan, Yansen Wang, Minlie Huang_. [[Paper](https://arxiv.org/abs/1808.10113)]
+
+__Incorporating Commonsense Knowledge for Story Completion__. AAAI 2019.
+_Chen et al._. [[Paper](https://arxiv.org/abs/1811.00625)]
+
+__Simulation-Based Approach to Efficient Commonsense Reasoning in Very Large Knowledge Bases__. AAAI 2019.
+_Sharma et al._ [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/3936)]
 
 
 ### Question Answering
 __Complex Factoid Question Answering with a Free-Text Knowledge Graph__
 WWW 2020. _Zhao et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380197)]
+
+__Declarative Question Answering over Knowledge Bases containing Natural Language Text with Answer Set Programming__. AAAI 2019.
+_Mitra et al._ [[Paper](https://arxiv.org/abs/1905.00198)]
+
+__Multi-Task Learning with Multi-View Attention for Answer Selection and Knowledge Base Question Answering__. AAAI 2019.
+_Deng et al._ [[Paper](https://arxiv.org/abs/1812.02354)]
 
 __An Interpretable Reasoning Network for Multi-Relation Question Answering__. COLING 2018. _Zhou, Mantong and Huang, Minlie and Zhu, Xiaoyan_. [[Paper](https://arxiv.org/abs/1801.04726)]
 
@@ -570,10 +611,14 @@ __Mining Analogical Libraries in Q&A Discussions — Incorporating Relational an
 
 __TechLand: Assisting technology landscape inquiries with insights from stack overflow__. ICSME 2016. _Chen, Chunyang and Xing, Zhenchang and Han, Lei_. [[Paper](http://ccywch.github.io/chenchunyang.github.io/publication/techLand.pdf)]
 
-### Image Classification
+### Computer Vision
 __The More You Know: Using Knowledge Graphs for Image Classification__. CVPR 2017. _Marino, Kenneth and Salakhutdinov, Ruslan and Gupta, Abhinav_. [[Paper](https://arxiv.org/pdf/1612.04844)]
 
+__I Know the Relationships: Zero-Shot Action Recognition via Two-Stream Graph Convolutional Networks and Knowledge Graphs__. AAAI 2019.
+_Gao et al._ [[Paper](https://aaai.org/ojs/index.php/AAAI/article/view/4843/4716)] [[Code](https://github.com/junyuGao/Zero-Shot-Action-Recognition-with-Two-Stream-GCN)]
 
+__WK-VQA: World Knowledge-enabled Visual Question Answering__
+_Shah et al._ [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4915/4788)]
 ### Other Applications
 
 __Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding__. NAACL-HLT 2015. _Yun-Nung Chen, William Yang Wang, Alex Rudnicky_. [[Paper](http://www.cs.ucsb.edu/~william/papers/NAACL15_InterSlotRelation.pdf)]
