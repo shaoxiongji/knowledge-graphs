@@ -3,12 +3,22 @@
 Here lists papers and quick notes about knowledge graphs, information extraction, and knowledge-aware NLP applications that appear in the 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020). 
 Knowledge graph embedding and completion are still hot topics. Named entity recognition is the most extensively studied topic in this year's ACL conference, with 17 papers accepted. Knowledge-aware or knowledge-guided applications such as sentiment analysis and text generation are also exciting directions. 
 
-![bar-chart](acl20-counts.png)
-
-Here lists papers and quick notes about knowledge graphs, information extraction, and knowledge-aware NLP applications that appear in the 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020). 
-Knowledge graph embedding and completion are still hot topics. Named entity recognition is the most extensively studied topic in this year's ACL conference, with 17 papers accepted. Knowledge-aware or knowledge-guided applications such as sentiment analysis and text generation are also exciting directions. 
-
 ![bar-chart]({{ site.url }}/img/posts/acl20-counts.png)
+
+- [Knowledge Graphs, Information Extraction and Knowledge-aware NLP @ACL20](#knowledge-graphs-information-extraction-and-knowledge-aware-nlp-acl20)
+  - [Knowledge Graph Embedding](#knowledge-graph-embedding)
+  - [Knowledge Graph Completion](#knowledge-graph-completion)
+  - [Relation Extraction](#relation-extraction)
+  - [Named Entity Recognition](#named-entity-recognition)
+  - [Entity Typing](#entity-typing)
+  - [Entity Linking](#entity-linking)
+  - [Entity Alignment](#entity-alignment)
+  - [Information Extraction](#information-extraction)
+  - [Knowledge-aware Applications](#knowledge-aware-applications)
+    - [Question Answering](#question-answering)
+    - [Sentiment Analysis](#sentiment-analysis)
+    - [Generation](#generation)
+  - [Dataset](#dataset)
 
 
 ## Knowledge Graph Embedding
