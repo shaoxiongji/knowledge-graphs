@@ -5,28 +5,33 @@ Knowledge graph embedding and completion are still hot topics. Named entity reco
 
 ![bar-chart](acl20-counts.png)
 
+Here lists papers and quick notes about knowledge graphs, information extraction, and knowledge-aware NLP applications that appear in the 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020). 
+Knowledge graph embedding and completion are still hot topics. Named entity recognition is the most extensively studied topic in this year's ACL conference, with 17 papers accepted. Knowledge-aware or knowledge-guided applications such as sentiment analysis and text generation are also exciting directions. 
+
+![bar-chart]({{ site.url }}/img/posts/acl20-counts.png)
+
 
 ## Knowledge Graph Embedding
 __Low-Dimensional Hyperbolic Knowledge Graph Embeddings__
 _Ines Chami, Adva Wolf, Da-Cheng Juan, Frederic Sala, Sujith Ravi and Christopher Ré_ [[Paper](https://arxiv.org/abs/2005.00545)] [[Code](https://github.com/tensorflow/neural-structured-learning/tree/master/research/kg_hyp_emb)]
-> hyperbolic embedding for high-fidelity and parsimonious representations
-> simultaneously capture hierarchical and logical patterns
-> hyperbolic reflections and rotations with attention to model complex relational patterns 
+> hyperbolic embedding for high-fidelity and parsimonious representations;  
+> simultaneously capture hierarchical and logical patterns;  
+> hyperbolic reflections and rotations with attention to model complex relational patterns  
 
 __Orthogonal Relation Transforms with Graph Context Modeling for Knowledge Graph Embedding__. 
 _Yun Tang, Jing Huang, Guangtao Wang, Xiaodong He and Bowen Zhou_ [[Paper](https://arxiv.org/abs/1911.04910)]
-> extend the RotatE from 2D complex domain to high dimensional space with orthogonal transforms
+> extend the RotatE from 2D complex domain to high dimensional space with orthogonal transforms;  
 > graph context is integrated into distance scoring functions
 
 __SEEK: Segmented Embedding of Knowledge Graphs__
 _Wentao Xu, Shun Zheng, Liang He, Bin Shao, Jian Yin, Tie-Yan Liu_. [[Paper](https://arxiv.org/abs/2005.00856)] [[Code](https://github.com/Wentao-Xu/SEEK)]
-> lightweight modeling framework
-> 1) facilitating sufficient feature interactions; 
+> lightweight modeling framework  
+> 1) facilitating sufficient feature interactions;  
 > 2) preserving both symmetry and antisymmetry properties of relations.
 
 __ReInceptionE: Relation-Aware Inception Network with Joint Local-Global Structural Information for Knowledge Graph Embedding__
 _Zhiwen Xie, Guangyou Zhou, Jin Liu and Jimmy Xiangji Huang_. [[Paper](https://www.aclweb.org/anthology/2020.acl-main.526.pdf)]
-> Inception network to learn query embedding, aiming to increase the interaction between head and relation embeddings
+> Inception network to learn query embedding, aiming to increase the interaction between head and relation embeddings;  
 > a relation-aware attention mechanism to enrich the query embedding with the local neighborhood and global entity information
 
 __Knowledge Graph Embedding Compression__
@@ -55,7 +60,7 @@ _Zhepei Wei, Jianlin Su, Yue Wang, Yuan Tian and Yi Chang_.
 
 __Dialogue-Based Relation Extraction__
 _Dian Yu, Kai Sun, Claire Cardie and Dong Yu_. [[Paper](https://arxiv.org/pdf/2004.08056.pdf)] [[Code+data](https://dataset.org/dialogre/)]
-> the first human-annotated dialogue-based relation extraction dataset DialogRE
+> the first human-annotated dialogue-based relation extraction dataset DialogRE;  
 > a new metric 
 
 __Exploiting the Syntax-Model Consistency for Neural Relation Extraction__
@@ -69,12 +74,12 @@ _Christoph Alt, Aleksandra Gabryszak and Leonhard Hennig_ [[Paper](https://arxiv
 
 __Reasoning with Latent Structure Refinement for Document-Level Relation Extraction__
 _Guoshun Nan, Zhijiang Guo, Ivan Sekulic and Wei Lu_ [[Paper](https://arxiv.org/pdf/2005.06312.pdf)]
-> empowers the relational reasoning across sentences by automatically inducing the latent document-level graph
+> empowers the relational reasoning across sentences by automatically inducing the latent document-level graph;  
 > a refinement strategy, which enables the model to incrementally aggregate relevant information for multi-hop reasoning
 
 __Relabel the Noise: Joint Extraction of Entities and Relations via Cooperative Multiagents__
 _Daoyuan Chen, Yaliang Li, Kai Lei and Ying Shen_ [[Paper](https://arxiv.org/pdf/2004.09930.pdf)]
-> consider the problem of shifted label distribution
+> consider the problem of shifted label distribution;  
 > jointly extract entity and relation through a group of cooperative multiagents
 
 __TACRED Revisited: A Thorough Evaluation of the TACRED Relation Extraction Task__
@@ -110,7 +115,7 @@ _Chen Jia and Yue Zhang_. [[Paper](https://www.aclweb.org/anthology/2020.acl-mai
 
 __Named Entity Recognition without Labelled Data: A Weak Supervision Approach__
 _Pierre Lison, Jeremy Barnes, Aliaksandr Hubin and Samia Touileb_ [[Paper](https://arxiv.org/pdf/2004.14723.pdf)]
-> a broad spectrum of labelling functions to automatically annotate texts from the target domain
+> a broad spectrum of labelling functions to automatically annotate texts from the target domain;  
 > a hidden Markov model which captures the varying accuracies and confusions of the labelling functions
 
 __Simplify the Usage of Lexicon in Chinese NER__
@@ -162,10 +167,6 @@ _Feng Hou, Ruili Wang, Jun He and Yi Zhou_. [[Paper](https://www.aclweb.org/anth
 ## Entity Alignment
 __Neighborhood Matching Network for Entity Alignment__
 _Yuting Wu, Xiao Liu, Yansong Feng, Zheng Wang and Dongyan Zhao_ [[Paper](https://arxiv.org/pdf/2005.05607.pdf)]
-> estimates the similarities between entities to capture both the topological structure and the neighborhood difference
-> uses a novel graph sampling method to distill a discriminative neighborhood for each entity
-> adopts a cross-graph neighborhood matching module to jointly encode the neighborhood difference for a given entity pair
-
 
 ## Information Extraction
 __A Joint Neural Model for Information Extraction with Global Features__
@@ -174,8 +175,7 @@ _Ying Lin, Heng Ji, Fei Huang and Lingfei Wu_ [[Paper](https://blender.cs.illino
 
 __IMoJIE: Iterative Memory-Based Joint Open Information Extraction__
 _Keshav Kolluru, Samarth Aggarwal, Vipul Rathore, Mausam and Soumen Chakrabarti_ [[Paper](https://arxiv.org/pdf/2005.08178.pdf)]
-> an extension to CopyAttention 
-> produces the next extraction conditioned on all previously extracted tuples
+> an extension to CopyAttention; produces the next extraction conditioned on all previously extracted tuples
 
 __TXtract: Taxonomy-Aware Knowledge Extraction for Thousands of Product Categories__
 _Giannis Karamanolakis, Jun Ma and Xin Luna Dong_. [[Paper](https://www.aclweb.org/anthology/2020.acl-main.751.pdf)]
