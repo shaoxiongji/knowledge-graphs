@@ -247,6 +247,9 @@ Automated Knowledge Base Construction 2019. _Oñoro-Rubio et al._ [[Paper](https
 __[⬆](#awesome-knowledge-graph)__
 ## Knowledge Acquisition
 ### Knowledge Graph Completion
+__LowFER: Low-rank Bilinear Pooling for Link Prediction__.
+ICML 2020. _Amin et al._ [[Paper](https://proceedings.icml.cc/static/paper_files/icml/2020/2919-Paper.pdf)]
+
 __Beyond Triplets: Hyper-Relational Knowledge Graph Embedding for Link Prediction__
 WWW 2020. _Rosso et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380257)]
 
@@ -314,6 +317,9 @@ __Expanding Taxonomies with Implicit Edge Semantics__
 WWW 2020. _Manzoor et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380271)]
 
 ### Relation Extraction
+__Few-shot Relation Extraction via Bayesian Meta-learning on Task Graphs__.
+ICML 2020. _Qu et al._ [[Paper](https://Few-shot Relation Extraction via Bayesian Meta-learning on Task Graphs)]
+
 __NERO: A Neural Rule Grounding Framework for Label-Efficient Relation Extraction__
 WWW 2020. _Zhou et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380282)]
 
