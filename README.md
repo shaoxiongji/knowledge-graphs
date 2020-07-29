@@ -50,12 +50,12 @@ __A review of relational machine learning for knowledge graphs__. Proceedings of
   - [Relation Extraction](./papers/KG-RE.md)
   - [Entity Discovery](./papers/KG-entity.md)
 - Knowledge-aware Applications
-  - [Natural Language Understanding](./papers/KG-applications#natural-langauge-understanding)
-  - [Commonsense Knowledge](./papers/KG-applications#commonsense-knowledge)
-  - [Question Answering](./papers/KG-applications#question-answering)
-  - [Dialogue Systems](./papers/KG-applications#dialogue-systems)
-  - [Recommendation Systems](./papers/KG-applications#recommendation-systems)
-  - [Information Retrieval](./papers/KG-applications#information-retrieval)
+  - [Natural Language Understanding](./papers/KG-applications.md#natural-langauge-understanding)
+  - [Commonsense Knowledge](./papers/KG-applications.md#commonsense-knowledge)
+  - [Question Answering](./papers/KG-applications.md#question-answering)
+  - [Dialogue Systems](./papers/KG-applications.md#dialogue-systems)
+  - [Recommendation Systems](./papers/KG-applications.md#recommendation-systems)
+  - [Information Retrieval](./papers/KG-applications.md#information-retrieval)
 - [Temporal Knowledge Graph](./papers/KG-temporal.md)
 - [Knowledge Graph Reasoning](./papers/KG-reasoning.md)
 - [One/few-Shot and Zero-Shot Learning](./papers/KG-few-shot.md)
@@ -79,20 +79,15 @@ __A review of relational machine learning for knowledge graphs__. Proceedings of
 
 ### Domain-specific Data
 __OpenKG knowledge graphs about the novel coronavirus COVID-19__
-- 新冠百科图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-baike)]  
-Knowledge graph from encyclopedia[[Link](http://www.openkg.cn/dataset/2019-ncov-baike)]
+- 新冠百科图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-baike)] Knowledge graph from encyclopedia[[Link](http://www.openkg.cn/dataset/2019-ncov-baike)]
 
-- 新冠科研图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-research)]   
-Knowledge graph of COVID-19 research [[Link](http://www.openkg.cn/dataset/2019-ncov-research)]
+- 新冠科研图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-research)] Knowledge graph of COVID-19 research [[Link](http://www.openkg.cn/dataset/2019-ncov-research)]
 
-- 新冠临床图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-clinic)]  
-Clinical knowledge graph [[Link](http://www.openkg.cn/dataset/2019-ncov-clinic)]
+- 新冠临床图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-clinic)] Clinical knowledge graph [[Link](http://www.openkg.cn/dataset/2019-ncov-clinic)]
 
-- 新冠英雄图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-hero)]  
-Knowledge graph of people, experts, and heroes [[Link](http://www.openkg.cn/dataset/2019-ncov-hero)]
+- 新冠英雄图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-hero)] Knowledge graph of people, experts, and heroes [[Link](http://www.openkg.cn/dataset/2019-ncov-hero)]
 
-- 新冠热点事件图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-event)]  
-Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-event)]
+- 新冠热点事件图谱 [[链接](http://www.openkg.cn/dataset/2019-ncov-event)] Knowledge graph of public events [[Link](http://www.openkg.cn/dataset/2019-ncov-event)]
 
 __COVID❋GRAPH  COVID-19 virus__
 [[Web](http://www.odbms.org/2020/03/we-build-a-knowledge-graph-on-covid-19/)]
@@ -129,7 +124,7 @@ WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.338
 [akutan](https://github.com/eBay/akutan), A distributed knowledge graph store
 
 ### Others
-- OpenNRE, https://github.com/thunlp/OpenNRE
+- [OpenNRE](https://github.com/thunlp/OpenNRE)
 
 ### Interactive APP
 Knowledge graph APP, Simple knowledge graph applications can be easily built using JSON data managed entirely via a GraphQL layer. [[Github](https://github.com/epistemik-co/staple-api-kg-demo)] [[Website](http://demo.staple-api.org)]

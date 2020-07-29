@@ -1,5 +1,7 @@
+## Relation Extraction
+
 __Few-shot Relation Extraction via Bayesian Meta-learning on Task Graphs__.
-ICML 2020. _Qu et al._ [[Paper](https://Few-shot Relation Extraction via Bayesian Meta-learning on Task Graphs)]
+ICML 2020. _Qu et al._ [[Paper](https://proceedings.icml.cc/static/paper_files/icml/2020/5706-Paper.pdf)]
 
 __NERO: A Neural Rule Grounding Framework for Label-Efficient Relation Extraction__
 WWW 2020. _Zhou et al._. [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380282)]
