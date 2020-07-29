@@ -79,7 +79,7 @@ __Lstm-based mixture-of-experts for knowledge-aware dialogues__. ACL 2016 Worksh
 
 __Flexible end-to-end dialogue system for knowledge grounded conversation__. 2017. _Zhu, Wenya and Mo, Kaixiang and Zhang, Yu and Zhu, Zhangbin and Peng, Xuezheng and Yang, Qiang_. [[Paper](https://arxiv.org/pdf/1709.04264)]
 
-### Recommendation System
+### Recommendation Systems
 __Reinforced Negative Sampling over Knowledge Graph for Recommendation__
 WWW 2020. _Wang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380098)]
 

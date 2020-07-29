@@ -54,7 +54,7 @@ __A review of relational machine learning for knowledge graphs__. Proceedings of
   - [Commonsense Knowledge](./papers/KG-applications.md#commonsense-knowledge)
   - [Question Answering](./papers/KG-applications.md#question-answering)
   - [Dialogue Systems](./papers/KG-applications.md#dialogue-systems)
-  - [Recommendation Systems](./papers/KG-applications.md#recommendation-systems)
+  - [Recommendation Systems](./papers/KG-applications.md##recommendation-systems)
   - [Information Retrieval](./papers/KG-applications.md#information-retrieval)
 - [Temporal Knowledge Graph](./papers/KG-temporal.md)
 - [Knowledge Graph Reasoning](./papers/KG-reasoning.md)
