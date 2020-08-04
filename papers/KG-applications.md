@@ -28,6 +28,9 @@ _Sharma et al._ [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/39
 
 
 ### Question Answering
+__Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering__
+ICLR 2020. _Asai et al._ [[Paper](https://openreview.net/forum?id=SJgVHkrYDH)] [[Code](https://github.com/AkariAsai/learning_to_retrieve_reasoning_paths)]
+
 __Complex Factoid Question Answering with a Free-Text Knowledge Graph__
 WWW 2020. _Zhao et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380197)]
 
@@ -80,6 +83,12 @@ __Lstm-based mixture-of-experts for knowledge-aware dialogues__. ACL 2016 Worksh
 __Flexible end-to-end dialogue system for knowledge grounded conversation__. 2017. _Zhu, Wenya and Mo, Kaixiang and Zhang, Yu and Zhu, Zhangbin and Peng, Xuezheng and Yang, Qiang_. [[Paper](https://arxiv.org/pdf/1709.04264)]
 
 ### Recommendation Systems
+__Reinforced Negative Sampling over Knowledge Graph for Recommendation__.
+WWW 2020. _Wang et al._ [[Paper](https://arxiv.org/abs/2003.05753)]
+
+__Towards Knowledge-Based Recommender Dialog System__.
+EMNLP-IJCNLP 2019. _Qibin Chen, Junyang Lin, Yichang Zhang, Ming Ding, Yukuo Cen, Hongxia Yang, Jie Tang_. [[Paper](https://arxiv.org/abs/1908.05391)]
+
 __Reinforced Negative Sampling over Knowledge Graph for Recommendation__
 WWW 2020. _Wang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380098)]
 
@@ -108,18 +117,46 @@ __Collaborative knowledge base embedding for recommender systems__. KDD 2016. _Z
 __Keyword Search over Knowledge Graphs via Static and Dynamic Hub Labelings__
 WWW 2020. _Shi et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380110)]
 
+__Event Representation Learning Enhanced with External Commonsense Knowledge__
+EMNLP 2019. _Ding et al._ [[Paper](https://arxiv.org/pdf/1909.05190.pdf)]
+
+__Extracting Entities and Events as a Single Task Using a Transition-Based Neural Model__
+IJCAI 2019. _Junchi Zhang, Yanxia Qin, Yue Zhang, Mengchi Liu, Donghong Ji_. [[Paper](https://www.ijcai.org/Proceedings/2019/0753.pdf)]
+
+__Retrieving Textual Evidence for Knowledge Graph Facts__. ESWC 2019. _Gonenc Ercan, Shady Elbassuoni, and Katja Hose_. [[Paper](http://qweb.cs.aau.dk/factify/files/ESWC2019.pdf)]  
+
+__Fine-grained Event Categorization with Heterogeneous Graph Convolutional Networks__. IJCAI 2019. _H. Peng, J. Li, Q. Gong, Y. Song, Y. Ning, K. Lai, and P.S. Yu_. [[Paper](https://www.ijcai.org/Proceedings/2019/0449.pdf)]
+
+__Towards better text understanding and retrieval through kernel entity salience modeling__
+SIGIR 2018. _Xiong et al._ [[Paper](https://arxiv.org/abs/1805.01334)]
+
+__Entity-duet neural ranking: understanding the role of knowledge graph semantics in neural information retrieval__
+ACL 2018. _Liu et al._ [[Paper](https://www.aclweb.org/anthology/P18-1223)] [[Code](https://github.com/thunlp/EntityDuetNeuralRanking)]
+
+__TransNet: Translation-Based Network Representation Learning for Social Relation Extraction__. IJCAI 2017. _Tu, Cunchao and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2017_transnet.pdf)]
+
+__Explicit semantic ranking for academic search via knowledge graph embedding__
+WWW 2017. _Xiong et al._ [[Paper](http://www.cs.cmu.edu/~cx/papers/Explicit_Semantic_Ranking.pdf)]
+
+__Word-entity duet representations for document ranking__
+SIGIR 2017. _Xiong et al._ [[Paper](https://arxiv.org/abs/1706.06636)]
+
+__JointSem: combining query entity linking and entity based document ranking__ 
+CIKM 2017. _Xiong et al._ [[Paper](http://www.cs.cmu.edu/~cx/papers/JointSem.pdf)]
+
 __Explicit semantic ranking for academic search via knowledge graph embedding__. WWW 2017. _Xiong et al._ [[Paper](http://www.cs.cmu.edu/~cx/papers/Explicit_Semantic_Ranking.pdf)]
 
 __Joint event extraction via recurrent neural networks__. NAACL 2016. _Nguyen, Thien Huu and Cho, Kyunghyun and Grishman, Ralph_. [[Paper](https://www.aclweb.org/anthology/N16-1034)]
 
-__Fine-grained Event Categorization with Heterogeneous Graph Convolutional Networks__. IJCAI 2019. _H. Peng, J. Li, Q. Gong, Y. Song, Y. Ning, K. Lai, and P.S. Yu_. [[Paper](https://www.ijcai.org/Proceedings/2019/0449.pdf)]
-
-
-__TransNet: Translation-Based Network Representation Learning for Social Relation Extraction__. IJCAI 2017. _Tu, Cunchao and Zhang, Zhengyan and Liu, Zhiyuan and Sun, Maosong_. [[Paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2017_transnet.pdf)]
-
-__Retrieving Textual Evidence for Knowledge Graph Facts__. ESWC 2019. _Gonenc Ercan, Shady Elbassuoni, and Katja Hose_. [[Paper](http://qweb.cs.aau.dk/factify/files/ESWC2019.pdf)]  
-
 ### Healthcare
+
+__Real-world data medical knowledge graph: construction and applications__.
+AI for Medicine 2020. _Li et al._. [[Paper](https://www.sciencedirect.com/science/article/pii/S0933365719309546)]
+
+__Phenotypical Ontology Driven Framework for Multi-Task Learning__.
+NeurIPS 2019 KR2ML Workshop. _Ghalwash et al._. 
+[[Paper](https://kr2ml.github.io/2019/papers/KR2ML_2019_paper_54.pdf)]
+
 __Constructing biomedical domain-specific knowledge graph with minimum supervision__ KAIS 2019. _Yuan, Jianbo and Jin, Zhiwei and Guo, Han and Jin, Hongxia and Zhang, Xianchao and Smith, Tristram and Luo, Jiebo_. [[Paper](https://link.springer.com/article/10.1007/s10115-019-01351-4)]
 
 __Knowledge-driven Encode, Retrieve, Paraphrase for Medical Image Report Generation__. AAAI 2019. _Li, Christy Y and Liang, Xiaodan and Hu, Zhiting and Xing, Eric P_. [[Paper](https://www.aaai.org/Papers/AAAI/2019/AAAI-LiChristy.629.pdf)]
@@ -153,6 +190,8 @@ _Gao et al._ [[Paper](https://aaai.org/ojs/index.php/AAAI/article/view/4843/4716
 
 __WK-VQA: World Knowledge-enabled Visual Question Answering__
 _Shah et al._ [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4915/4788)]
+
+
 ### Other Applications
 
 __Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding__. NAACL-HLT 2015. _Yun-Nung Chen, William Yang Wang, Alex Rudnicky_. [[Paper](http://www.cs.ucsb.edu/~william/papers/NAACL15_InterSlotRelation.pdf)]

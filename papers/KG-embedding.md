@@ -1,4 +1,9 @@
 ## Knowledge Graph Embedding
+__Learning Hierarchy-Aware Knowledge Graph Embeddings for Link Prediction__ 
+AAAI 2020. _Zhang et al._ [[Paper](https://arxiv.org/pdf/1911.09419.pdf)]
+
+__On understanding knowledge graph representation learning__.
+_Carl Allen, Ivana Balažević, Timothy M. Hospedales_. [[Paper](https://arxiv.org/pdf/1909.11611.pdf)]
 
 __Relation Embedding with Dihedral Group in Knowledge Graph__. ACL 2019. _Xu, Canran and Li, Ruijiang_. [[Paper](https://arxiv.org/pdf/1906.00687)]
 
