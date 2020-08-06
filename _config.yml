@@ -1,3 +1,17 @@
 theme: jekyll-theme-leap-day
 title: Knowledge Graphs
 description: A curated collection of research on knowledge graphs
+
+show_downloads: False
+google_analytics: UA-111329602-1
+
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - strikethrough
+    - superscript
+    - with_to_data

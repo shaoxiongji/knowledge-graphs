@@ -1,6 +1,10 @@
 # Knowledge Graphs
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub issues](https://img.shields.io/github/issues/shaoxiongji/knowledge-graphs)](https://github.com/shaoxiongji/knowledge-graphs/issues)
+[![GitHub forks](https://img.shields.io/github/forks/shaoxiongji/knowledge-graphs)](https://github.com/shaoxiongji/knowledge-graphs/network)
+[![GitHub stars](https://img.shields.io/github/stars/shaoxiongji/knowledge-graphs)](https://github.com/shaoxiongji/knowledge-graphs/stargazers)
+[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fshaoxiongji%2Fknowledge-graphs)
 
 A collection of knowledge graph papers, codes, and reading notes.
 
@@ -54,7 +58,7 @@ __A review of relational machine learning for knowledge graphs__. Proceedings of
   - [Commonsense Knowledge](./papers/KG-applications.md#commonsense-knowledge)
   - [Question Answering](./papers/KG-applications.md#question-answering)
   - [Dialogue Systems](./papers/KG-applications.md#dialogue-systems)
-  - [Recommendation Systems](./papers/KG-applications.md##recommendation-systems)
+  - [Recommendation Systems](./papers/KG-applications.md#recommendation-systems)
   - [Information Retrieval](./papers/KG-applications.md#information-retrieval)
 - [Temporal Knowledge Graph](./papers/KG-temporal.md)
 - [Knowledge Graph Reasoning](./papers/KG-reasoning.md)
@@ -147,7 +151,7 @@ Geospatial Knowledge Graphs - [semantic-geospatial](https://github.com/laurentle
 
 ## Acknowledgements
 
-Acknoledgements give to the following people who comment or contribute to this repository (listed chronologically).
+Acknowledgments give to the following people who comment or contribute to this repository (listed chronologically).
 
 - [DonaldTsang](https://github.com/DonaldTsang)
 - [NYXFLOWER](https://github.com/NYXFLOWER)
