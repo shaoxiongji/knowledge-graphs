@@ -5,8 +5,8 @@ description: A curated collection of research on knowledge graphs
 show_downloads: False
 google_analytics: UA-111329602-1
 
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+kramdown:
   extensions:
     - no_intra_emphasis
     - fenced_code_blocks
