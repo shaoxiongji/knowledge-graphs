@@ -1,4 +1,7 @@
 ## One/few-Shot and Zero-Shot Learning
+__Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction__.
+NeurIPS 2020. _Baek et al._ [[Paper](https://arxiv.org/abs/2006.06648)]
+
 __Few-shot Relation Extraction via Bayesian Meta-learning on Task Graphs__.
 ICML 2020. _Qu et al._ [[Paper](https://proceedings.icml.cc/static/paper_files/icml/2020/5706-Paper.pdf)]
 
