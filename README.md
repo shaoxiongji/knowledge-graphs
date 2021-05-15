@@ -138,6 +138,7 @@ Knowledge graph APP, Simple knowledge graph applications can be easily built usi
 - Stanford CS 520 Knowledge Graphs: How should AI explicitly represent knowledge? _Vinay K. Chaudhri, Naren Chittar, Michael Genesereth_. [[Web](https://web.stanford.edu/class/cs520/)]
 - Stanford CS 224W: Machine Learning with Graphs. _Jure Leskovec_. [[Web](http://web.stanford.edu/class/cs224w/index.html)]
 - University of Bonn: Analysis of Knowledge Graphs. _Jens Lehmmann_. [[Web](https://sewiki.iai.uni-bonn.de/teaching/lectures/kga/2017/start)] [[GitHub](https://github.com/SmartDataAnalytics/Knowledge-Graph-Analysis-Programming-Exercises)]
+- Knowledge Graphs. _Harald Sack, Mehwish Alam_. [[Web](https://open.hpi.de/courses/knowledgegraphs2020)]
 
 
 ## Related Repos
