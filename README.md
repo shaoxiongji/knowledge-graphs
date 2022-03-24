@@ -112,7 +112,7 @@ WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.338
 
 ## Libraries, Softwares and Tools
 ### KRL Libraries
-[Grakn](https://github.com/graknlabs/kglib), Grakn Knowledge Graph Library (ML R&D) https://grakn.ai
+[TypeDB](https://github.com/vaticle/kglib), TypeDB Knowledge Graph Library (ML R&D) https://www.vaticle.com
 
 [AmpliGraph](https://github.com/Accenture/AmpliGraph), Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org
 
