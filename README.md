@@ -80,6 +80,8 @@ __A review of relational machine learning for knowledge graphs__. Proceedings of
 - Google KG, https://developers.google.com/knowledge-graph
 - A large-scale Chinese knowledge graph from [OwnThink](https://github.com/ownthink/KnowledgeGraph)
 - GDELT（Global Database of Events, Language, and Tone）[Web](https://www.gdeltproject.org)
+- [KGHUB and KGOBO, Biomedical ontologies](https://kg-hub.berkeleybop.io/)
+- [PheKnowLator: Heterogeneous Biomedical Knowledge Graphs and Benchmarks Constructed Under Alternative Semantic Models](https://github.com/callahantiff/PheKnowLator)
 
 ### Domain-specific Data
 __OpenKG knowledge graphs about the novel coronavirus COVID-19__
@@ -112,17 +114,15 @@ WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.338
 
 ## Libraries, Softwares and Tools
 ### KRL Libraries
-[TypeDB](https://github.com/vaticle/kglib), TypeDB Knowledge Graph Library (ML R&D) https://www.vaticle.com
 
-[AmpliGraph](https://github.com/Accenture/AmpliGraph), Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org
-
-[OpenKE](https://github.com/thunlp/OpenKE), An Open-Source Package for Knowledge Embedding (KE)
-
-[Fast-TransX](https://github.com/thunlp/Fast-TransX), An Efficient implementation of TransE and its extended models for Knowledge Representation Learning
-
-[scikit-kge](https://github.com/mnick/scikit-kge), Python library to compute knowledge graph embeddings
-
-[OpenNRE](https://github.com/thunlp/OpenNRE), An Open-Source Package for Neural Relation Extraction (NRE)
+* [TypeDB](https://github.com/vaticle/kglib), TypeDB Knowledge Graph Library (ML R&D) https://www.vaticle.com
+* [AmpliGraph](https://github.com/Accenture/AmpliGraph), Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org
+* [OpenKE](https://github.com/thunlp/OpenKE), An Open-Source Package for Knowledge Embedding (KE)
+* [Fast-TransX](https://github.com/thunlp/Fast-TransX), An Efficient implementation of TransE and its extended models for Knowledge Representation Learning
+* [scikit-kge](https://github.com/mnick/scikit-kge), Python library to compute knowledge graph embeddings
+* [OpenNRE](https://github.com/thunlp/OpenNRE), An Open-Source Package for Neural Relation Extraction (NRE)
+* [PyKEEN](https://github.com/pykeen/pykeen), 🤖 A Python library for learning and evaluating knowledge graph embeddings
+* [🍇 GRAPE](https://github.com/AnacletoLAB/grape), A Rust/Python library for Graph Representation Learning, Predictions and Evaluations
 
 ### Knowledge Graph Database
 [akutan](https://github.com/eBay/akutan), A distributed knowledge graph store
