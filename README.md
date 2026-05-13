@@ -127,6 +127,8 @@ WWW 2020. _Zhang et al._ [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.338
 ### Knowledge Graph Database
 [akutan](https://github.com/eBay/akutan), A distributed knowledge graph store
 
+* [Dakera](https://github.com/dakera-ai/dakera-mcp) - Self-hosted agent memory server with knowledge graph support for cross-agent knowledge sharing. Uses HNSW vector indexing and RocksDB persistence. MCP-native with decay-weighted recall.
+
 ### Others
 - [OpenNRE](https://github.com/thunlp/OpenNRE)
 
