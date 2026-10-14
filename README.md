@@ -102,6 +102,9 @@ __KgBase COVID-19 knowledge graph__ [[Web](https://covid19.kgbase.com)]
 __Academic graphs__
 - OAG, Open Academic Graph, https://www.aminer.cn/open-academic-graph
 
+__Sports__
+- BJJGraph, Brazilian jiu-jitsu as a knowledge graph: 133 positions and 1,315 techniques, each edge carrying an authored attempt probability and a success/failure/counter outcome distribution for gi and no-gi [[Web](https://bjjgraph.org)] [[Data](https://github.com/diogoseca/bjjgraph/releases/latest/download/graph.json)] [[Code](https://github.com/diogoseca/bjjgraph)]
+
 ### Entity Recognition
 CORD-19, a comprehensieve named entity annotation dataset, CORD-NER, on the COVID-19 Open Research Dataset Challenge (CORD-19) corpus [[Data](https://xuanwang91.github.io/2020-03-20-cord19-ner/)]
 
